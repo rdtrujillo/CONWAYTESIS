@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{amsmath}
+
+\title{Tesis de Grado}
+\author{rtrujillo }
+\date{January 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+    La definición de número surreal es recursiva. Todo número surreal se compone de dos conjuntos $L$ y $R$ los cuales a su vez contienen otros números surreales, los números surreales se representan con la notacion $\{L|R\}$. Por ejemplo, si tomamos $L=R=\emptyset$ tendríamos el número $\{|\}$ al que llamaremos $0$, y con este $0$ se pueden crear otros números como por ejemplo $\{0|\}$ o $\{|0\}$.
+    
+    Como convención, si tenemos un número surreal $x=\{L|R\}$, entonces llamamos $x^L$ a los elementos de $L$ y llamamos $x^R$ a los elementos de $R$.
+    
+    Para que el par de conjuntos pueda considerarse numero los conjuntos $L$ y $R$ tienen que cumplir una propiedad importante: todo elemento de $L$ tiene que ser $<$ todo elemento de $R$. La idea de esta propiedad es que el número representado por $\{L|R\}$ sea un número que sea mayor que todos los elementos de $L$ y menor que todos los elementos de $R$, un numero en la mitad de los dos conjuntos al estilo de las cortaduras de Dedekind. La relación de orden del conjunto aun no la hemos definido, sin embargo, teniendo en cuentas las propiedades que debe tener un orden podríamos descartar $\{0|0\}$ como número surreal ya que $L$ y $R$ son iguales. 
+    
+    Definamos entonces la relación $\ge$ (mayor o igual que). Sean $x$ y $y$ dos números surreales, se dice que $x\ge y$ si $y$ no es $\ge$ algún $x^R$ y ningún $y^L$ es $\ge$ $x$. Esta relación es un orden lineal.
+    
+    Podemos deducir nuestra definición teniendo en cuenta nuestro objetivo de que $x$ sea un número justo entre el conjunto $x^L$ y $y^L$, pues si tenemos
+    \[
+        x^L < x < x^R,\quad y^L < y < y^R,\quad x \ge y
+    \]
+    entonces podremos combinar las desigualdades para obtener
+    \[
+        y < x^R,\quad y^L < x.
+    \]
+    Como la relacion $\ge$ es un orden lineal, entonces podemos decir que si $x\not\ge y$ entonces $x < y$.
+    
+    Hagamos un ejemplo, mostremos que $0\ge\{|0\}=z$. Fíjese que no hay ningún elemento $0^R$, por lo tanto la primera propiedad se cumple por vacuidad. Por otro lado, tenemos que tampoco hay ningún elemento $z^L$, por lo que también se cumple por vacuidad. En general podríamos hacer el mismo argumento para obtener las desigualdades $\{z|\}\ge z\ge\{|z\}$.
+
+    La relacion de orden induce una relacion de equivalencia en el conjunto; luego, se dice que dos numeros surreales $z$ y $x$ son iguales ($z=x$) si y solo si $z\ge x$ y $x\ge z$. De ahora en adelante tendremos que tener en cuenta esta relacion al momento de hacer definiciones de operaciones en numeros surreales ya que un mismo numero puede tener diferentes representaciones.
+
+    La suma de los números surreales también se define recursivamente, se dice que
+    \[
+        x + y  = \left\{x^L+y, x+y^L\;|\;x^R+y, x+y^R\right\}.
+    \]
+
+    Esta suma deberia cumplir las propiedades usuales de la suma en numeros reales, por ejemplo, que $z+0=z$ para todo numero surreal. Y efectivamente, probemos la proposicion por induccion. Tenemos que $0+0 = 0$ porque los conjuntos $L$ y $R$ de $0$ son vacios. Ahora, por la definicion de suma $z+0 = \left\{z^L+0|z^R+0\right\}$ y por hipotesis de induccion tendremos que $z+0 = \left\{z^L|z^R\right\} = z$.
+
+    Para todo numero surreal existe tambien su inverso aditivo tal que al ser sumado con el el resultado es $0$. Para construir el inverso aditivo podemos tambien hacer una construccion recursiva, es decir, si $x=\{x^L|x^R\}$ entonces tomamos 
+    \[
+        -x = \{-x^R|-x^L\}.
+    \]
+
+    Un ejemplo son los numeros $\{0|\}$ y $\{|0\}$, que al sumarse da el numero $x = \{0|\} + \{|0\} = \{\{|0\}|\{0|\}\}$. Fijese que $x^L = \{|0\}\le 0$ y $x^R = \{0|\}\ge 0$. Por lo tanto podemos comprobar que $x\le 0$ y que $x \ge 0$, es decir, efectivamente son inversos aditivos.
+
+    La multiplicacion de numeros tambien se define recursivamente, se dice que
+    \[
+        xy = \{x^Ly+xy^L-x^Ly^L, x^Ly+xy^R-x^Ry^R| x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\}.
+    \]
+
+    Esta definicion un tanto mas compleja que la de la suma sale de la multiplicacion de las desigualdades
+    \begin{align*}
+        (x-x^L) > 0, \quad & (x^R-x)>0 \\
+        (y-y^L) > 0, \quad & (y^R-y)>0.
+    \end{align*}
+    
+\end{document}
