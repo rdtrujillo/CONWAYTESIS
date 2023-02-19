@@ -1,5 +1,22 @@
 \chapter{Cap\'{\i}tulo 1}
-La definición de número surreal es recursiva. Todo número surreal se compone de dos conjuntos $L$ y $R$ los cuales a su vez contienen otros números surreales, los números surreales se representan con la notacion $\{L|R\}$. Por ejemplo, si tomamos $L=R=\emptyset$ tendríamos el número $\{|\}$ al que llamaremos $0$, y con este $0$ se pueden crear otros números como por ejemplo $\{0|\}$ o $\{|0\}$.
+
+    Los números surreales se definen de manera parecida a las cortaduras de Dedekind. Cada n\'umero surreal es una pareja de conjuntos de n\'umeros surreales a los que se les llama $L$ y $R$, y se representa $\surr{L}{R}$. La idea es que el n\'umero sea mayor que todos los n\'umeros de $L$ y que sea menor que todos los n\'umeros de $R$, que en cierto sentido sea el n\'umero m\'as `sencillo' que est\'a en la mitad de los dos conjuntos.
+
+    El primer n\'umero que se crea de esta manera es el n\'umero comformado por la pareja $L = \emptyset$ y $R=\emptyset$, es decir, $\surr{\emptyset}{\emptyset}$. A este n\'umero se le llama $0$, y veremos luego que tiene las mismas propiedades del $0$ de los n\'umeros reales.
+
+    Ya teniendo el $0$, se pueden formar las parejas de conjuntos
+    \[
+        \surr{\{0\}}{\emptyset}, \quad \surr{\emptyset}{\{0\}}, \quad \surr{\{0\}}{\{0\}}.
+    \]
+    
+    Para hacer la notaci\'on m\'as sencilla, vamos a escribir solamente los elementos de $L$ y $R$ sin los corchetes, as\'i, tendremos que $0=\surr{\emptyset}{\emptyset} = \surr{}{}$, y otro ejemplo, $\surr{\{0\}}{\emptyset} = \surr{0}{}$, porque tambi\'en luego veremos que tienen las mismas propiedades que sus contrapartes reales.
+
+    Si queremos que el n\'umero est\'e entre $L$ y $R$ entonces tendremos que todos los elementos de $L$ tienen que ser `menores' que todos los elementos de $R$, aunque a\'un no hayamos definido un orden en el conjunto. Entonces sabremos que por ejemplo el par $\surr{0}{0}$ no puede ser un n\'umero surreal, ya que $L$ y $R$ comparten el mismo elemento.
+
+    Las otras dos parejas que quedan, $\surr{0}{}$ y $\surr{}{0}$, s\'i son n\'umeros surreales y tienen su propio nombre. Decimos que $1 :=\surr{0}{}$ y $-1 :=\surr{}{0}$.
+
+    La definición de número surreal es recursiva. Todo número surreal se compone de dos conjuntos $L$ y $R$ los cuales a su vez contienen otros números surreales, los números surreales se representan con la notacion $\surr{L}{R}$. Por ejemplo, si tomamos $L=R=\emptyset$ tendríamos el número $\surr{\emptyset}{\emptyset}$ al que llamaremos $0$, y con este $0$ se pueden crear otros números como por ejemplo $\{0|\}$ o $\{|0\}$.
+
     
     Como convención, si tenemos un número surreal $x=\{L|R\}$, entonces llamamos $x^L$ a los elementos de $L$ y llamamos $x^R$ a los elementos de $R$.
     
