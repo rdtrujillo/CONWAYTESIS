@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  19 FEB 2023 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  19 FEB 2023 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,17 +404,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
- (Tab_Simbolos/TabSimbolosMSc.aux
-
-LaTeX Warning: Label `simbolosg' multiply defined.
-
-
-LaTeX Warning: Label `simbolosg' multiply defined.
-
-
-LaTeX Warning: Label `simbolosg' multiply defined.
-
-) (Kap1/Kap1.aux) (Kap2/Kap2.aux) (Kap3/Kap3.aux) (Kap4/Kap4.aux) (Kap5/Kap5.aux) (Kap6/Kap6.aux) (Anexos/Anexos.aux))
+ (Tab_Simbolos/TabSimbolosMSc.aux) (Kap1/Kap1.aux) (Kap2/Kap2.aux) (Kap3/Kap3.aux) (Kap4/Kap4.aux) (Kap5/Kap5.aux) (Kap6/Kap6.aux) (Anexos/Anexos.aux))
 \openout1 = `TesisMSc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -745,6 +735,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
+LaTeX Warning: Citation `AG52' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG08a' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Citation `AG09a' on page 6 undefined on input line 9.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
@@ -774,6 +773,18 @@ File: Kap3/FrutoSp.png Graphic file (type png)
 <use Kap3/FrutoSp.png>
 Package pdftex.def Info: Kap3/FrutoSp.png  used on input line 22.
 (pdftex.def)             Requested size: 391.70244pt x 274.14351pt.
+
+LaTeX Warning: Citation `AG03p' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG04p' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG03p' on page 7 undefined on input line 23.
+
+
+LaTeX Warning: Citation `AG04p' on page 7 undefined on input line 23.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
@@ -952,19 +963,19 @@ LaTeX Info: Redefining \% on input line 10.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8176 strings out of 476374
- 163611 string characters out of 5788854
+ 8173 strings out of 476374
+ 163599 string characters out of 5788854
  1874340 words of memory out of 5000000
- 28363 multiletter control sequences out of 15000+600000
+ 28360 multiletter control sequences out of 15000+600000
  521684 words of font info for 64 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  113i,18n,109p,10675b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TesisMSc.pdf (32 pages, 324536 bytes).
+Output written on TesisMSc.pdf (32 pages, 321576 bytes).
 PDF statistics:
  195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
