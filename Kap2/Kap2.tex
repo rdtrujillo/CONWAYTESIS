@@ -140,11 +140,48 @@
         En cualquier caso es una contradicci\'on, entonces la relaci\'on $\le$ es transitiva.
     \end{proof}
 
-    Una propiedad que hemos estado referenciando sin demostrar 
+    \begin{corollary}
+        Sean $x,y,z$ n\'umeros surreales. Si $x = y$ y $y = z$, entonces $x = z$.
+    \end{corollary}
 
-    Hagamos un ejemplo, mostremos que $0\ge\{|0\}=z$. Fíjese que no hay ningún elemento $0^R$, por lo tanto la primera propiedad se cumple por vacuidad. Por otro lado, tenemos que tampoco hay ningún elemento $z^L$, por lo que también se cumple por vacuidad. En general podríamos hacer el mismo argumento para obtener las desigualdades $\{z|\}\ge z\ge\{|z\}$.
+    Con esto ya podemos decir que la relaci\'on es de orden, y adem\'as tambi\'en tenemos una relaci\'on de equivalencia entre n\'umeros surreales.
 
-    La relacion de orden induce una relacion de equivalencia en el conjunto; luego, se dice que dos numeros surreales $z$ y $x$ son iguales ($z=x$) si y solo si $z\ge x$ y $x\ge z$. De ahora en adelante tendremos que tener en cuenta esta relacion al momento de hacer definiciones de operaciones en numeros surreales ya que un mismo numero puede tener diferentes representaciones.
+    Una pregunta que nos podr\'iamos hacer en este momento es sobre si existen distintas representaciones de un mismo n\'umero, es decir: ¿Existen dos n\'umeros $x$ y $y$ tales que $x=y$ pero que sus conjuntos $L$ y $R$ sean diferentes?
+
+    La respuesta la tenemos en varias de los ejemplos que ya tenemos sobre n\'umeros surreales, es m\'as, tenemos que
+    \begin{align*}
+        &\surr{}{-1} = \surr{}{-1,0} = \surr{}{-1,1} = \surr{}{-1,0,1}, \\
+        &-1 = \surr{}{0,1},\\
+        &\surr{-1}{1} = \surr{-1}{1,0},\\
+        &0 = \surr{-1}{1} = \surr{-1}{} = \surr{}{1},\\
+        &\surr{-1,0}{1} = \surr{0}{1},\\
+        &1 = \surr{-1,0}{},\\
+        &\surr{1}{} = \surr{0,1}{} = \surr{-1,1}{} = \surr{-1,0,1}{}.
+    \end{align*}
+
+    Muchos de estos ejemplos se pueden ver teniendo en cuenta que agregar n\'umeros menores que los que est\'an en el conjunto $L$ al conjunto $L$ genera el mismo n\'umero, e igualmente agregar n\'umeros mayores al conjunto $R$.
+
+    Una propiedad que hemos estado referenciando sin demostrar para motivar las definiciones es la idea de que el n\'umero que definimos est\'a entre los elementos de $L$ y los elementos de $R$, m\'as espec\'ificamente
+
+    \begin{theorem}
+        Sea $x$ un n\'umero surreal. Tenemos que $x^L < x < x^R$.
+    \end{theorem}
+
+    \begin{proof}
+        Probemos primero que $x^L \le x \le x^R$ y luego hacemos la desigualdad estricta. Hagamos la prueba para la parte izquierda de la desigualdad, la parte derecha se hace de manera parecida.
+
+        Probemos que $x^L \le x$ por inducci\'on. La propiedad es verdadera para $0$ por vacuidad. Ahora, supongamos que es verdad para $x^L$ y probemos para $x$. Tenemos que probar que no existe ning\'un elemento $x^R \le x^L$ para todos los elementos $x^R$ y tampoco existe ningún elemento $y\in (X^L)^L$ tal que $y \ge x$. La primera parte la tenemos porque $x$ es un n\'umero surreal entonces ning\'un elemento de $X^L$ es mayor que ning\'un elemento de $X^R$. Para la segunda parte, probemos que $y \not\ge x$, esto significa que o existe $z\in X^L$ tal que $y\le z$, o existe $y^R$ tal que $y^R\le x$. F\'ijese que si tomamos $z = x^L$ entonces tendremos por hip\'otesis de inducci\'on que $y\le z = x^L$, puesto que $y\in (X^L)^L$, luego tenemos que $x^L\le x$.
+
+        Ahora, para hacer la desigualdad estricta f\'ijese que $x^L \not\ge x$ significa que existe $y\in X^L$ tal que $y\ge x^L$, o que existe $z\in (X^L)^R$ tal que $z\le x$, si tomamos $y=x^L$ tendremos por reflexividad que $x^L\not\ge x$.
+    \end{proof}
+
+    \begin{corollary}[Linealidad]
+        Sean $x, y$ n\'umeros surreales. Si $x \not\le y$ entonces tenemos que $x > y$. 
+    \end{corollary}
+
+    \begin{proof}
+        Supongamos que $x\not\le y$. Esto quiere decir que o existe $x^L \ge y$, o existe $y^R \le x$. Si existe $x^L \ge y$, entonces como $x^L < x$ por transitividad $x > y$. Si existe $y^R \le x$, entonces como $y < y^R$ por transitividad $y < x$.
+    \end{proof}
 
     La suma de los números surreales también se define recursivamente, se dice que
     \[
