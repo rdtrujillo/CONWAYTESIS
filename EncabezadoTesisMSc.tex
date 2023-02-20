@@ -7,6 +7,7 @@
 \usepackage{epic}
 \usepackage{eepic}
 \usepackage{amsmath}
+\usepackage{amsthm}
 \usepackage{threeparttable}
 \usepackage{amscd}
 \usepackage{here}
@@ -66,4 +67,10 @@ Kohlen-stoff-Mole-kular-siebe Py-rolysat-aus-beu-te
 Trans-port-vor-gan-ge}
 
 % Comandos propios
-\newcommand{\surr}[2]{\{#1\;|\;#2\}}
+\newcommand{\surr}[2]{\left\{#1\mid #2\right\}}
+
+% Tipos de theorema
+\newtheorem{theorem}{Teorema}[chapter]
+\newtheorem{corollary}{Corolario}[theorem]
+\theoremstyle{definition}
+\newtheorem{definition}{Definición}[chapter]
