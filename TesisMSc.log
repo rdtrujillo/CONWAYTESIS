@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  19 FEB 2023 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  20 FEB 2023 00:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -311,22 +311,48 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
+) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
+\dth@everypar=\toks30
+) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-02-02 L3 programming layer (loader) 
+ (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+\l__pdf_internal_box=\box57
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
+) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+))
+Class scrbook Info: amsthm's \deferred@thm@head patched.
+ (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box57
+\@tempboxb=\box58
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks25
+\athelp@=\toks31
 \minaw@=\dimen163
 \bigaw@=\dimen164
 \minCDarrowwidth=\dimen165
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/here\here.sty) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count286
-\float@exts=\toks26
-\float@box=\box58
-\@float@everytoks=\toks27
-\@floatcapt=\box59
+\c@float@type=\count288
+\float@exts=\toks32
+\float@box=\box59
+\@float@everytoks=\toks33
+\@floatcapt=\box60
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
@@ -334,73 +360,73 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen166
-\ar@mcellbox=\box60
+\ar@mcellbox=\box61
 \extrarowheight=\dimen167
-\NC@list=\toks28
-\extratabsurround=\skip78
-\backup@length=\skip79
-\ar@cellbox=\box61
+\NC@list=\toks34
+\extratabsurround=\skip81
+\backup@length=\skip82
+\ar@cellbox=\box62
 )
 \TX@col@width=\dimen168
 \TX@old@table=\dimen169
 \TX@old@col=\dimen170
 \TX@target=\dimen171
 \TX@delta=\dimen172
-\TX@cols=\count287
-\TX@ftn=\toks29
+\TX@cols=\count289
+\TX@ftn=\toks35
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip80
-\subfigcapskip=\skip81
+\subfigtopskip=\skip83
+\subfigcapskip=\skip84
 \subfigcaptopadj=\dimen173
-\subfigbottomskip=\skip82
+\subfigbottomskip=\skip85
 \subfigcapmargin=\dimen174
-\subfiglabelskip=\skip83
-\c@subfigure=\count288
-\c@lofdepth=\count289
-\c@subtable=\count290
-\c@lotdepth=\count291
+\subfiglabelskip=\skip86
+\c@subfigure=\count290
+\c@lofdepth=\count291
+\c@subtable=\count292
+\c@lotdepth=\count293
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
-\subfig@top=\skip84
-\subfig@bottom=\skip85
+\subfig@top=\skip87
+\subfig@bottom=\skip88
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip86
-\LTright=\skip87
-\LTpre=\skip88
-\LTpost=\skip89
-\LTchunksize=\count292
+\LTleft=\skip89
+\LTright=\skip90
+\LTpre=\skip91
+\LTpost=\skip92
+\LTchunksize=\count294
 \LTcapwidth=\dimen175
-\LT@head=\box62
-\LT@firsthead=\box63
-\LT@foot=\box64
-\LT@lastfoot=\box65
-\LT@gbox=\box66
-\LT@cols=\count293
-\LT@rows=\count294
-\c@LT@tables=\count295
-\c@LT@chunks=\count296
-\LT@p@ftn=\toks30
+\LT@head=\box63
+\LT@firsthead=\box64
+\LT@foot=\box65
+\LT@lastfoot=\box66
+\LT@gbox=\box67
+\LT@cols=\count295
+\LT@rows=\count296
+\c@LT@tables=\count297
+\c@LT@chunks=\count298
+\LT@p@ftn=\toks36
 )
-Class scrbook Info: longtable captions redefined on input line 18.
+Class scrbook Info: longtable captions redefined on input line 19.
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count297
-\rotFPtop=\skip90
-\rotFPbot=\skip91
-\rot@float@box=\box67
-\rot@mess@toks=\toks31
-) (Befehle.sty)) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count298
-\l__pdf_internal_box=\box68
+\c@r@tfl@t=\count299
+\rotFPtop=\skip93
+\rotFPbot=\skip94
+\rot@float@box=\box68
+\rot@mess@toks=\toks37
+) (Befehle.sty)
+\c@theorem=\count300
+\c@corollary=\count301
+\c@definition=\count302
 ) (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
@@ -425,17 +451,17 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count299
+\scratchcounter=\count303
 \scratchdimen=\dimen176
 \scratchbox=\box69
-\nofMPsegments=\count300
-\nofMParguments=\count301
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count302
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count306
 \MPscratchDim=\dimen177
-\MPnumerator=\count303
-\makeMPintoPDFobject=\count304
-\everyMPtoPDFconversion=\toks33
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks39
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -717,9 +743,16 @@ chapter 2.
 
 
 ]
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
- [4]) [5]
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+ [4] [5]
+Overfull \hbox (2.08322pt too wide) in paragraph at lines 132--133
+[]\OT1/cmr/m/n/12 Utilicemos in-duc-ci^^Son so-bre las tri-plas $(\OML/cmm/m/it/12 x; y; z\OT1/cmr/m/n/12 )$. F^^S^^Pje-se que pa-ra la tri-pla $(0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)$
+ []
+
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+[6]) [7]
 \openout2 = `Kap3/Kap3.aux'.
 
  (Kap3/Kap3.tex
@@ -735,13 +768,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-LaTeX Warning: Citation `AG52' on page 6 undefined on input line 9.
+LaTeX Warning: Citation `AG52' on page 8 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG08a' on page 6 undefined on input line 9.
+LaTeX Warning: Citation `AG08a' on page 8 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG09a' on page 6 undefined on input line 9.
+LaTeX Warning: Citation `AG09a' on page 8 undefined on input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
@@ -753,7 +786,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[6
+[8
 
 
 
@@ -768,22 +801,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<Kap3/FrutoSp.png, id=87, 391.7034pt x 274.1442pt>
+<Kap3/FrutoSp.png, id=96, 391.7034pt x 274.1442pt>
 File: Kap3/FrutoSp.png Graphic file (type png)
 <use Kap3/FrutoSp.png>
 Package pdftex.def Info: Kap3/FrutoSp.png  used on input line 22.
 (pdftex.def)             Requested size: 391.70244pt x 274.14351pt.
 
-LaTeX Warning: Citation `AG03p' on page 7 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 9 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 7 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 9 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG03p' on page 7 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 9 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 7 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 9 undefined on input line 23.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -802,7 +835,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
-[7]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -814,7 +847,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[8 <./Kap3/FrutoSp.png (PNG copy)>]
+[10 <./Kap3/FrutoSp.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -836,7 +869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--21
 
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
-[9]
+[11]
 \openout2 = `Kap4/Kap4.aux'.
 
  (Kap4/Kap4.tex
@@ -846,7 +879,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--22
 
  []
 
-[10
+[12
 
 
 
@@ -861,7 +894,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--23
 
  []
 
-[11
+[13
 
 
 
@@ -881,7 +914,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--24
 
  []
 
-[12
+[14
 
 
 
@@ -910,7 +943,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[13
+[15
 
 
 
@@ -922,7 +955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[14
+[16
 
 ]
 chapter C.
@@ -946,12 +979,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\OT1/cmr/m/n/12 American Psy-cho-lo-gi-cal As-so-cia-tion
  []
 
-[15
+[17
 
 ])
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [16] (TesisMSc.bbl) [17
+ [18] (TesisMSc.bbl) [19
 
 
 
@@ -967,17 +1000,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8173 strings out of 476374
- 163599 string characters out of 5788854
+ 8808 strings out of 476374
+ 174200 string characters out of 5788854
  1874340 words of memory out of 5000000
- 28360 multiletter control sequences out of 15000+600000
+ 28977 multiletter control sequences out of 15000+600000
  521684 words of font info for 64 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  113i,18n,109p,10675b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TesisMSc.pdf (32 pages, 321576 bytes).
+<C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on TesisMSc.pdf (34 pages, 349267 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
+ 211 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

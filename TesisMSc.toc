@@ -4,18 +4,18 @@
 \contentsline {chapter}{\hbox to\@tempdima {\hfil }Lista de s\'{\i }mbolos}{\es@scroman {xii}}{}%
 \contentsline {chapter}{\numberline {1}Introducci\'{o}n}{1}{}%
 \contentsline {chapter}{\numberline {2}Cap\'{\i }tulo 1}{3}{}%
-\contentsline {chapter}{\numberline {3}Cap\'{\i }tulo 2}{6}{}%
-\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{6}{}%
-\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{7}{}%
-\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{7}{}%
-\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{9}{}%
-\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{10}{}%
-\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{11}{}%
-\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{12}{}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{12}{}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{12}{}%
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{13}{}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{14}{}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{15}{}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{17}{}%
+\contentsline {chapter}{\numberline {3}Cap\'{\i }tulo 2}{8}{}%
+\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{8}{}%
+\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{9}{}%
+\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{9}{}%
+\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{11}{}%
+\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{12}{}%
+\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{13}{}%
+\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{14}{}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{14}{}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{14}{}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{15}{}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{16}{}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{17}{}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{19}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
