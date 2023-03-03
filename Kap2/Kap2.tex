@@ -1,15 +1,15 @@
-\chapter{Cap\'{\i}tulo 1}
+\chapter{Números Surreales}
 
-    Los números surreales se definen de manera recursiva y parecida a las cortaduras de Dedekind. Cada n\'umero surreal es una pareja de conjuntos de n\'umeros surreales a los que se les llama $L$ y $R$ de izquierdo y derecho en ingl\'es, y se representa $\surr{L}{R}$. La idea es que el n\'umero sea mayor que todos los n\'umeros de $L$ y que sea menor que todos los n\'umeros de $R$, que en cierto sentido sea el n\'umero m\'as `sencillo' que est\'a en la mitad de los dos conjuntos.
+    Los números surreales se definen de manera recursiva y parecida a las cortaduras de Dedekind\footnote{En las cortaduras de Dedekind, se definen los n\'umeros reales como parejas de conjuntos $L$ y $R$ de n\'umeros racionales con la idea de que el n\'umero que est\'a representando sea mayor o igual que todos los elementos de $L$ y menor o igual que todos los elementos de $R$.}. Cada n\'umero surreal es una pareja de conjuntos de n\'umeros surreales a los que se les llama $L$ y $R$ de izquierdo y derecho en ingl\'es, y se representa $\surr{L}{R}$. La idea es que el n\'umero sea ``mayor'' que todos los n\'umeros de $L$ y que sea ``menor'' que todos los n\'umeros de $R$, que en cierto sentido sea el n\'umero m\'as `sencillo' que est\'a en la mitad de los dos conjuntos.
 
-    El primer n\'umero que se crea de esta manera es el n\'umero comformado por la pareja $L = \emptyset$ y $R=\emptyset$, es decir, $\surr{\emptyset}{\emptyset}$. A este n\'umero se le llama $0$, y veremos luego que tiene las mismas propiedades del $0$ de los n\'umeros reales.
+    Como la definici\'on es recursiva, empezamos con el conjunto m\'as sencillo posible: el conjunto vac\'io. El primer n\'umero que se crea de esta manera es el n\'umero comformado por la pareja $L = \emptyset$ y $R=\emptyset$, es decir, $\surr{\emptyset}{\emptyset}$. A este n\'umero se le llama $0$, y veremos luego que tiene las mismas propiedades del $0$ de los n\'umeros reales, esto es, que es el m\'odulo de la suma en n\'umeros surreales y que cualquier n\'umero multiplicado por este da $0$.
 
     Ya teniendo el $0$, se pueden formar las parejas de conjuntos
     \[
         \surr{\{0\}}{\emptyset}, \quad \surr{\emptyset}{\{0\}}, \quad \surr{\{0\}}{\{0\}}.
     \]
     
-    Para hacer la notaci\'on m\'as sencilla, vamos a escribir solamente los elementos de $L$ y $R$ sin los corchetes, as\'i, tendremos que $0=\surr{\emptyset}{\emptyset} = \surr{}{}$, y otro ejemplo, $\surr{\{0\}}{\emptyset} = \surr{0}{}$, porque tambi\'en luego veremos que tienen las mismas propiedades que sus contrapartes reales.
+    Para hacer la notaci\'on m\'as sencilla, vamos a escribir solamente los elementos de $L$ y $R$ sin los corchetes, as\'i, tendremos que $0=\surr{\emptyset}{\emptyset} = \surr{}{}$, y por ejemplo, $\surr{\{0\}}{\emptyset} = \surr{0}{}$, porque tambi\'en veremos que tienen las mismas propiedades que sus contrapartes reales.
 
     Si queremos que el n\'umero est\'e entre $L$ y $R$ entonces tendremos que todos los elementos de $L$ tienen que ser `menores' que todos los elementos de $R$, aunque a\'un no hayamos definido un orden en el conjunto. De este modo podemos ver que el par $\surr{0}{0}$ no puede ser un n\'umero surreal ya que $L$ y $R$ comparten el mismo elemento.
 
@@ -30,15 +30,15 @@
 
     Hasta ahora hemos hablado de una relaci\'on de orden sin definirla, lo hemos hecho para que se pueda ver primero el car\'acter recursivo de los n\'umeros surreales. El orden tambi\'en tiene una definici\'on igualmente recursiva, lo que hacemos es intentar definir el orden con los elementos de los conjuntos $L$ y $R$, es decir, para los $x^L$ y $x^R$.
 
-    Para motivar las definiciones formales, tanto de n\'umeros surreales como de orden, intentemos pensar en un n\'umero surreal $x = \surr{L}{R}$. Este orden va a terminar siendo un orden lineal, igual que en los n\'umeros reales, entonces cuando decimos que
+    Para motivar las definiciones formales, tanto de n\'umeros surreales como de orden, intentemos pensar en un n\'umero surreal $x = \surr{L}{R}$. Este orden va a terminar siendo un orden total, igual que en los n\'umeros reales, entonces cuando decimos que
     \[
         x^L < x^R
     \]
-    para todos los elementos de los conjuntos $X^L$ y $X^R$, estamos diciendo equivalentemente que
+    para todos los elementos de los conjuntos $X^L$ y $X^R$ respectivamente, estamos diciendo equivalentemente que
     \[
         x^R \not\le x^L.
     \]
-    De esta forma, la propiedad de que los elementos de $X^L$ tienen que ser todos menores que los elementos de $X^R$ queda definido en base de la relaci\'on de orden.
+    De esta forma, usando el orden $\le$ tendremos que todos los elementos de $X^L$ deben ser menores que los elementos de $X^R$.
 
     \begin{definition}[N\'umero surreal]
         Sea $x$ una pareja de conjuntos de n\'umeros surreales $x=\surr{L}{R}$. Se dice que $x$ es un \textbf{n\'umero surreal}, si y solamente si, se tiene que ningún $x^R$ es menor o igual ($\le$) que algún $x^L$. 
@@ -58,7 +58,7 @@
         Sean $x$ y $y$ dos n\'umeros surreales. Se dice que $x\le y$, si y solamente si, se tiene que ning\'un $x^L$ es mayor o igual $(\ge)$ que $y$ y ningún $y^R$ es menor o igual $(\le)$ a $x$.
     \end{definition}
 
-    Igual que en la definici\'on de n\'umero surreal se hace uso de la negaci\'on de el orden estricto para que la definici\'on quede en t\'erminos de la relaci\'on de orden. Adem\'as se sigue la misma convención que se utiliza para las relaciones de orden, es decir, $x\le y$ es equivalente a decir que $y\ge x$, adem\'as si tenemos que $x\le y$ y $y\le x$ se dice que $x=y$. Tambi\'en se dice que si $x\le y$ pero $x \not= y$, entonces se escribe $x < y$, igualmente para $x > y$.
+    Igual que en la definici\'on de n\'umero surreal se hace uso de la negaci\'on de la relaci\'on de orden. Adem\'as se sigue la misma convención que se utiliza para las relaciones de orden, es decir, $x\le y$ es equivalente a decir que $y\ge x$, adem\'as si tenemos que $x\le y$ y $y\le x$ se dice que $x=y$. Tambi\'en se dice que si $x\le y$ pero $x \not= y$, entonces se escribe $x < y$, igualmente para $x > y$.
 
     En este momento podemos probar que efectivamente los n\'umeros que conocemos son en efecto n\'umeros surreales.
 
@@ -67,17 +67,17 @@
     \end{theorem}
 
     \begin{proof}
-        Tenemos que probar que ning\'un elemento $0^L$ es mayor o igual que algún elemento de $0^R$, pero como tanto $L$ como $R$ son vac\'ios en $0$ entonces esto se cumple por vacuidad. 
+        Tenemos que probar que ning\'un elemento $0^L$ es mayor o igual que algún elemento de $0^R$, pero ya que tanto $L$ como $R$ son vac\'ios entonces esto se cumple por vacuidad. 
     \end{proof}
 
     \begin{theorem}
-        $1=\surr{0}{}$ y $-1=\surr{}{1}$ son n\'umeros surreales.
+        $1=\surr{0}{}$ y $-1=\surr{}{0}$ son n\'umeros surreales.
     \end{theorem}
 
     \begin{proof}
         Probemos primero para $1=\surr{0}{}$. Tenemos que probar que ning\'un elemento $1^L$ es mayor o igual que algún elemento de $1^R$, pero f\'ijese que no hay ning\'un elemento en $R$, por lo tanto tendremos que tambi\'en se cumple por vacuidad.
 
-        Un caso parecido lo tendremos para $-1$, pero en este caso con el conjunto $L$.
+        Para $-1$ es algo parecido. Tenemos que probas que ning\'un elemento $(-1)^L$ es mayor o igual que alg\'un elemento de $(-1)^R$, pero tenemos que $L$ es vaci\'o, por lo tanto tendremos que tambi\'en se cumple por vacuidad.
     \end{proof}
 
     Un ejemplo m\'as de como se puede usar esta definici\'on de orden es probar las desigualdades esperadas $-1< 0$ y $0<1$.
@@ -87,13 +87,13 @@
     \end{theorem}
 
     \begin{proof}
-        Probemos $0 < 1$, la otra desigualdad se hace de manera parecida. Primero probemos que efectivamente $0\le 1$. Tenemos que probar que no hay elementos en $L$ y $R$ de los respectivos n\'umeros tales que
+        Probemos $0 < 1$. Primero probemos que efectivamente $0\le 1$. Tenemos que probar que no hay elementos en $L$ y $R$ de los respectivos n\'umeros tales que
         \[
             0 \ge 1^R, \quad 0^L \ge 1,
         \]
         pero f\'ijese que no hay ningún elemento $1^R$, ni tampoco ningún elemento $0^L$, por lo tanto la propiedad se cumple por vacuidad.
 
-        Ahora probemos que $0 \not\ge 1$. F\'ijese que en $1^L$ est\'a el elemento $0$, y efectivamente $0 = 1^L \ge 0$, por lo que tenemos que $0 < 1$.
+        Ahora probemos que $0 \not\ge 1$. Esto es, queremos probar que existe alg\'un elemento F\'ijese que en $1^L$ est\'a el elemento $0$, y efectivamente $0 = 1^L \ge 0$, por lo que tenemos que $0 < 1$.
     \end{proof}
 
     Algo que a\'un no hemos probado pero hemos inferido es que $\le$ es una relaci\'on de orden, es decir, que es reflexiva y transitiva. La prueba de esto utiliza fuertmente la naturaleza recursiva de la definici\'on de orden y es bastante parecida a muchas pruebas que se van a utilizar en el futuro cuando definamos las operaciones de los n\'umeros. B\'asicamente, nuestra hip\'otesis de inducci\'on funcionar\'a sobre los elementos de $L$ y $R$ de nuestro n\'umero, y nuestro caso base siempre ser\'a cuando el n\'umero sea $0$ ya que todos los n\'umeros son descendientes de este.
@@ -183,28 +183,19 @@
         Supongamos que $x\not\le y$. Esto quiere decir que o existe $x^L \ge y$, o existe $y^R \le x$. Si existe $x^L \ge y$, entonces como $x^L < x$ por transitividad $x > y$. Si existe $y^R \le x$, entonces como $y < y^R$ por transitividad $y < x$.
     \end{proof}
 
-    La suma de los números surreales también se define recursivamente, se dice que
-    \[
-        x + y  = \left\{x^L+y, x+y^L\;|\;x^R+y, x+y^R\right\}.
-    \]
+    Un problema se nos va a presentar de ahora en adelante cuando intentemos definir operaciones en n\'umeros surreales; tendremos que ver si estas operaciones son compatibles con la relaci\'on de equivalencia generada por la relaci\'on de orden.
 
-    Esta suma deberia cumplir las propiedades usuales de la suma en numeros reales, por ejemplo, que $z+0=z$ para todo numero surreal. Y efectivamente, probemos la proposicion por induccion. Tenemos que $0+0 = 0$ porque los conjuntos $L$ y $R$ de $0$ son vacios. Ahora, por la definicion de suma $z+0 = \left\{z^L+0|z^R+0\right\}$ y por hipotesis de induccion tendremos que $z+0 = \left\{z^L|z^R\right\} = z$.
+    Incluso algo que nos podemos preguntar es si nuestra relaci\'on de orden es en `compatible' con nuestra definici\'on de n\'umero. Con esto me refiero a si puedo cambiar los elementos del $L$ y el $R$ por elementos iguales sin cambiar la clase de equivalencia del n\'umero, m\'as formalmente
 
-    Para todo numero surreal existe tambien su inverso aditivo tal que al ser sumado con el el resultado es $0$. Para construir el inverso aditivo podemos tambien hacer una construccion recursiva, es decir, si $x=\{x^L|x^R\}$ entonces tomamos 
-    \[
-        -x = \{-x^R|-x^L\}.
-    \]
+    \begin{theorem}
+        Sean $L,L',R, R'$ conjuntos de n\'umeros surreales tales que todos los elementos de $L$ son iguales que alg\'un elemento de $L'$, todos los elementos de $R$ son iguales que alg\'un elemento de $R'$, y viceversa. Adem\'as supongamos que $\surr{L}{R}$ y $\surr{L'}{R'}$ son n\'umeros surreales. Tenemos que $\surr{L}{R} = \surr{L'}{R'}$.
+    \end{theorem}
 
-    Un ejemplo son los numeros $\{0|\}$ y $\{|0\}$, que al sumarse da el numero $x = \{0|\} + \{|0\} = \{\{|0\}|\{0|\}\}$. Fijese que $x^L = \{|0\}\le 0$ y $x^R = \{0|\}\ge 0$. Por lo tanto podemos comprobar que $x\le 0$ y que $x \ge 0$, es decir, efectivamente son inversos aditivos.
+    \begin{proof}
+        Mostremos que en efecto $\surr{L}{R} = \surr{L'}{R'}$. Para esto es suficiente mostrar que $\surr{L}{R} \le \surr{L'}{R'}$  puesto que la otra desigualdad se sigue por simetr\'ia.
 
-    La multiplicacion de numeros tambien se define recursivamente, se dice que
-    \[
-        xy = \{x^Ly+xy^L-x^Ly^L, x^Ly+xy^R-x^Ry^R| x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\}.
-    \]
+        Llamemos $x = \surr{L}{R}$ y $x' = \surr{L'}{R'}$. Tenemos que probar que $x^L < x'$ y $x < (x')^R$. Como existe en $L'$ un elemento $y$ tal que $x^L = y$, entonces tenemos que $x^L = y < x'$, por otro lado, en $R$ existe un elemento $z$ tal que $(x')^R = z$, por lo tanto tenemo que $x < z = (x')^R$, con lo que tendr\'iamos el resultado.
+    \end{proof}
 
-    Esta definicion un tanto mas compleja que la de la suma sale de la multiplicacion de las desigualdades
-    \begin{align*}
-        (x-x^L) > 0, \quad & (x^R-x)>0 \\
-        (y-y^L) > 0, \quad & (y^R-y)>0.
-    \end{align*}
+    \input{Kap2/Suma.tex}
     
