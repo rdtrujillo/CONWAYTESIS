@@ -1,0 +1,27 @@
+\section {Multiplicación de números surreales}
+    
+    La definici\'on de la multiplicaci\'on es mucho m\'as compleja que la definici\'on de la suma. Queremos, igual que en las anteriores definiciones, hacer una definici\'on recursiva a partir de las multiplicaciones de ancestros, y adem\'as, queremos que se respete el orden de los conjuntos $L$ y $R$.
+
+    Una forma de motivarlo es pensar en las propiedades de la multiplicaci\'on real con respecto al orden, la m\'as importante es que la multiplicaci\'on de n\'umeros positivos es positiva. Si pensamos en dos n\'umeros surreales $x,y$, tenemos los n\'umeros positivos
+    \begin{align*}
+        (x-x^L) > 0, \quad & (x^R-x)>0, \\
+        (y-y^L) > 0, \quad & (y^R-y)>0.
+    \end{align*}
+
+    Si multiplicamos cada uno de los que corresponden a $x$ con cada uno de los que corresponden a $y$ tendremos $4$ n\'umeros positivos, tomemos como ejemplo dos de ellos, los
+    \begin{align*}
+        (x-x^L)(y-y^L) &= xy + x^Ly^L - xy^L - x^Ly > 0,\\
+        (x-x^L)(y^R-y) &= -xy -x^Ly^R + xy^R + x^Ly > 0,
+    \end{align*}
+    con los que podemos generar las desigualdades
+    \[
+        - x^Ly^L + xy^L + x^Ly < xy < -x^Ly^R + xy^R + x^Ly,
+    \]
+    si hacemos lo mismo con las otras dos posibles multiplicaciones tenemos la definici\'on
+
+    \begin{definition}[Multiplicaci\'on]
+        Sean $x, y$ dos n\'umeros surreales. Definimos la multiplicaci\'on de n\'umeros surreales como
+        \[
+            xy = \{x^Ly+xy^L-x^Ly^L, x^Ly+xy^R-x^Ry^R| x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\}.
+        \]
+    \end{definition}
