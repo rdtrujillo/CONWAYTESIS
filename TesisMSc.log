@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  3 MAR 2023 05:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  17 MAR 2023 02:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -423,12 +423,20 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip94
 \rot@float@box=\box68
 \rot@mess@toks=\toks37
+) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip95
+\enit@outerparindent=\dimen176
+\enit@toks=\toks38
+\enit@inbox=\box69
+\enit@count@id=\count300
+\enitdp@description=\count301
 ) (Befehle.sty)
-\c@theorem=\count300
-\c@corollary=\count301
-\c@definition=\count302
+\c@theorem=\count302
+\c@corollary=\count303
+\c@definition=\count304
 )
-\c@example=\count303
+\c@example=\count305
  (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
@@ -453,17 +461,17 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen176
-\scratchbox=\box69
-\nofMPsegments=\count305
-\nofMParguments=\count306
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen177
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count306
+\scratchdimen=\dimen177
+\scratchbox=\box70
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen178
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks40
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -640,6 +648,8 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 Package tocbasic Info: Using my definition of `\numberline' on input line 19.
 Package tocbasic Info: Using my definition of `\numberline' on input line 20.
 Package tocbasic Info: Using my definition of `\numberline' on input line 21.
+Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 )
 \tf@toc=\write3
 \openout3 = `TesisMSc.toc'.
@@ -740,10 +750,7 @@ LaTeX Info: Redefining \% on input line 19.
 
  (Kap2/Kap2.tex
 chapter 2.
-
-Underfull \vbox (badness 5667) has occurred while \output is active []
-
- [3
+(Kap2/Definición.tex [3
 
 
 
@@ -751,29 +758,37 @@ Underfull \vbox (badness 5667) has occurred while \output is active []
 ]
 LaTeX Info: Redefining \. on input line 59.
 LaTeX Info: Redefining \% on input line 59.
- [4] [5]
-Overfull \hbox (2.08322pt too wide) in paragraph at lines 132--133
-[]\OT1/cmr/m/n/12 Utilicemos in-duc-ci^^Son so-bre las tri-plas $(\OML/cmm/m/it/12 x; y; z\OT1/cmr/m/n/12 )$. F^^S^^Pje-se que pa-ra la tri-pla $(0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 0)$
- []
-
+ [4]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [5]
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+ [6]
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
+ [7]
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+ [8]) (Kap2/Suma.tex
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [9]
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [10]
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
+ [11]
 LaTeX Info: Redefining \. on input line 148.
 LaTeX Info: Redefining \% on input line 148.
-[6] [7] (Kap2/Suma.tex
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- [8]
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
- [9]
-LaTeX Info: Redefining \. on input line 129.
-LaTeX Info: Redefining \% on input line 129.
- [10]
-LaTeX Info: Redefining \. on input line 170.
-LaTeX Info: Redefining \% on input line 170.
- [11]))
+ [12]) (Kap2/Multiplicacion.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+ [13]))
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [12]
+ [14]
 \openout2 = `Kap3/Kap3.aux'.
 
  (Kap3/Kap3.tex
@@ -789,13 +804,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-LaTeX Warning: Citation `AG52' on page 13 undefined on input line 9.
+LaTeX Warning: Citation `AG52' on page 15 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG08a' on page 13 undefined on input line 9.
+LaTeX Warning: Citation `AG08a' on page 15 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG09a' on page 13 undefined on input line 9.
+LaTeX Warning: Citation `AG09a' on page 15 undefined on input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
@@ -807,7 +822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[13
+[15
 
 
 
@@ -822,22 +837,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<Kap3/FrutoSp.png, id=112, 391.7034pt x 274.1442pt>
+<Kap3/FrutoSp.png, id=118, 391.7034pt x 274.1442pt>
 File: Kap3/FrutoSp.png Graphic file (type png)
 <use Kap3/FrutoSp.png>
 Package pdftex.def Info: Kap3/FrutoSp.png  used on input line 22.
 (pdftex.def)             Requested size: 391.70244pt x 274.14351pt.
 
-LaTeX Warning: Citation `AG03p' on page 14 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 16 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 14 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 16 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG03p' on page 14 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 16 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 14 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 16 undefined on input line 23.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -856,7 +871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
-[14]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -868,7 +883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[15 <./Kap3/FrutoSp.png (PNG copy)>]
+[17 <./Kap3/FrutoSp.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -890,7 +905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--21
 
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
-[16]
+[18]
 \openout2 = `Kap4/Kap4.aux'.
 
  (Kap4/Kap4.tex
@@ -900,7 +915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--22
 
  []
 
-[17
+[19
 
 
 
@@ -915,7 +930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--23
 
  []
 
-[18
+[20
 
 
 
@@ -935,7 +950,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--24
 
  []
 
-[19
+[21
 
 
 
@@ -964,7 +979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[20
+[22
 
 
 
@@ -976,7 +991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[21
+[23
 
 ]
 chapter C.
@@ -1000,9 +1015,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\OT1/cmr/m/n/12 American Psy-cho-lo-gi-cal As-so-cia-tion
  []
 
-[22
+[24
 
-]) [23] (TesisMSc.bbl) [24
+]) [25] (TesisMSc.bbl) [26
 
 
 
@@ -1018,17 +1033,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8823 strings out of 476374
- 174419 string characters out of 5788854
+ 9169 strings out of 476374
+ 180621 string characters out of 5788854
  1874340 words of memory out of 5000000
- 28989 multiletter control sequences out of 15000+600000
+ 29325 multiletter control sequences out of 15000+600000
  521684 words of font info for 64 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  113i,18n,109p,10675b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TesisMSc.pdf (39 pages, 370167 bytes).
+Output written on TesisMSc.pdf (41 pages, 375970 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
+ 235 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
