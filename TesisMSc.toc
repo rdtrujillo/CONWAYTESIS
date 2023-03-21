@@ -7,18 +7,18 @@
 \contentsline {section}{\numberline {2.1}Definici\'on de los n\'umeros surreales}{3}{}%
 \contentsline {section}{\numberline {2.2}Suma de números surreales}{10}{}%
 \contentsline {section}{\numberline {2.3}Multiplicación de números surreales}{14}{}%
-\contentsline {chapter}{\numberline {3}Cap\'{\i }tulo 2}{15}{}%
-\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{15}{}%
-\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{16}{}%
-\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{16}{}%
-\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{18}{}%
-\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{19}{}%
-\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{20}{}%
-\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{21}{}%
-\contentsline {section}{\numberline {6.1}Conclusiones}{21}{}%
-\contentsline {section}{\numberline {6.2}Recomendaciones}{21}{}%
-\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{22}{}%
-\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{23}{}%
-\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{24}{}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{26}{}%
+\contentsline {chapter}{\numberline {3}Cap\'{\i }tulo 2}{16}{}%
+\contentsline {section}{\numberline {3.1}Ejemplos de citaciones bibliogr\'{a}ficas}{16}{}%
+\contentsline {section}{\numberline {3.2}Ejemplos de presentaci\'{o}n y citaci\'{o}n de figuras}{17}{}%
+\contentsline {section}{\numberline {3.3}Ejemplo de presentaci\'{o}n y citaci\'{o}n de tablas y cuadros}{17}{}%
+\contentsline {subsection}{\numberline {3.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{19}{}%
+\contentsline {chapter}{\numberline {4}Cap\'{\i }tulo 3}{20}{}%
+\contentsline {chapter}{\numberline {5}Cap\'{\i }tulo ...}{21}{}%
+\contentsline {chapter}{\numberline {6}Conclusiones y recomendaciones}{22}{}%
+\contentsline {section}{\numberline {6.1}Conclusiones}{22}{}%
+\contentsline {section}{\numberline {6.2}Recomendaciones}{22}{}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{23}{}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{24}{}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{25}{}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{27}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

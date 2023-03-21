@@ -187,31 +187,47 @@
         \]
         Para la desigualdad $x \not\ge 1^R$ tenemos que $1^R = \emptyset$, por lo tanto la desigualdad se cumple por vacuidad. Ahora, queremos mostrar que $x^L \not\ge 1$. F\'ijese que $X^L = \{-1, 0\}$, pero en el ejemplo \ref{ExFirstOrder} mostramos que $-1 < 0 < 1$ entonces por definici\'on de $<$ tenemos que para todo $x^L\in X^L$ se cumple que $x^L \not\ge 1$. Con esto podemos concluir que $x = 1$.
         
-        Si nos ponemos a ver los dem\'as ejemplos con relaci\'on a este podemos ver que algunos tienen cierta similitud. En este, lo que le hicimos al $1$ fue añadirle un elemento a su conjunto $L$ que fuera menor que alguno de los elementos que ya estaba, en este caso le añadimos el $-1$ que era menor al $0$ que ya estaba, y esto hizo que no cambiara su valor. Un argumento parecido podemos utilizarlo por ejemplo para probar que $-1 = \surr{}{0,1}$, e incluso, si lo analizamos mejor, podemos utilizar el mismo argumento para probar otras igualdades como $\surr{-1,0}{1} = \surr{0}{1}$.
+        Si nos ponemos a ver los dem\'as ejemplos con relaci\'on a este podemos ver que algunos tienen cierta similitud. En este, lo que le hicimos al $1$ fue añadirle un elemento a $1^L$ que fuera menor que alguno de los elementos que ya estuviera, en este caso, añadimos el $-1$ que era menor al $0$ que ya pertenec\'ia a $1^L$, y esto hizo que no cambiara su valor. Un argumento parecido podemos utilizarlo por ejemplo para probar que $-1 = \surr{}{0,1}$, e incluso, si lo analizamos mejor, podemos utilizar el mismo argumento para probar otras igualdades como $\surr{-1,0}{1} = \surr{0}{1}$.
 
-        En conclusi\'on, agregar al conjunto $L$ alg\'un n\'umero que sea menor a un n\'umero del conjunto $L$, o agregar al conjunto $R$ alg\'un n\'umero que sea mayor a un n\'umero del conjunto $R$, no hace cambiar de valor al n\'umero.
+        En conclusi\'on, agregar a $L$ alg\'un n\'umero que sea menor a alg\'un otro elemento del conjunto $L$, o agregar a $R$ alg\'un n\'umero que sea mayor a alg\'un elemento del conjunto $R$, genera un n\'umero igual.
     \end{example}
 
-    Una propiedad que hemos estado referenciando sin demostrar para motivar las definiciones es la idea de que el n\'umero que definimos est\'a entre los elementos de $L$ y los elementos de $R$, m\'as espec\'ificamente
+    \begin{example}
+        En nuestros ejemplos hay varios que no se pueden demostrar con el mismo lente del anterior ejemplo. M\'as espec\'ificamente, las igualdades
+        \[
+            0 = \surr{-1}{1} = \surr{-1}{} = \surr{}{1}.
+        \]
+        Sabemos que $0 \equiv \surr{}{}$, por lo tanto la relaci\'on $0 \le x$ significa que $x^R \not\le 0$ para todo $x^R\in X^R$, y por otro lado, la relaci\'on $x\le 0$ significa que $x^L \not\ge 0$ para todo $x^L\in X^L$. Por lo tanto, para verificar estas igualdades lo \'unico que tenemos que revisar es que sus respectivos ancestros cumplan que
+        \[
+            x^L \not\ge 0\text{ y } x^R \not\le 0,
+        \]
+        que se cumplen ya que $-1 < 0 < 1$. 
+    \end{example}
+
+    Una propiedad que referenciamos en las motivaci\'on de las definiciones pero a\'un no hemos demostrado es la idea de que el n\'umero siempre est\'a entre los elementos de $L$ y los elementos de $R$, m\'as espec\'ificamente
 
     \begin{theorem}
         Sea $x$ un n\'umero surreal. Tenemos que $x^L < x < x^R$.
     \end{theorem}
 
     \begin{proof}
-        Probemos primero que $x^L \le x \le x^R$ y luego hacemos la desigualdad estricta. Hagamos la prueba para la parte izquierda de la desigualdad, la parte derecha se hace de manera parecida.
+        Basta revisar la prueba para la parte izquierda de la desigualdad puesto que la parte derecha se hace de manera an\'aloga. Probemos primero que $x^L \le x$ y luego verificamos que la desigualdad es estricta.
 
-        Probemos que $x^L \le x$ por inducci\'on. La propiedad es verdadera para $0$ por vacuidad. Ahora, supongamos que es verdad para $x^L$ y probemos para $x$. Tenemos que probar que no existe ning\'un elemento $x^R \le x^L$ para todos los elementos $x^R$ y tampoco existe ningún elemento $y\in (X^L)^L$ tal que $y \ge x$. La primera parte la tenemos porque $x$ es un n\'umero surreal entonces ning\'un elemento de $X^L$ es mayor que ning\'un elemento de $X^R$. Para la segunda parte, probemos que $y \not\ge x$, esto significa que o existe $z\in X^L$ tal que $y\le z$, o existe $y^R$ tal que $y^R\le x$. F\'ijese que si tomamos $z = x^L$ entonces tendremos por hip\'otesis de inducci\'on que $y\le z = x^L$, puesto que $y\in (X^L)^L$, luego tenemos que $x^L\le x$.
+        Veamos que $x^L \le x$ por inducci\'on. La propiedad es verdadera para $0$ por vacuidad. 
+        
+        Ahora, supongamos que es verdad para los ancestros de $x$ y probemos que es verdad para $x$. Fijemos un $x^L\in X^L$. Para probar que $x^L\le x$ tenemos que probar que $x^R \not\le x^L$ para todos los elementos $x^R\in X^R$, y tambi\'en, que para todo elemento elemento $y\in (X^L)^L$ tenemos que $y \not\ge x$.
+        
+        La primera parte la tenemos porque $x$ es un n\'umero surreal, entonces ning\'un elemento de $X^L$ es mayor o igual que ning\'un elemento de $X^R$. Para la segunda parte, $y \not\ge x$ significa que o existe $z\in X^L$ tal que $y\le z$, o existe $y^R\in Y^R$ tal que $y^R\le x$. F\'ijese que si tomamos $z = x^L$ entonces, como $y\in (X^L)^L$, tendremos por hip\'otesis de inducci\'on que $y\le x^L = z$, con lo que concluimos que $x^L\le x$.
 
-        Ahora, para hacer la desigualdad estricta f\'ijese que $x^L \not\ge x$ significa que existe $y\in X^L$ tal que $y\ge x^L$, o que existe $z\in (X^L)^R$ tal que $z\le x$, si tomamos $y=x^L$ tendremos por reflexividad que $x^L\not\ge x$.
+        Ahora, mostremos que $x^L \not\ge x$. Tenemos que mostrar que existe $y\in X^L$ tal que $y\ge x^L$, o que existe $z\in (X^L)^R$ tal que $z\le x$. Si tomamos $y=x^L$ tendremos por reflexividad que $x^L\le x^L = y$, por lo tanto $x^L\not\ge x$ y podemos concluir que $x^L < x$.
     \end{proof}
 
-    \begin{corollary}[Linealidad]
+    \begin{corollary}[Orden total]
         Sean $x, y$ n\'umeros surreales. Si $x \not\le y$ entonces tenemos que $x > y$. 
     \end{corollary}
 
     \begin{proof}
-        Supongamos que $x\not\le y$. Esto quiere decir que o existe $x^L \ge y$, o existe $y^R \le x$. Si existe $x^L \ge y$, entonces como $x^L < x$ por transitividad $x > y$. Si existe $y^R \le x$, entonces como $y < y^R$ por transitividad $y < x$.
+        Supongamos que $x\not\le y$. Esto quiere decir que, o existe $x^L \ge y$, o existe $y^R \le x$. Si existe $x^L \ge y$ tenemos que $y \le x^L < x$ y por transitividad $y < x$. En el otro caso, si existe $y^R \le x$ tenemos que $y < y^R \le x$ y por transitividad $y < x$.
     \end{proof}
 
     Un problema se nos va a presentar de ahora en adelante cuando intentemos definir operaciones en n\'umeros surreales; tendremos que ver si estas operaciones son compatibles con la relaci\'on de equivalencia generada por la relaci\'on de orden.
