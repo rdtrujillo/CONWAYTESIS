@@ -1,37 +1,37 @@
 \section{Suma de números surreales}
 
-    La suma de los números surreales también se define recursivamente.
+    La suma de los números surreales también se define recursivamente basandose en la suma de sus ancestros.
     
     \begin{definition}[Definici\'on de suma]
-        Se dice que
+        Dados dos n\'umeros surreales $x,y$ definimos su suma como
         \[
-            x + y  = \left\{x^L+y, x+y^L\;|\;x^R+y, x+y^R\right\}.
+            x + y  \equiv \left\{x^L+y, x+y^L\;|\;x^R+y, x+y^R\right\}.
         \]
-        Esta definici\'on hace que la suma sea autom\'aticamente conmutativa ya que es lo mismo en definici\'on hacer $x+y$ o $y+x$.
+        Esta definici\'on hace que la suma sea autom\'aticamente conmutativa ya que es lo mismo en definici\'on hacer $x+y$ que $y+x$.
     \end{definition}
 
     Como todas las definiciones recursivas que hemos hecho, la suma se define eventualmente en base al número $0$, por eso es bueno ver qué pasa cuando se suma $0$.
 
     \begin{example}
-        ¿Qué pasa cuando se suma $0+0$? Sabemos que $0 = \surr{}{}$, por lo tanto, no existe ni $0^L$ ni $0^R$. Lo que tendremos entonces es
+        ¿Qué pasa cuando se suma $0+0$? Sabemos que $0 \equiv \surr{}{}$, por lo tanto, no existe ni $0^L$ ni $0^R$. Lo que tendremos entonces es
         \[
-            0+0 = \surr{0^L+0, 0+0^L}{0^R+0, 0+0^R} = \surr{}{} = 0,
+            0+0 \equiv \surr{0^L+0, 0+0^L}{0^R+0, 0+0^R} \equiv \surr{}{} \equiv 0,
         \]
-        por lo tanto tendremos que $0+0 = 0$.
+        por lo tanto tendremos que $0+0 \equiv 0$.
     \end{example}
 
     \begin{example}
-        Más aún, si el $0$ de los números surreales se parece al $0$ de los números reales entonces tendríamos que el $0$ es módulo de la suma, esto es, $x+0 = x$ para todo $x$ n\'umero surreal.
+        Más aún, si el $0$ de los números surreales se parece al $0$ de los números reales entonces tendríamos que el $0$ es módulo de la suma, esto es, $x+0 \equiv x$ para todo $x$ n\'umero surreal.
 
-        Mostremos esto por inducci\'on. Nuestro caso base es cuando $x = 0$, es decir, $0+0$ que ya probamos que $0+0=0=x$ luego se cumple.
+        Mostremos esto por inducci\'on. Nuestro caso base es cuando $x \equiv 0$, es decir $0+0$ y ya probamos que $0+0\equiv 0\equiv x$ luego en el caso base se cumple.
 
         Supongamos que se cumple para todos los elementos en los conjuntos $X^L$ y $X^R$. Tenemos entonces que
         \[
-            x + 0 = \surr{x^L+0, x+0^L}{x^R+0, x+0^L} = \surr{x^L+0}{x^R+0}
+            x + 0 \equiv \surr{x^L+0, x+0^L}{x^R+0, x+0^L} \equiv \surr{x^L+0}{x^R+0}
         \]
-        y por hip\'otesis de inducci\'on tenemos que $x^L+0 = x^L$ y $x^R+0 = x^R$, por lo tanto 
+        y por hip\'otesis de inducci\'on tenemos que $x^L+0 \equiv x^L$ y $x^R+0 \equiv x^R$, por lo tanto 
         \[
-            x + 0 = \surr{x^L}{x^R} = x.
+            x + 0 \equiv \surr{x^L}{x^R} \equiv x.
         \]
     \end{example}
 
@@ -40,68 +40,71 @@
 
         Primero,
         \[
-            1 + (-1) = \surr{1^L + (-1)}{1+(-1)^R} = \surr{0+(-1)}{1+0} = \surr{-1}{1} = 0.
+            1 + (-1) \equiv \surr{1^L + (-1)}{1+(-1)^R} \equiv \surr{0+(-1)}{1+0} \equiv \surr{-1}{1} = 0.
         \]
 
         Tambi\'en tenemos que
         \[
-            1 + 1 = \surr{1^L+1, 1+1^L}{} = \surr{0+1,1+0}{} = \surr{1}{},
+            1 + 1 \equiv \surr{1^L+1, 1+1^L}{} \equiv \surr{0+1,1+0}{} \equiv \surr{1}{},
         \]
-        por lo tanto, llamamos al n\'umero surreal $\surr{1}{} = 2$. Un an\'alisis parecido se puede hacer para decir que $(-1)+(-1) = \surr{}{-1}$, por lo tanto $-2 = \surr{}{-1}$.
+        por lo tanto, llamamos $2$ al n\'umero surreal $\surr{1}{}$. Un an\'alisis similar se puede hacer para decir que $(-1)+(-1) \equiv \surr{}{-1}$, por lo tanto $-2 \equiv \surr{}{-1}$.
     \end{example}
 
-    La operaci\'on de suma en los n\'umeros reales genera un grupo conmutativo, en nuestro caso, ya hemos mostrado que la suma es conmutativa y que adem\'as tiene un m\'odulo, lo que nos falta para mostrar que la suma en los n\'umeros surreales genera un grupo conmutativo es mostrar que todos los elementos tienen inversos aditivos y adem\'as que la suma es asociativa.
+    Tanto en estos ejemplos como en la definici\'on hemos estado usando el s\'imbolo $(\equiv)$ para denotar que la igualdad es de conjuntos. Nuestro objetivo en esta secci\'on, adem\'as de mostrar las propiedades t\'ipicas de la suma, es mostrar que esta suma es en efecto compatible con la relaci\'on de equivalencia $(=)$. En cierto sentido, queremos poder reemplazar el s\'imbolo $(\equiv)$ por el s\'imbolo $(=)$ asegurandonos que aquello no nos trae ning\'un problema.
+
+    La operaci\'on de suma en los n\'umeros reales genera un grupo conmutativo, en nuestro caso queremos mostrar lo mismo para los n\'umeros surreales. Ya hemos mostrado que la suma es conmutativa y que adem\'as tiene un m\'odulo, lo que nos falta para mostrar que la suma en los n\'umeros surreales genera un grupo conmutativo es mostrar que todos los elementos tienen inversos aditivos y adem\'as que la suma es asociativa.
 
     \begin{theorem}[Asociatividad de la suma]
         Sean $x, y, z$ n\'umeros surreales. Tenemos que
         \[
-            (x+y)+z = x+(y+z).
+            (x+y)+z \equiv x+(y+z).
         \]
     \end{theorem}
 
     \begin{proof}
-        Veamos el teorema por inducci\'on. Nuestro caso base es cuando alguno todos los elementos son $0$, en este caso tenemos
+        Mostremos el teorema por inducci\'on. Nuestro caso base es cuando todos los elementos son $0$, en este caso tenemos
         \[
-            (0+0)+0 = 0+0 = 0 = 0+0 = 0+(0+0).
+            (0+0)+0 \equiv 0+0 \equiv 0+(0+0).
         \]
 
-        Ahora, nuestra hip\'otesis de inducci\'on es que la asociatividad se cumple para los elementos de los conjuntos $L$ y $R$ de $x,y,z$, por ejemplo, de los elementos de los conjuntos $L$ se tiene que
+        Ahora, nuestra hip\'otesis de inducci\'on es que la asociatividad se cumple para las triplas con al menos un ancestro de $x,y,z$, por ejemplo, de los elementos de los conjuntos $L$ de cada n\'umero se tiene que
         \begin{align*}
-            (x^L+y)+z = x^L + (y+z), \\
-            (x+y^L)+z = x + (y^L+z), \\
-            (x+y)+z^L = x + (y+z^L).
+            (x^L+y)+z \equiv x^L + (y+z), \\
+            (x+y^L)+z \equiv x + (y^L+z), \\
+            (x+y)+z^L \equiv x + (y+z^L),
         \end{align*}
+        igualmente para los elementos de los conjuntos $R$.
 
-        Entonces tenemos que
+        Tenemos que
         \begin{align*}
-            (x+y)+z & = \surr{(x+y)^L+z, (x+y)+z^L}{\dots} \\
-                    & = \surr{(x^L+y)+z, (x+y^L)+z, (x+y)+z^L}{\dots} \\
-                    & = \surr{x^L+(y+z), x+(y^L+z), x+(y+z^L)}{\dots} \\
-                    & = \surr{x^L+(y+z), x+(y+z)^L}{\dots} \\
-                    & = x+(y+z).
+            (x+y)+z & \equiv \surr{(x+y)^L+z, (x+y)+z^L}{\dots} & \text{(definici\'on)} \\
+                    & \equiv \surr{(x^L+y)+z, (x+y^L)+z, (x+y)+z^L}{\dots} & \text{(definici\'on)}  \\
+                    & \equiv \surr{x^L+(y+z), x+(y^L+z), x+(y+z^L)}{\dots} & \text{(h. de inducci\'on)}  \\
+                    & \equiv \surr{x^L+(y+z), x+(y+z)^L}{\dots} & \text{(definici\'on)}  \\
+                    & \equiv x+(y+z). & \text{(definici\'on)}
         \end{align*}
-        La demostraci\'on del conjunto $R$ se hace de la misma manera.
+        La demostraci\'on para el conjunto $R$ se hace de la misma manera.
     \end{proof}
 
-    Los inversos aditivos vamos a definirlos tambi\'en recursivamente, en base a los inversos aditivos de los elementos de $L$ y $R$ del n\'umero.
+    Los inversos aditivos se definen tambi\'en recursivamente con base a los inversos aditivos de los ancestros del n\'umero.
 
     \begin{definition}[Inversos aditivos]
         Sea $x$ un n\'umero surreal. Definimos su inverso aditivo como
         \[
-            (-x) = \surr{-(x^L)}{-(x^R)}.
+            -x \equiv \surr{-(x^L)}{-(x^R)}.
         \]
     \end{definition}
 
     \begin{example}
         Veamos los inversos de los n\'umeros que ya nombramos. Por un lado tenemos que
         \[
-            -0 = \surr{-0^R}{-0^L} = \surr{}{} = 0,
+            (-0) \equiv \surr{-(0^R)}{-(0^L)} \equiv \surr{}{} \equiv 0,
         \]
         puesto que sus conjuntos $L$ y $R$ son vac\'ios.
 
         Veamos tambi\'en que efectivamente aquel que llamamos $-1$ en la secci\'on anterior es en efecto el inverso aditivo de $1$,
         \[
-            -1 = \surr{-1^R}{-1^L} = \surr{}{-0} = \surr{}{0} = -1.     
+            (-1) \equiv \surr{-(1^R)}{-(1^L)} \equiv \surr{}{-0} \equiv \surr{}{0} \equiv -1.     
         \]
 
         Tambi\'en podemos hacer el mismo chequeo para $2$ y $-2$.
@@ -112,83 +115,116 @@
     \end{theorem}
 
     \begin{proof}
-        Mostremos el teorema por inducci\'on. Primero miremos el caso base cuando $x=0$. Tenemos que
+        Mostremos el teorema por inducci\'on. Primero veamos el caso base cuando $x\equiv 0$. Tenemos que
         \[
-            x + (-x) = 0 + (-0) = 0+0 = 0,
+            x + (-x) \equiv 0 + (-0) \equiv 0+0 \equiv 0,
         \]
-        por lo tanto se cumple.
+        por lo tanto se cumple para $0$.
 
-        Ahora, supongamos que es verdad para los elementos de los conjuntos $L$ y $R$ de $x$. Mostremos que $x+(-x) \le 0$ por contradicci\'on, es decir, supongamos que es mentira luego existe alg\'un elemento tal que $(x+(-x))^R < 0$. Por lo tanto, o $x^R + (-x) < 0$ o $x+(-x^L) < 0$, pero en los conjuntos $L$ de estos n\'umeros est\'an los elementos $x^R + (-x^R)$ y $x^L + (-x^L)$ respectivamente, que cumplen  
-        $x^R + (-x^R) \ge 0$ y $x^L + (-x^L)\ge 0$ por hip\'otesis de inducci\'on, lo cual contradice que $x^R + (-x) < 0$ o $x+(-x^L) < 0$.
+        Ahora, supongamos por inducci\'on que la propiedad se cumple para los ancestros de $x$. Mostremos primero que $x + (-x) \le 0$. Por contradicci\'on supongamos que $x + (-x) > 0$, luego existe alg\'un elemento $(x + (-x))^L \ge 0$. El elemento $(x + (-x))^L$ puede ser de la forma $x^L + (-x)$ o de la forma $x + (-x)^L$, veamos los dos casos.
 
-        Para mostrar que $x+(-x) \ge 0$ el proceso es similar.
+        Supongamos primero que $(x + (-x))^L \equiv x^L + (-x)$. Como en el conjunto $R$ de $-x$ se encuentra el elemento $-(x^L)$, entonces tenemos que en el conjunto $R$ del n\'umero $x^L + (-x)$ se encuentra el elemento $y \equiv x^L + (-(x^L))$ que es igual a $0$ por hip\'otesis de inducci\'on, por lo tanto, se tiene que $(x^L + (-x)) < 0$, lo que contradice que $(x^L + (-x))\equiv (x + (-x))^L \ge 0$.
+
+        Ahora, supongamos que $(x + (-x))^L \equiv x + (-x)^L$. Los elementos de $(-X)^L$ son de la forma $-(x^R)$, por lo tanto tenemos que $(x + (-x))^L\equiv x + (-(x^R))$. En el conjunto $R$ del n\'umero $x + (-(x^R))$ se encuentra el elemento $x^R + (-(x^R))$ que es igual a $0$ por hip\'otesis de inducci\'on, por lo tanto, se tiene que $x + (-(x^R)) < 0$, lo que contradice que $x + (-(x^R))\equiv (x + (-x))^L \ge 0$.
+
+        Con lo que podemos concluir que $x + (-x) \le 0$. La demostraci\'on de $x+(-x) \ge 0$ es an\'aloga.
     \end{proof}
 
 
-    F\'ijese que en los ejemplos tenemos que $1+(-1) = 0$ pero los conjuntos son diferentes, ya que $0=\surr{}{}$ mientras que $1+(-1) = \surr{-1}{1}$. A\'un no hemos mostrado si la suma es compatible con estas clases de equivalencia, en otras palabras, queremos mostrar que si $x = x'$ entonces $x+y = x'+y$ para todo $y$ n\'umero surreal de modo que no importe cual representante de la clase se utilice en las sumas. Para hacer esto vamos a primero probarlo para la relaci\'on de orden, ya que si lo mostramos para la relaci\'on de orden entonces lo tendremos tambi\'en para la relaci\'on de equivalencia por definici\'on.
+    F\'ijese que en los ejemplos tenemos que $1+(-1) = 0$ pero $1+(-1)\not\equiv 0$ ya que $0\equiv \surr{}{}$ mientras que $1+(-1)\equiv \surr{-1}{1}$. En este sentido, a\'un no hemos mostrado que la suma genera un grupo conmutativo sobre los n\'umeros surreales ya que, aunque ya mostramos las propiedades para las clases de equivalencia de la relaci\'on $(=)$, no hemos mostrado que la suma es compatible con la relaci\'on $(=)$.
+    
+    ¿Qué significa que la suma sea compatible con la relaci\'on $(=)$? Queremos mostrar que si $x = x'$ entonces $x+y = x'+y$ para todo n\'umero surreal $y$, de modo que no importa cual representante de la clase de equivalencia se utilice en las suma, el resultado siempre va a ser igual ($=$). Para hacer esto vamos a primero probarlo para la relaci\'on de orden $(\le)$ ya que si lo mostramos para la relaci\'on de orden entonces lo tendremos tambi\'en para la relaci\'on de equivalencia $(=)$.
 
-    Mostremoslo primero para el elemento m\'as simple, es decir, el $0$.
-
-    \begin{theorem}
-        Si tenemos $0 \le x$, entonces $y \le x + y$ para todo n\'umero surreal $y$.
+    \begin{theorem}[Cancelaci\'on]
+        Sean $x,y, z$ n\'umeros surreales. Si tenemos que $x+y < x+z$ entonces $y < z$ y si tenemos que $x+y\le x+z$ entonces $y\le z$.
     \end{theorem}
 
     \begin{proof}
-        Vamos a probar el teorema por inducci\'on. Los casos bases de nuestra inducci\'on ser\'an cuando $y=0$ o cuando $x=0$, en cualquiera de los dos casos la proposici\'on es verdadera.
+        Vamos a demostrar estas dos proposiciones con la misma inducci\'on, es decir, cuando hagamos la hip\'otesis de inducci\'on vamos a suponer que las dos son ciertas para todas las triplas con ancestros.
 
-        Supondremos como hip\'otesis de inducci\'on que la proposici\'on es verdad para los elementos de $L$ y $R$ de $x$ y $y$, esto es,
+        El caso base de nuestra inducci\'on es cuando $x\equiv y \equiv z \equiv 0$. En este caso nuestra propiedad es verdadera por las propiedades del n\'umero $0$.
+
+        Ahora, supongamos por inducci\'on quiere las propiedades se cumplen para todas las triplas que contienen al menos un ancestro de $x,y,z$, probemos entonces que la propiedad se cumple para $x,y,z$.
+
+        Primero supongamos que $x+y\le x+z$. Con esta desigualdad podemos obtener las dos desigualdades
         \begin{align*}
-            0\le x & \implies y^L \le x + y^L, \\
-            0\le x & \implies y^R \le x + y^R, \\
-            0\le x^R & \implies y \le x^R + y, \\
-            0\le x^L & \implies y \le x^L + y.
+            x+y^L \equiv (x+y)^L < x+y \le x + z,\\
+            x+y \le x+z < (x+z)^R \equiv x+z^R,
         \end{align*}
+        de la primera tenemos $x + y^L < x + z$ con la que al aplicar la hip\'otesis de inducci\'on obtenemos $y^L < z$, y de la segunda tenemos $x+y < x+z^R$ con la que al aplicar la hip\'otesis de inducci\'on obtenemos $y < z^R$. Como $y^L < z$ y $y < z^R$, entonces, por la definici\'on de orden, podemos concluir que $y \le z$.
 
-        Ahora, supongamos que $0\le x$. Queremos mostrar que $y \le x+y$, esto es, $y^L < x+y$ y $y < (x+y)^R$. F\'ijese que en el conjunto $(x+y)^L$ se encuentra $x+y^L$, y por hip\'otesis de inducci\'on tenemos que $y^L \le x+y^L < (x+y)$, por lo tanto la primera parte se cumple.
-        
-        Ahora, $(x+y)^R$ puede ser o $x+y^R$ o $x^R+y$. Supongamos que es de la forma $x+y^R$. En este caso tenemos que $y < y^R \le x+y^R$. Por otro lado, si el elemento es de la forma $x^R+y$ entonces por  hip\'otesis de inducci\'on tenemos que $y \le x^R+y$, la desigualdad es estricta pues como $x^R > 0$ entonces existe alg\'un elemento $(x^R)^L \ge 0$ y por hip\'otesis de inducci\'on $(x^R)^L + y \ge y$, pero f\'ijese que $(x^R)^L + y$ est\'a en el conjunto $L$ de $x^R+y$ por lo tanto tendremos que $y \le (x^R)^L + y < x^R+y$, con lo que probamos que $y < (x+y)^R$.
+        Ahora, supongamos que $x+y < x+z$. Esto significa que, o existe algun elemento tal que $(x+y)^R \le x+z$ o existe algun elemento tal que $x+y \le (x+z)^L$. Supongamos que existe un elemento tal que $(x+y)^R \le x+z$, el otro caso se hace an\'alogamente.
+
+        Nuestro elemento $(x+y)^R$ puede ser de dos formas, puede ser de la forma $x^R+y$ o de la forma $x+y^R$, veamos los dos casos. Supongamos que $(x+y)^R\equiv x^R+y$, en este caso tenemos que
+        \[
+            x^R+y \equiv (x+y)^R \le x+z < (x+z)^R\equiv x^R + z
+        \]
+        y usando la hip\'otesis de inducci\'on en la desigualdad $x^R+y < x^R + z$ tendremos que $y < z$.
+
+        Supongamos ahora que $(x+y)^R\equiv x+y^R$. En este caso tenemos podemos usar la hip\'otesis de inducci\'on en la desigualdad $x+y^R \equiv (x+y)^R \le x+z$ para obtener $y^R \le z$ y esto implica que $y < z$. En ambos casos tenemos que $y < z$, por lo tanto podemos concluir que la propiedad es cierta.
     \end{proof}
 
-    \begin{corollary}
-        \label{zero-sum}
-        Si tenemos $x = 0$, entonces $y = y+x$.
-    \end{corollary}
-
-    \begin{theorem}
-        Si tenemos que $x+y\le x+z$ entonces $y\le z$.
-    \end{theorem}
-
-    \begin{proof}
-        Haremos esta demostraci\'on por inducci\'on. El caso base es cuando $y=z=0$, y este se puede verificar que la proposici\'on se cumple.
-
-        Como hip\'otesis de inducci\'on supondremos que se cumple para todo los elementos de $L$ y $R$ de $z$ y $y$ respectivamente, esto es,
-        \begin{align*}
-            x+y\le x+z^R & \implies y\le z^R,\\
-            x+y^L\le x+z & \implies y^L\le z, \\
-            x^R+y\le x^R+z & \implies y\le z,\\
-            x^L+y\le x^L+z & \implies y\le z.
-        \end{align*}
-
-        Supongamos que $x+y\le x+z$, entonces $x+y^L < x+z$ y $x+y < x+z^R$. 
-        
-        Utilicemos la primera desigualdad, como es una desigualdad estricta entonces tendremos que existe alg\'un 
-        \begin{equation}
-            \label{rec-sum-ord}
-            (x+y^L)^R \le x+z,
-        \end{equation}
-        estos elementos puedes ser o $x+(y^L)^R$ o $x^R+y^L$, en el primer caso tendremos por hip\'otesis de inducci\'on que $(y^L)^R \le z$ luego $y^L < z$. Por otro lado, si el elemento es de la forma $x^R+y^L$ entonces tenemos la desigualdad $x^R+y^L \le x+z < x^R+z$, de la que podemos deducir que existe un elemento $(x^R+y^L)^R \le x^R+z$ la cual es muy parecida a la ecuaci\'on \ref{rec-sum-ord} por lo tanto podremos repetir el mismo argumento hasta que el elemento sea de la forma $\left((x^R)^{\dots}\right)^R + (y^L)^R$ y hacer el mismo el mismo argumento para deducir que $y^L < z$.
-
-        Con la desigualdad $x+y < x+z^R$ se trabaja de manera similar y se deduce que $y < z^R$, por lo tanto, $y\le z$.
-    \end{proof}
+    F\'ijese que en el anterior teorema las dos propiedades son rec\'iprocas puesto que la negaci\'on de $<$ es $\ge$, en este sentido, el anterior teorema se puede reescribir como 
+    \[
+        y \le z \Leftrightarrow x+y\le x+z.
+    \]
 
     \begin{corollary}
-        Si $y \le z$, entonces $y+x \le z+x$.
+        Sean $x, y, z$ n\'uemeros surreales. Tenemos que $y=z$ si y solamente si $y+x=z+x$.
     \end{corollary}
 
-    \begin{proof}
-        Supongamos que $y\le z$. Utilizando el corolario \ref{zero-sum}, tenemos que $y+x+(-x)\le z+x+(-x)$ puesto que le estamos sumando $0$ a ambos lados. Ahora, usando el teorema anterior podemos cancelar a ambos lados de la desigualdad y tenemos que $y+x\le z+x$.
-    \end{proof}
+    Este corolario nos dice que la suma es compatible con la relaci\'on de equivalencia $(=)$, por lo tanto, podemos concluir que los n\'umeros surreales (definidos como clases de equivalencia) son un grupo conmutativo con la operaci\'on de suma $(+)$. En lo que sigue de la secci\'on podemos usar exclusivamente el s\'imbolo $(=)$.
+    
+    Algo que ya podemos hacer es intentar ponerle nombre a todos los n\'umeros que podemos crear con sumas de los n\'umeros que ya conocemos, es decir, podemos saber cu\'ales ser\'ian los n\'umeros naturales en el conjunto de los n\'umeros surreales.
 
-    \begin{corollary}
-        Si $y=z$, entonces $y+x=z+x$.
-    \end{corollary}
+    \begin{example}
+        Llamemos 
+        \[
+            n = \underbrace{1+1+\dots+1}_{\text{n veces}}.
+        \]
+
+        Vamos a mostrar por inducci\'on que $n+1 = \surr{n}{}$. F\'ijese que para el n\'umero $0$ tenemos que $0+1 = 1 = \surr{0}{}$. Ahora, supongamos que es verdad para $n$, demostremos que es verdad para $n+1$. Queremos mostrar que $n+2 = (n+1)+1 = \surr{n+1}{}$, sabemos por hip\'otesis de inducci\'on que $n+1 = \surr{n}{}$, por lo tanto,
+        \[
+            n+2 = (n+1)+1 = \surr{n}{} + \surr{0}{} = \surr{(n+1)+0, n+1}{} = \surr{n+1}{0}.
+        \]
+        Si tomamos en cuenta los n\'umeros negativos tendremos que $-n-1 = \surr{}{-n}$, y con esto, sabremos completamente la estructura de los n\'umeros enteros en los n\'umeros surreales.
+    \end{example}
+
+    \begin{example}
+        De los n\'umeros que se crearon en la secci\'on anterior que se pod\'ian crear con los n\'umeros $0$ y $1$, hay unos cuantos a los cuales no les pusimos nombre.
+
+        En espec\'ifico, vamos a intentar nombrar al n\'umero $x = \surr{0}{1}$. Lo que sabemos de este n\'umero es que $0 < x = \surr{0}{1} < 1$, entonces definitivamente no es un n\'umero entero. Si sumamos a si mismo dos veces tendremos que
+        \[
+            x + x = \surr{0}{1} + \surr{0}{1} = \surr{x}{x+1},
+        \]
+        f\'ijese que si sumamos $1$ a la desigualdad anterior obtenemos $1 < x+1 < 2$ por lo tanto puede ser interesante comparar $x+x$ con $1$. Veamos que $1 \le x+x$, esto es equivalente a ver que $(x+x)^R > 1$ y $1^L < (x+x)$, y en efecto, $(x+x)^R = x+1 > 1$ y $1^L = 0 < x = (x+x)^L < x+x$, luego $1 \le x+x$. Tambi\'en tenemos que $x+x \le 1$, esto es equivalente a decir que $(x+x)^L < 1$ puesto que $1^R$ es vac\'io, y tambi\'en se cumple ya que $(x+x)^L = x < 1$. Concluimos que $x+x = 1$ por lo tanto $x$ se lleva el nombre de $\frac{1}{2}$.
+
+        F\'ijese que ya podemos representar todos los m\'ultiplos enteros de $\frac{1}{2}$, los multiplos pares son enteros y para los m\'ultiplos impares tenemos que 
+        \[
+            \frac{2n+1}{2} = n+\frac{1}{2} = \surr{n-1}{} + \surr{0}{1} = \surr{n-\frac{1}{2}, n}{n+1},
+        \]
+        f\'ijese que $n-\frac{1}{2} < n$ y por lo discutido en el ejemplo \ref{ExErasePar} tendremos que $n+\frac{1}{2} = \surr{n}{n+1}$.
+    \end{example}
+
+    \begin{example}[N\'umeros di\'adicos]
+        Los n\'umeros racionales di\'adicos son aquellos de la forma $\frac{n}{2^k}$ con $n, k$ enteros y $k \ge 0$. Con lo que hemos estudiado, ya podemos encontrar estos n\'umeros en los n\'umeros surreales.
+
+        Para encontrarlos es suficiente encontrar aquellos de la forma $\frac{1}{2^k}$ puesto que los dem\'as ser\'an sumas de estos, o de sus inversos aditivos.
+
+        Nuestro sospechoso para ser $\frac{1}{2^{k+1}}$ va a ser el n\'umero surreal $\surr{0}{\frac{1}{2^k}}$. Lo que queremos mostrar m\'as formalmente es que 
+        \[
+            \surr{0}{\frac{1}{2^{k}}} + \surr{0}{\frac{1}{2^{k}}} = \frac{1}{2^{k+1}} + \frac{1}{2^{k+1}} = \frac{1}{2^k},
+        \]
+        y as\'i poder argumentar que efectivamente este n\'umero es $\frac{1}{2^{k+1}}$. Mostremoslo por inducci\'on, ya tenemos el caso base cuando $k=0$, ahora supongamoslo que es verdad para todos las potencias menores a $k$.
+
+        Llamemos $x = \frac{1}{2^{k+1}}$. Tenemos que
+        \[
+            x + x = \frac{1}{2^{k+1}} + \frac{1}{2^{k+1}} = \surr{\frac{1}{2^{k+1}}}{\frac{1}{2^{k}} +\frac{1}{2^{k+1}}} = \surr{x}{\frac{1}{2^k} + x},
+        \]
+        y siguiendo un argumento parecido al del ejemplo anterior tenemos que $0 < x < \frac{1}{2^k}$ y $\frac{1}{2^k} < \frac{1}{2^k} + x < \frac{1}{2^{k-1}}$. Queremos ver que $x+x = \frac{1}{2^{k}}$.
+
+        Veamos que $x+x\le \frac{1}{2^k}$. Para esto primero tenemos que ver que $(x+x)^L < \frac{1}{2^k}$ y en efecto $(x+x)^L = x < \frac{1}{2^k}$. Tambi\'en tenemos que ver que $(\frac{1}{2^k})^R > x+x$ y tambi\'en se cumple puesto que $(\frac{1}{2^k})^R = \frac{1}{2^{k-1}} > \frac{1}{2^k} + x = (x+x)^R > x+x$. Por lo tanto tenemos que $x+x\le \frac{1}{2^k}$.
+
+        Ahora, veamos que $x+x\ge \frac{1}{2^k}$. Para esto tenemos que ver primero que $(\frac{1}{2^k})^L < x+x$, y esto se tiene ya que $(\frac{1}{2^k})^L = 0 < x = (x+x)^L < x+x$. Por \'ultimo, tenemos que ver que $(x+x)^R > \frac{1}{2^k}$, que es verdad ya que $(x+x)^R = \frac{1}{2^k} + x > \frac{1}{2^k}$. Por lo tanto tenemos que $x+x\ge \frac{1}{2^k}$, y m\'as a\'un, $x+x = \frac{1}{2^k}$.
+
+    \end{example}

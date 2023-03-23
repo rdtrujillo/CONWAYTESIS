@@ -92,7 +92,7 @@
         \[
             1^L \not\ge 0.
         \]
-        F\'ijese que en $1^L$ est\'a el elemento $0$, y efectivamente $0 = 1^L \ge 0$, por lo que tenemos que $0 < 1$.
+        F\'ijese que en $1^L$ est\'a el elemento $0$, y efectivamente $0 \equiv 1^L \ge 0$, por lo que tenemos que $0 < 1$.
 
         La demostraci\'on de que $(-1) < 0$ es an\'aloga, es la misma por la simetr\'ia de las definiciones.
     \end{example}
@@ -174,7 +174,7 @@
 
     Veamos la justificaci\'on de algunos de estos ejemplos
 
-    \begin{example}
+    \begin{example} \label{ExErasePar}
         Mostremos que $1\equiv \surr{0}{} = \surr{-1, 0}{}$. Notemos $x\equiv \surr{-1, 0}{}$, queremos mostrar que $1 \le x$ y que $x \le 1$. Para mostrar que $1\le x$ tenemos que mostrar que
         \[
             1 \not\ge x^R \text{ y } 1^L \not\ge x.
@@ -230,16 +230,34 @@
         Supongamos que $x\not\le y$. Esto quiere decir que, o existe $x^L \ge y$, o existe $y^R \le x$. Si existe $x^L \ge y$ tenemos que $y \le x^L < x$ y por transitividad $y < x$. En el otro caso, si existe $y^R \le x$ tenemos que $y < y^R \le x$ y por transitividad $y < x$.
     \end{proof}
 
-    Un problema se nos va a presentar de ahora en adelante cuando intentemos definir operaciones en n\'umeros surreales; tendremos que ver si estas operaciones son compatibles con la relaci\'on de equivalencia generada por la relaci\'on de orden.
+    F\'ijese que este corolario, combinado con la definici\'on de orden estricto, nos da la equivalencia 
+    \[
+        x < y\Leftrightarrow x \not\ge y.
+    \]
+    Otra conclusi\'on que podemos sacar de este corolario es que en los n\'umeros surreales se cumple la ley de la tricotom\'ia, esto es, si tenemos dos n\'umeros surreales $x,y$ se tiene que cumplir que $x < y$, $x = y$ o $x > y$, y se cumple solamente una de \'estas.
 
-    Incluso algo que nos podemos preguntar es si nuestra relaci\'on de orden es en `compatible' con nuestra definici\'on de n\'umero. Con esto me refiero a si puedo cambiar los elementos del $L$ y el $R$ por elementos iguales sin cambiar la clase de equivalencia del n\'umero, m\'as formalmente
+    Los n\'umeros surreales, entonces, se definen como clases de equivalencia de la relaci\'on $(=)$. Un problema natural que se nos va a presentar de ahora en adelante cuando intentemos definir operaciones en n\'umeros surreales es que debemos ver si estas operaciones son compatibles con la relaci\'on de equivalencia $(=)$.    
+
+    Incluso algo que nos podemos preguntar es si nuestra relaci\'on de orden es `compatible' con nuestra definici\'on de n\'umero surreal. M\'as precisamente, si cambiamos los elementos del $L$ y el $R$ por elementos iguales $(=)$, ¿Se cambia la clase de equivalencia del n\'umero?
+
+    Pongamos un ejemplo para ilustrar este problema. Tenemos que $0\equiv \surr{}{} = \surr{}{1}$. Como $1\equiv \surr{0}{}$ entonces, ¿Ser\'a que $1 = \surr{\surr{}{1}}{}$? Es decir, ¿Ser\'a que podemos cambiar el n\'umero $0$ por otro n\'umero que sea igual $(=)$ a $0$ sin cambiar el valor del n\'umero $1$?
+
+    \begin{definition}
+        Sean $X$ y $Y$ dos conjuntos de n\'umeros surreales. Se dice que $X=Y$ cuando para todo $x\in X$ existe un $y\in Y$ tal que $x=y$, y adem\'as, para todo $y'\in Y$ existe un $x'\in X$ tal que $y'=x'$.
+    \end{definition}
 
     \begin{theorem}
-        Sean $L,L',R, R'$ conjuntos de n\'umeros surreales tales que todos los elementos de $L$ son iguales que alg\'un elemento de $L'$, todos los elementos de $R$ son iguales que alg\'un elemento de $R'$, y viceversa. Adem\'as supongamos que $\surr{L}{R}$ y $\surr{L'}{R'}$ son n\'umeros surreales. Tenemos que $\surr{L}{R} = \surr{L'}{R'}$.
+        Sean $L,L',R, R'$ conjuntos de n\'umeros surreales tales que $L = L'$ y $R = R'$. Adem\'as, supongamos que $\surr{L}{R}$ es un n\'umero surreal. Luego, tenemos que $\surr{L'}{R'}$ es un n\'umeros surreal y $\surr{L}{R} = \surr{L'}{R'}$.
     \end{theorem}
 
     \begin{proof}
-        Mostremos que en efecto $\surr{L}{R} = \surr{L'}{R'}$. Para esto es suficiente mostrar que $\surr{L}{R} \le \surr{L'}{R'}$  puesto que la otra desigualdad se sigue por simetr\'ia.
+        Primero mostremos que $\surr{L'}{R'}$ es un n\'umero surreal, esto es, mostremos que para todo $r'\in R'$ y todo $l'\in L'$ se tiene que $r' \not\le l'$, o equivalentemente, $l' < r'$. Por la hip\'otesis, existen $l\in L$ y $r\in R$ tales que $l' = l$ y $r' = r$, adem\'as, como $\surr{L}{R}$ es un n\'umero surreal tenemos que $l < r$, con lo que tenemos las desigualdades
+        \[
+            l' = l < r = r',
+        \]
+        con lo que podemos concluir que $\surr{L'}{R'}$ es un n\'umero surreal.
 
-        Llamemos $x = \surr{L}{R}$ y $x' = \surr{L'}{R'}$. Tenemos que probar que $x^L < x'$ y $x < (x')^R$. Como existe en $L'$ un elemento $y$ tal que $x^L = y$, entonces tenemos que $x^L = y < x'$, por otro lado, en $R$ existe un elemento $z$ tal que $(x')^R = z$, por lo tanto tenemo que $x < z = (x')^R$, con lo que tendr\'iamos el resultado.
+        Ahora, mostremos que en efecto $\surr{L}{R} = \surr{L'}{R'}$. Para esto es suficiente mostrar que $\surr{L}{R} \le \surr{L'}{R'}$, la otra desigualdad se sigue por simetr\'ia.
+
+        Llamemos $x = \surr{L}{R}$ y $x' = \surr{L'}{R'}$. Tenemos que probar que $x^L < x'$ y $x < (x')^R$, luego fijemos $x^L\in X^L$ y $(x')^R\in (X')^R$. como $L = L'$, existe $y\in L'$ tal que $x^L = y$, entonces tenemos que $x^L = y < x'$. Por otro lado, como $R = R'$, existe $z\in R$ tal que $(x')^R = z$, por lo tanto tenemos que $x < z = (x')^R$, y como es para cualquier $x^L$ y $(x')^R$ tendr\'iamos que $\surr{L}{R} \le \surr{L'}{R'}$ y concluir\'iamos que $\surr{L}{R} = \surr{L'}{R'}$.
     \end{proof}
