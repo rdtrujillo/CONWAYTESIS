@@ -22,6 +22,79 @@
     \begin{definition}[Multiplicaci\'on]
         Sean $x, y$ dos n\'umeros surreales. Definimos la multiplicaci\'on de n\'umeros surreales como
         \[
-            xy = \{x^Ly+xy^L-x^Ly^L, x^Ry+xy^R-x^Ry^R| x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\}.
+            xy = \big\{x^Ly+xy^L-x^Ly^L, x^Ry+xy^R-x^Ry^R\big|x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\big\}.
         \]
     \end{definition}
+
+
+    \begin{example}
+        Para mostrar como funciona la definici\'on primero vamos a ver como funciona para los elementos m\'as sencillos, es decir, para $0$, para $1$ y para $-1$.
+
+        F\'ijese todos los ancestros de $xy$ est\'an hechos a partir de ancestros tanto de $x$ como de $y$, como $0$ no tiene ancestros entonces se cumple que $0x \equiv x0 \equiv \surr{}{} \equiv 0$, igual que en los n\'umeros naturales.
+        
+        Ahora, mostraremos que $1x \equiv x$. Procederemos por inducci\'on, tenemos que $1\cdot 0 \equiv 0$, por lo tanto para $0$ se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
+        \[
+            1x \equiv \surr{1^Lx + 1x^L - 1^Lx^L}{1^Lx + 1x^R - 1^Lx^R} \equiv \surr{1x^L}{1x^R} \equiv \surr{x^L}{x^R} \equiv x.
+        \]
+
+        Por ultimo, mostremos que $-1x \equiv -x$. Demostraremos este hecho por inducci\'on, para $0$ tenemos que $-1\cdot 0\equiv 0 \equiv -0$ por lo tanto se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
+        \begin{align*}
+            -1x & \equiv \surr{(-1)^Rx + (-1)x^R - (-1)^Rx^R}{(-1)^Rx + (-1)x^L - (-1)^Rx^L} \\
+             & \equiv \surr{(-1)x^R}{(-1)x^L} \equiv \surr{-x^R}{-x^L} \equiv -x.
+        \end{align*}
+    \end{example}
+
+    \begin{theorem}[Propiedades de la multiplicaci\'on]
+        Sean $x,y,z$ n\'umeros surreales. Se cumplen las siguientes propiedaddes que corresponden a la multiplicaci\'on
+        \begin{enumerate}[nosep]
+            \item $xy\equiv yx$,
+            \item $x(y+z) = xy + xz$,
+            \item $x(yz) = (xy)z$.
+        \end{enumerate}
+    \end{theorem}
+
+    \begin{proof}
+        En el ejemplo anterior se pueden ver que todas estas propiedades se cumplen en los casos bases, luego, en esta demostraci\'on solo nos vamos a concentrar en el paso inductivo.
+
+        \begin{enumerate}
+            \item Para la conmutatividad tenemos que 
+            \begin{align*}
+                xy & \equiv \surr{x^Ly+xy^L-x^Ly^L, x^Ry+xy^R-x^Ry^R}{\dots} &\text{(definici\'on)} \\
+                & \equiv \surr{yx^L+y^Lx-y^Lx^L, yx^R+y^Rx-y^Rx^R}{\dots} &\text{(h. de inducci\'on)} \\
+                & \equiv \surr{y^Lx+yx^L-y^Lx^L, y^Rx+yx^R-y^Rx^R}{\dots} &\text{(conmutatividad +)} \\
+                & \equiv yx.
+            \end{align*}
+            \item Para la propiedad distributiva sobre la suma concentremonos en los t\'erminos de $((x+y)z)^L$ que son de la forma $(x+y)^Lz + (x+y)z^L - (x+y)^Lz^L$, los dem\'as t\'erminos tendr\'an sus desarrollos an\'alogos. En este t\'ermino, el n\'umero $(x+y)^L$ puede ser de dos formas, puede ser o $x+y^L$ o $x^L+y$. Teniendo esto en cuenta tenemos que 
+            \begin{align*}
+                ((x+y)z) & \equiv \surr{(x+y)^Lz + (x+y)z^L - (x+y)^Lz^L, \dots}{\dots}\\
+                & \equiv \big\{(x+y^L)z + (x+y)z^L - (x+y^L)z^L, \\
+                & \quad\quad (x^L+y)z + (x+y)z^L - (x^L+y)z^L, \dots\;\big|\;\dots\big\} \\
+                & = \surr{xz+(y^Lz + yz^L - y^Lz^L), (x^Lz + xz^L - x^Lz^L) + yz}{}\\
+                & \equiv xz + yz.
+            \end{align*}
+            Aqu\'i no podemos reemplazar la igualdad $(=)$ por la equivalencia $(\equiv)$ puesto que estamos utilizando la propiedad $x + (-x) = 0$ para todo n\'umero surreal $x$. 
+            
+            Ya que se prob\'o la propiedad distributiva, tenemos que la definici\'on de multiplicaci\'on se puede reescribir como 
+            \begin{multline*}
+                xy = \big\{xy-(x-x^L)(y-y^L),xy-(x^R-x)(y^R-y)\;\big|\\
+                \break xy+(x-x^L)(y^R-y), xy+(x^R-x)(y-y^L)\big\},
+            \end{multline*}
+            que es m\'as expresiva, adem\'as, tambi\'en combinando con lo que probamos para el n\'umero $-1$, podemos ``distribuir'' los signos en las sumas.
+            \item Utilizando la definici\'on discutida en el punto anterior, podemos ver que la multiplicaci\'on de tres elementos es de la forma
+            \[
+                (xy)z = \surr{(xy)z - \left[(x-x^L)(y-y^L)\right] (z-z^L), \dots}{\dots},
+            \]
+            f\'ijese que el elemento de $L$ que tenemos escrito se puede escribir solamente en t\'erminos de ancestros de $x$, $y$, y $z$ de la forma
+            \[
+                (x^Ly)z + (xy^L)z + (xy)z^L - (x^Ly^L)z - (x^Ly)z^L - (xy^L)z^L + (x^Ly^L)z^L,
+            \]
+            y usando la hip\'otesis te inducci\'on tenemos que el t\'ermino es igual a
+            \[
+                x^L(yz) + x(y^Lz) + x(yz^L) - x^L(y^Lz) - x^L(yz^L) - x(y^Lz^L) + x^L(y^Lz^L)
+            \]
+            que reagrupandolo de la misma manera que lo desagrupamos arriba nos queda como 
+            \[
+                (xy)z = \surr{x(yz) - (x-x^L)\left[(y-y^L)(z-z^L)\right], \dots}{\dots} = x(yz).
+            \]
+        \end{enumerate}
+    \end{proof}
