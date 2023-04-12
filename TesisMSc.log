@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  23 MAR 2023 13:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  11 APR 2023 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -433,10 +433,11 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count301
 ) (Befehle.sty)
 \c@theorem=\count302
-\c@corollary=\count303
-\c@definition=\count304
+\c@lemma=\count303
+\c@corollary=\count304
+\c@definition=\count305
 )
-\c@example=\count305
+\c@example=\count306
  (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
@@ -461,16 +462,16 @@ LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
  (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count306
+\scratchcounter=\count307
 \scratchdimen=\dimen177
 \scratchbox=\box70
-\nofMPsegments=\count307
-\nofMParguments=\count308
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count309
+\MPscratchCnt=\count310
 \MPscratchDim=\dimen178
-\MPnumerator=\count310
-\makeMPintoPDFobject=\count311
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks40
 ) (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -777,33 +778,48 @@ LaTeX Info: Redefining \% on input line 238.
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
  [10]
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
- [11]
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
- [12]
-LaTeX Info: Redefining \. on input line 137.
-LaTeX Info: Redefining \% on input line 137.
- [13]
-LaTeX Info: Redefining \. on input line 168.
-LaTeX Info: Redefining \% on input line 168.
- [14]
-LaTeX Info: Redefining \. on input line 205.
-LaTeX Info: Redefining \% on input line 205.
- [15]) (Kap2/Multiplicacion.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
- [16]
 LaTeX Info: Redefining \. on input line 53.
 LaTeX Info: Redefining \% on input line 53.
+ [11]
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
+ [12]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [13]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+ [14]
+LaTeX Info: Redefining \. on input line 212.
+LaTeX Info: Redefining \% on input line 212.
+ [15]
+LaTeX Info: Redefining \. on input line 246.
+LaTeX Info: Redefining \% on input line 246.
+ [16]) (Kap2/Multiplicacion.tex
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
  [17]
-LaTeX Info: Redefining \. on input line 90.
-LaTeX Info: Redefining \% on input line 90.
- [18]))
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+ [18]
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+ [19]
+LaTeX Info: Redefining \. on input line 155.
+LaTeX Info: Redefining \% on input line 155.
+ [20]
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+ [21]
+LaTeX Info: Redefining \. on input line 234.
+LaTeX Info: Redefining \% on input line 234.
+ [22]
+LaTeX Info: Redefining \. on input line 274.
+LaTeX Info: Redefining \% on input line 274.
+ [23]))
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
- [19]
+ [24]
 \openout2 = `Kap3/Kap3.aux'.
 
  (Kap3/Kap3.tex
@@ -819,13 +835,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-LaTeX Warning: Citation `AG52' on page 20 undefined on input line 9.
+LaTeX Warning: Citation `AG52' on page 25 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG08a' on page 20 undefined on input line 9.
+LaTeX Warning: Citation `AG08a' on page 25 undefined on input line 9.
 
 
-LaTeX Warning: Citation `AG09a' on page 20 undefined on input line 9.
+LaTeX Warning: Citation `AG09a' on page 25 undefined on input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
@@ -837,7 +853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[20
+[25
 
 
 
@@ -852,22 +868,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<Kap3/FrutoSp.png, id=136, 391.7034pt x 274.1442pt>
+<Kap3/FrutoSp.png, id=152, 391.7034pt x 274.1442pt>
 File: Kap3/FrutoSp.png Graphic file (type png)
 <use Kap3/FrutoSp.png>
 Package pdftex.def Info: Kap3/FrutoSp.png  used on input line 22.
 (pdftex.def)             Requested size: 391.70244pt x 274.14351pt.
 
-LaTeX Warning: Citation `AG03p' on page 21 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 26 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 21 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 26 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG03p' on page 21 undefined on input line 23.
+LaTeX Warning: Citation `AG03p' on page 26 undefined on input line 23.
 
 
-LaTeX Warning: Citation `AG04p' on page 21 undefined on input line 23.
+LaTeX Warning: Citation `AG04p' on page 26 undefined on input line 23.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
@@ -886,7 +902,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
-[21]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -898,7 +914,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
-[22 <./Kap3/FrutoSp.png (PNG copy)>]
+[27 <./Kap3/FrutoSp.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -920,7 +936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--21
 
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
-[23]
+[28]
 \openout2 = `Kap4/Kap4.aux'.
 
  (Kap4/Kap4.tex
@@ -930,7 +946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--22
 
  []
 
-[24
+[29
 
 
 
@@ -945,7 +961,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--23
 
  []
 
-[25
+[30
 
 
 
@@ -965,7 +981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--24
 
  []
 
-[26
+[31
 
 
 
@@ -994,7 +1010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[27
+[32
 
 
 
@@ -1006,7 +1022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[28
+[33
 
 ]
 chapter C.
@@ -1030,12 +1046,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\OT1/cmr/m/n/12 American Psy-cho-lo-gi-cal As-so-cia-tion
  []
 
-[29
+[34
 
-])
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- [30] (TesisMSc.bbl) [31
+]) [35] (TesisMSc.bbl) [36
 
 
 
@@ -1051,17 +1064,17 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 9177 strings out of 476374
- 180769 string characters out of 5788854
+ 9192 strings out of 476374
+ 180963 string characters out of 5788854
  1874340 words of memory out of 5000000
- 29333 multiletter control sequences out of 15000+600000
+ 29348 multiletter control sequences out of 15000+600000
  521684 words of font info for 64 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 113i,18n,109p,10675b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,18n,109p,10675b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TesisMSc.pdf (46 pages, 415308 bytes).
+Output written on TesisMSc.pdf (51 pages, 438153 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

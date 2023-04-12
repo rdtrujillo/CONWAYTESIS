@@ -2,22 +2,22 @@
     
     La definici\'on de la multiplicaci\'on es mucho m\'as compleja que la definici\'on de la suma. Queremos, igual que en las anteriores definiciones, hacer una definici\'on recursiva a partir de las multiplicaciones de ancestros, y adem\'as, queremos que se respete el orden de los conjuntos $L$ y $R$.
 
-    Una forma de motivarlo es pensar en las propiedades de la multiplicaci\'on real con respecto al orden, la m\'as importante es que la multiplicaci\'on de n\'umeros positivos es positiva. Si pensamos en dos n\'umeros surreales $x,y$, tenemos los n\'umeros positivos
+    Una forma de motivarlo es pensar en las propiedades de la multiplicaci\'on real con respecto al orden, siendo la m\'as importante que la multiplicaci\'on de n\'umeros positivos es positiva. Si pensamos en dos n\'umeros surreales $x,y$, tenemos los n\'umeros positivos
     \begin{align*}
         (x-x^L) > 0, \quad & (x^R-x)>0, \\
         (y-y^L) > 0, \quad & (y^R-y)>0.
     \end{align*}
 
-    Si multiplicamos cada uno de los que corresponden a $x$ con cada uno de los que corresponden a $y$ tendremos $4$ n\'umeros positivos, tomemos como ejemplo dos de ellos, los
+    Si multiplicamos cada uno de los que corresponden a $x$ con cada uno de los que corresponden a $y$ tendremos $4$ n\'umeros positivos; tomemos como ejemplo dos de ellos, los productos
     \begin{align*}
         (x-x^L)(y-y^L) &= xy + x^Ly^L - xy^L - x^Ly > 0,\\
         (x-x^L)(y^R-y) &= -xy -x^Ly^R + xy^R + x^Ly > 0,
     \end{align*}
     con los que podemos generar las desigualdades
     \[
-        - x^Ly^L + xy^L + x^Ly < xy < -x^Ly^R + xy^R + x^Ly,
+        - x^Ly^L + xy^L + x^Ly < xy < -x^Ly^R + xy^R + x^Ly.
     \]
-    si hacemos lo mismo con las otras dos posibles multiplicaciones tenemos la definici\'on
+    Si hacemos lo mismo con las otras dos posibles multiplicaciones obtenemos la definici\'on
 
     \begin{definition}[Multiplicaci\'on]
         Sean $x, y$ dos n\'umeros surreales. Definimos la multiplicaci\'on de n\'umeros surreales como
@@ -26,11 +26,12 @@
         \]
     \end{definition}
 
+    Igualmente que en la suma, usaremos las propiedades que tiene esta multiplicaci\'on con el orden para mostrar que efectivamente el producto de dos n\'umeros surreales genera un n\'umero surreal.
 
     \begin{example}
         Para mostrar como funciona la definici\'on primero vamos a ver como funciona para los elementos m\'as sencillos, es decir, para $0$, para $1$ y para $-1$.
 
-        F\'ijese todos los ancestros de $xy$ est\'an hechos a partir de ancestros tanto de $x$ como de $y$, como $0$ no tiene ancestros entonces se cumple que $0x \equiv x0 \equiv \surr{}{} \equiv 0$, igual que en los n\'umeros naturales.
+        F\'ijese que todos los ancestros de $xy$ est\'an hechos a partir de ancestros tanto de $x$ como de $y$, por lo tanto, como $0$ no tiene ancestros entonces se cumple que $0x \equiv x0 \equiv \surr{}{} \equiv 0$, que es lo mismo que pasa en los n\'umeros naturales.
         
         Ahora, mostraremos que $1x \equiv x$. Procederemos por inducci\'on, tenemos que $1\cdot 0 \equiv 0$, por lo tanto para $0$ se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
         \[
@@ -98,3 +99,181 @@
             \]
         \end{enumerate}
     \end{proof}
+
+    \begin{example}
+        Otra forma de mostrar lo que mostramos en el ejemplo \ref{Ex_num_diadicos} es multiplicando por $\frac{1}{2}$; como sabemos que $\frac{1}{2}+\frac{1}{2} = 1$ entonces podemos multiplicar $\frac{1}{2^k}$ a ambos lados de la ecuaci\'on y utilizar la propiedad distributiva para obtener lo que demostramos en ese ejemplo.
+
+        Lo que entonces queremos ver es la forma surreal de las potencias de $\frac{1}{2}$. Veamoslo para la primera potencia, esto es
+        \[
+            \frac{1}{2}\cdot\frac{1}{2} \equiv \surr{0\cdot\frac{1}{2} + \frac{1}{2}\cdot 0 - 0\cdot 0, 1\cdot \frac{1}{2} +\frac{1}{2}\cdot 1 - 1\cdot 1}{0\cdot \frac{1}{2} + 1\cdot \frac{1}{2} - 0\cdot 1} \equiv \surr{0}{\frac{1}{2}},
+        \]
+        por lo tanto tiene sentido llamar $\frac{1}{4}\equiv \surr{0}{\frac{1}{2}}$.
+
+        Ahora veamos que el mismo argumento funciona para las siguientes potencias. Multipliquemos $\frac{1}{2^k}\cdot \frac{1}{2}$, tenemos que 
+        \[
+            \frac{1}{2^k}\cdot \frac{1}{2} \equiv \surr{0}{\frac{1}{2^{k-1}}}\surr{0}{1} \equiv \surr{0, \frac{1}{2^{k}} + \frac{1}{2^{k}} - \frac{1}{2^{k-1}}}{\frac{1}{2^{k}}}\equiv \surr{0}{\frac{1}{2^{k}}}\equiv \frac{1}{2^{k+1}},
+        \]
+        por lo tanto, se cumple que $\frac{1}{2^k}\cdot \frac{1}{2} = \frac{1}{2^{k+1}}$ y tenemos una demostraci\'on m\'as de lo propuesto en el ejemplo \ref{Ex_num_diadicos}.
+    \end{example}
+
+    Para hablar de la multiplicaci\'on sin ning\'un problema, tenemos que, igual que en la suma, mostrar que la multiplicaci\'on es compatible con la relaci\'on de equivalencia de la igualdad $(=)$, para esto, tendremos que probar las propiedades que tiene la multiplicaci\'on con el orden. La propiedad m\'as importante es que la multiplicaci\'on de dos n\'umeros positivos es positiva, de esta se pueden deducir las dem\'as. Para probar esta primero tendremos que probar un lema.
+
+    \begin{lemma}
+        \label{normalize_positive_number}
+        Sea $x$ un n\'umero surreal tal que $x > 0$. Existen $L$ y $R$ conjuntos de n\'umeros surreales que cumplen que $0\in L$, para todo $l\in L$ se tiene que $l \ge 0$ y adem\'as $x = \surr{L}{R}$.
+    \end{lemma}
+
+    \begin{proof}
+        Si tenemos que $x > 0$ esto significa que existe $x^L\in X^L$ tal que $x^L \ge 0$, por lo tanto, teniendo en cuenta lo discutido en el ejemplo \ref*{ExErasePar} tendremos que $x = \surr{X^L\cup \{0\}}{X^R} \equiv x'$. Ahora, como $0\in (X')^L$, entonces se pueden quitar todos los elementos de este conjunto que sean menores estrictos $(<)$ a $0$ y va a quedar el n\'umero con el mismo valor, es decir, $x = x' = \surr{(X^L\cup \{0\})\setminus\{l\in X^L\;|\;l < 0\}}{X^R}$, con lo que demostramos el lema.
+
+    \end{proof}
+
+    \begin{theorem}
+        Sea $x,y$ n\'umeros surreales tales que $x,y > 0$. Tenemos entonces que $xy>0$.
+    \end{theorem}
+
+    \begin{proof}
+        Por el lema anterior, podemos suponer sin p\'erdida de generalidad que $0\in X^L\cap Y^L$. Si verificamos el elemento de $(XY)^L$ generado por los ceros que est\'an en los respectivos conjuntos $L$'s de $x$ y $y$, tenemos que en $(XY)^L$ est\'a el elemento
+        \[
+            0y + x0 - 0\cdot 0 = 0,
+        \]
+        por lo tanto, tenemos que $0 = (xy)^L < xy$, es decir, $xy > 0$.
+    \end{proof}
+
+    F\'ijese que esta desigualdad es estricta, por lo tanto falta ver qu\'e pasa cuando alguno de los n\'umeros es igual a $0$.
+    
+    \begin{theorem}
+        Sean $x,y$ n\'umeros surreales tales que $x = 0$. Tenemos que $xy= 0$.
+    \end{theorem}
+
+    \begin{proof}
+        Vamos a mostrar esta proposici\'on por inducci\'on. Supongamos que la proposici\'on es verdad para todos los ancestros de $y$, luego veamos que pasa con el producto de $xy$
+        \begin{align*}
+            xy & \equiv \surr{x^Ly + xy^L - x^Ly^L, \dots}{\dots} & \\
+                & = \surr{x^Ly - x^Ly^L,\dots}{\dots} & \text{(h. de inducci\'on)}\\
+                & \equiv \surr{x^L(y-y^L),\dots}{\dots},
+        \end{align*}
+        f\'ijese que $x^L < x = 0$, por lo tanto, $-x^L > 0$, y por otro lado, como $y > y^L$ entonces $y - y^L > 0$, lo que quiere decir, por el teorema anterior, que $-(y-y^L)x^L > 0$, que equivale a $(y-y^L)x^L < 0$.
+
+        Si hacemos el mismo procedimiento para todos los elementos de la multiplicaci\'on, entonces al final podemos concluir que $(xy)^L < 0$ y $(xy)^R > 0$, lo que implica, por lo discutido en el \ref*{Ex_equaltozero}, que $xy = 0$.
+    \end{proof}
+
+    \begin{corollary}[Compatibilidad con $=$]
+        Sea $x,x',y$ n\'umeros surreales tal que $x = x'$. Tenemos que $xy = x'y$. 
+    \end{corollary}
+
+    \begin{proof}
+        Tenemos que $(x-x') = 0$, luego $(x-x')y = 0$ y esto implica que $xy = x'y$.
+    \end{proof}
+
+    \begin{corollary}[Buena definici\'on de la multiplicaci\'on]
+        Sean $x, y$ n\'umeros surreales, entonces $xy$ es un n\'umero surreal.
+    \end{corollary}
+
+    \begin{proof}
+        Si tomamos la definici\'on de multiplicaci\'on
+        \begin{multline*}
+            xy = \big\{xy-(x-x^L)(y-y^L),xy-(x^R-x)(y^R-y)\;\big|\\
+            \break xy+(x-x^L)(y^R-y), xy+(x^R-x)(y-y^L)\big\},
+        \end{multline*}
+        entonces podemos ver que $(xy)^L < xy < (xy)^R$, puesto que estamos restando y sumando n\'umeros positivos respectivamente, lo que significa que en efecto $xy$ es un n\'umero surreal.
+    \end{proof}
+
+    \begin{corollary}
+        Los n\'umeros surreales son un anillo ordenado.
+    \end{corollary}
+
+    La promesa que hicimos al principio de este cap\'itulo es que los n\'umeros surreales son un cuerpo ordenado, lo que falta entonces para ser un cuerpo ordenado es la existencia de los inversos multiplicativos.
+
+    Los ejemplos que hemos dado de n\'umeros surreales han ca\'ido todos, hasta ahora, en los racionales di\'adicos. Si bien en estos existen todos los inversos de todas las potencias de $2$, estos no son cerrados para inversos, el $3$ es un ejemplo de un racional di\'adico cuyo inverso no lo es.
+
+    \begin{example}[El inverso de 3]
+        \label{inverse_3}
+        Considere la serie dada por
+        \[
+            \frac{1}{2}-\frac{1}{4}+\frac{1}{8}-\cdots = \sum_{n=1}^{\infty} (-1)^{n+1}\left(\frac{1}{2}\right)^n = \frac{1}{3},
+        \]
+        que se puede evaluar teniendo en cuenta que es una serie geom\'etrica. Como es una serie alternante, tenemos que las sumas parciales pares son menores a $\frac{1}{3}$ y las sumas parciales impares son mayores a $\frac{1}{3}$. Considere entonces el n\'umero surreal
+        \[
+            x\equiv \surr{s_{2n-1}}{s_{2n}},\text{ para $n$ natural con } s_n = \sum_{k=1}^{n} (-1)^{k+1}\left(\frac{1}{2}\right)^k.
+        \]
+        Nuestra hip\'otesis, que debemos probar, es que efectivamente $x = \frac{1}{3}$. Para probar esto vamos a probar que $3x-1 = 0$. Como $3\equiv \surr{2}{}$ entonces tenemos que 
+        \[
+            3x-1 = \surr{2x+s_{2n-1}-1}{2x+s_{2n}-1, 3x},
+        \]
+        lo \'unico que tenemos que probar para mostrar que $3x-1 = 0$ es que $(3x-1)^L < 0$ y $(3x-1)^R > 0$, y como $3x > 0$, esto se traduce en 
+        \[
+            x < \frac{1-s_{2n-1}}{2},\quad x > \frac{1-s_{2n}}{2}, 
+        \]
+        pero f\'ijese que $\frac{1-s_{n}}{2} = s_{n+1},$ entonces las condiciones que ten\'iamos se vuelven
+        \[
+            x < s_{2n},\quad x > s_{2n+1},
+        \]
+        que son verdaderas por la definici\'on puesto que $s_{2n+1} = x^L < x < x^R = s_{2n}$, lo que significa entonces que $3x-1 = 0$, por lo tanto se puede decir que $x = \frac{1}{3}$.
+    \end{example}
+
+    En la introducci\'on hablamos de c\'omo los n\'umeros surreales son m\'as grandes que los n\'umeros reales pero hasta ahora no hemos mostrado un n\'umero surreal que no sea tambi\'en un n\'umero real, mostremos entonces un par de ejemplos y c\'omo operarlos.
+
+    \begin{example}[Infinitos e infinitesimales]
+        Consideremos el n\'umero surreal
+        \[
+            \omega \equiv \surr{0,1,2,\dots}{}
+        \]
+        donde $\omega^L$ consiste de todos los n\'umeros naturales, y consideremos el n\'umero surreal
+        \[
+            \varepsilon \equiv \surr{0}{\frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \dots}
+        \]
+        donde $\varepsilon^R$ consiste de todas las potencias de $\frac{1}{2}$. Queremos ver qu\'e pasa cuando multiplicamos estos dos n\'umeros, tenemos que 
+        \[
+            \omega\epsilon \equiv \surr{0,n\epsilon}{\frac{\omega}{2^m} + n\epsilon - \frac{n}{2^m}} = \surr{0,n\epsilon}{\frac{\omega - n}{2^m} + n\epsilon},\quad\text{para todo $n,m$ natural}.
+        \]
+        De la definici\'on $\omega\epsilon  > 0$. Veamos m\'as de cerca los ancestros de $\omega\epsilon$. Tenemos que $\epsilon < \frac{1}{2^k}$ para todo $k$ natural, luego tenemos que $2^k\epsilon < 1$ y como las potencias de $2$ crecen hasta el infinito entonces tenemos que $n\epsilon < 1$ para todo $n$ natural, por lo tanto $(\omega\epsilon)^L < 1$.
+
+        Ahora veamos los del conjunto $R$. Tenemos que $\omega > k$ para todo $k$ natural. Por lo tanto, tenemos que $n + 2^m < \omega$ para todo $n,m$ natural, lo que implica que $1 < \frac{\omega - n}{2^m} < \frac{\omega - n}{2^m} + n\epsilon$, por lo tanto tenemos que $(\omega\epsilon)^R > 1$.
+        
+        Con esto en mente, podemos conjeturar que $\omega\epsilon = 1$ y para probar esto tomemos
+        \[
+            \omega\epsilon - 1 = \surr{(\omega\epsilon)^L - 1}{(\omega\epsilon)^R - 1, \omega\epsilon},
+        \]
+        del que podemos concluir que $(\omega\epsilon - 1)^L < 0$ y $(\omega\epsilon - 1)^R > 0$, por lo tanto, $\omega\epsilon - 1 = 0$, con lo que podemos decir adem\'as que $\epsilon = \frac{1}{\omega}$.
+    \end{example}
+
+    Lo \'unico que le falta a los n\'umeros surreales para que sean un cuerpo ordenado es la definici\'on de inverso multiplicativo. Si bien ya lo hicimos con un par de ejemplos, necesitamos definirlo para todos los n\'umeros surreales.
+
+    \begin{definition}[Inversos multiplicativos]
+        Sea $x > 0$ un n\'umero surreal con la forma del lema \ref{normalize_positive_number}, es decir, $x^L \ge 0$ y $0\in X^L$. Vamos a definir el n\'umero $y$ de la forma
+        \[
+            y \equiv \surr{0, \frac{1+(x^R-x)y^L}{x^R}, \frac{1+(x^L-x)y^R}{x^L}}{\frac{1+(x^L-x)y^L}{x^L}, \frac{1+(x^R-x)y^R}{x^R}},
+        \]
+        lo llamaremos el inverso multiplicativo de $x$ y luego mostraremos que en efecto se tiene que $yx=1$. Tenemos ac\'a que el n\'umero $y$ se define con respecto a los ancestros del mismo $y$, en este caso se refiere a que los ancestros se crean a partir de los ancestros que ya conoc\'iamos, empezando desde $0$ que siempre es elemento de $y^L$.
+    \end{definition}
+
+    \begin{example}
+        Vamos a demostrar c\'omo funcionar\'ia la definici\'on en concreto con el ejemplo del $x = 3 = \surr{0,2}{}$. Vamos a llamar $y_n$ a los distintos pasos de la definici\'on recursiva de inverso multiplicativo. Esto es, $y_0 \equiv \surr{0}{}$, y 
+        \[
+            y_{n+1} \equiv \surr{y_n^L, \frac{1+(x^R-x)y_n^L}{x^R}, \frac{1+(x^L-x)y_n^R}{x^L}}{y_n^R, \frac{1+(x^L-x)y_n^L}{x^L}, \frac{1+(x^R-x)y_n^R}{x^R}},
+        \]
+        con lo que tenemos que $y = \surr{\cup_n Y_n^L}{\cup_n Y_n^R}$. 
+        
+        Veamos entonces los pasos de la recursi\'on. Tenemos que $x = 3 = \surr{0,2}{}$, por lo tanto nuestra f\'ormula recursiva se transformar\'ia en 
+        \[
+            y_{n+1} \equiv \surr{y_n^L, \frac{1-y_n^R}{2}}{y_n^R, \frac{1-y_n^L}{2}},
+        \]
+        con lo que tendr\'iamos que el inverso multiplicativo de $3$ estar\'ia definido como
+        \[
+            y \equiv \surr{0,\frac{1}{4}, \frac{5}{16}, \dots}{\frac{1}{2}, \frac{3}{8}, \frac{11}{32},\dots},
+        \]
+        f\'ijese que este n\'umero es el mismo que encontramos en el ejemplo \ref{inverse_3} y que adem\'as la f\'ormula recursiva que sacamos en este ejemplo es la misma que llamabamos all\'a como 
+        \[
+            s_{n+1} = \frac{1-s_{n}}{2}.
+        \]
+    \end{example}
+
+    \begin{theorem}[Propiedades del inverso multiplicativo]
+        Sea $x$ un n\'umero surreal y sea $y$ el n\'umero definido como el inverso multiplicativo. Tenemos entonces que
+        \begin{enumerate}[nosep]
+            \item $xy\equiv yx$,
+            \item $x(y+z) = xy + xz$,
+            \item $x(yz) = (xy)z$.
+        \end{enumerate}
+    \end{theorem}

@@ -10,6 +10,8 @@
         Esta definici\'on hace que la suma sea autom\'aticamente conmutativa ya que es lo mismo en definici\'on hacer $x+y$ que $y+x$.
     \end{definition}
 
+    Una cosa que no queda muy clara con la definici\'on de suma es si la suma de dos n\'umeros surreales genera un nuevo n\'umero surreal, esto es, si dados $x,y$ n\'umeros surreales, los elementos del conjunto $(X+Y)^L$ son todos menores a los elementos del conjunto $(X+Y)^R$. Este tema lo volveremos a tocar cuando demostremos las propiedades que tiene la suma con respecto al orden de n\'umeros surreales $(\le)$.
+
     Como todas las definiciones recursivas que hemos hecho, la suma se define eventualmente en base al número $0$, por eso es bueno ver qué pasa cuando se suma $0$.
 
     \begin{example}
@@ -174,6 +176,20 @@
     \end{corollary}
 
     Este corolario nos dice que la suma es compatible con la relaci\'on de equivalencia $(=)$, por lo tanto, podemos concluir que los n\'umeros surreales (definidos como clases de equivalencia) son un grupo conmutativo con la operaci\'on de suma $(+)$. En lo que sigue de la secci\'on podemos usar exclusivamente el s\'imbolo $(=)$.
+
+    Otra consecuencia de este teorema es que la suma de dos n\'umeros surreales es de nuevo otro n\'umero surreal.
+
+    \begin{corollary}
+        Sean $x, y$ n\'umeros surreales. Entonces $x + y$ es un n\'umero surreal.
+    \end{corollary}
+
+    \begin{proof}
+        Considere las desigualdades $x^L < x < x^R$ y $y^L < y < y^R$, y sume en estas desigualdades los n\'umeros $x$ y $y$ para obtener
+        \[
+            x^L + y, x + y^L < x+y < x^R + y, x + y^R,
+        \]
+        y por transitividad se tiene que $(x+y)^L < (x+y)^R$, por lo tanto, si usamos inducci\'on para suponer que los ancestros de $x+y$ son n\'umeros surreales, tendremos que $x+y$ es tambi\'en n\'umero surreal.
+    \end{proof}
     
     Algo que ya podemos hacer es intentar ponerle nombre a todos los n\'umeros que podemos crear con sumas de los n\'umeros que ya conocemos, es decir, podemos saber cu\'ales ser\'ian los n\'umeros naturales en el conjunto de los n\'umeros surreales.
 
@@ -207,6 +223,7 @@
     \end{example}
 
     \begin{example}[N\'umeros di\'adicos]
+        \label{Ex_num_diadicos}
         Los n\'umeros racionales di\'adicos son aquellos de la forma $\frac{n}{2^k}$ con $n, k$ enteros y $k \ge 0$. Con lo que hemos estudiado, ya podemos encontrar estos n\'umeros en los n\'umeros surreales.
 
         Para encontrarlos es suficiente encontrar aquellos de la forma $\frac{1}{2^k}$ puesto que los dem\'as ser\'an sumas de estos, o de sus inversos aditivos.
