@@ -12,7 +12,7 @@
 
     Una cosa que no queda muy clara con la definici\'on de suma es si la suma de dos n\'umeros surreales genera un nuevo n\'umero surreal, esto es, si dados $x,y$ n\'umeros surreales, los elementos del conjunto $(X+Y)^L$ son todos menores a los elementos del conjunto $(X+Y)^R$. Este tema lo volveremos a tocar cuando demostremos las propiedades que tiene la suma con respecto al orden de n\'umeros surreales $(\le)$.
 
-    Como todas las definiciones recursivas que hemos hecho, la suma se define eventualmente en base al número $0$, por eso es bueno ver qué pasa cuando se suma $0$.
+    Como todas las definiciones recursivas que hemos hecho, la suma se define eventualmente con base en el número $0$, por eso es bueno ver qué pasa cuando se suma $0+0$.
 
     \begin{example}
         ¿Qué pasa cuando se suma $0+0$? Sabemos que $0 \equiv \surr{}{}$, por lo tanto, no existe ni $0^L$ ni $0^R$. Lo que tendremos entonces es
@@ -23,7 +23,7 @@
     \end{example}
 
     \begin{example}
-        Más aún, si el $0$ de los números surreales se parece al $0$ de los números reales entonces tendríamos que el $0$ es módulo de la suma, esto es, $x+0 \equiv x$ para todo $x$ n\'umero surreal.
+        Más aún, si el $0$ de los números surreales \textit{``se parece''} al $0$ de los números reales entonces tendríamos que el $0$ es módulo de la suma, esto es, $x+0 \equiv x$ para todo $x$ n\'umero surreal.
 
         Mostremos esto por inducci\'on. Nuestro caso base es cuando $x \equiv 0$, es decir $0+0$ y ya probamos que $0+0\equiv 0\equiv x$ luego en el caso base se cumple.
 
@@ -52,7 +52,7 @@
         por lo tanto, llamamos $2$ al n\'umero surreal $\surr{1}{}$. Un an\'alisis similar se puede hacer para decir que $(-1)+(-1) \equiv \surr{}{-1}$, por lo tanto $-2 \equiv \surr{}{-1}$.
     \end{example}
 
-    Tanto en estos ejemplos como en la definici\'on hemos estado usando el s\'imbolo $(\equiv)$ para denotar que la igualdad es de conjuntos. Nuestro objetivo en esta secci\'on, adem\'as de mostrar las propiedades t\'ipicas de la suma, es mostrar que esta suma es en efecto compatible con la relaci\'on de equivalencia $(=)$. En cierto sentido, queremos poder reemplazar el s\'imbolo $(\equiv)$ por el s\'imbolo $(=)$ asegurandonos que aquello no nos trae ning\'un problema.
+    Tanto en estos ejemplos como en la definici\'on hemos estado usando el s\'imbolo $(\equiv)$ para denotar la igualdad entre conjuntos. Nuestro objetivo en esta secci\'on, adem\'as de mostrar las propiedades t\'ipicas de la suma, es mostrar que esta suma es en efecto compatible con la relaci\'on de equivalencia $(=)$. En cierto sentido, queremos poder reemplazar el s\'imbolo $(\equiv)$ por el s\'imbolo $(=)$ asegur\'andonos que aquello no trae ning\'un problema.
 
     La operaci\'on de suma en los n\'umeros reales genera un grupo conmutativo, en nuestro caso queremos mostrar lo mismo para los n\'umeros surreales. Ya hemos mostrado que la suma es conmutativa y que adem\'as tiene un m\'odulo, lo que nos falta para mostrar que la suma en los n\'umeros surreales genera un grupo conmutativo es mostrar que todos los elementos tienen inversos aditivos y adem\'as que la suma es asociativa.
 
@@ -79,16 +79,16 @@
 
         Tenemos que
         \begin{align*}
-            (x+y)+z & \equiv \surr{(x+y)^L+z, (x+y)+z^L}{\dots} & \text{(definici\'on)} \\
-                    & \equiv \surr{(x^L+y)+z, (x+y^L)+z, (x+y)+z^L}{\dots} & \text{(definici\'on)}  \\
+            (x+y)+z & \equiv \surr{(x+y)^L+z, (x+y)+z^L}{\dots} & \\
+                    & \equiv \surr{(x^L+y)+z, (x+y^L)+z, (x+y)+z^L}{\dots} & \\
                     & \equiv \surr{x^L+(y+z), x+(y^L+z), x+(y+z^L)}{\dots} & \text{(h. de inducci\'on)}  \\
-                    & \equiv \surr{x^L+(y+z), x+(y+z)^L}{\dots} & \text{(definici\'on)}  \\
-                    & \equiv x+(y+z). & \text{(definici\'on)}
+                    & \equiv \surr{x^L+(y+z), x+(y+z)^L}{\dots} & \\
+                    & \equiv x+(y+z). & 
         \end{align*}
-        La demostraci\'on para el conjunto $R$ se hace de la misma manera.
+        La demostraci\'on para el conjunto $R$ se hace de la misma manera, est\'a indicado con los puntos suspensivos.
     \end{proof}
 
-    Los inversos aditivos se definen tambi\'en recursivamente con base a los inversos aditivos de los ancestros del n\'umero.
+    Los inversos aditivos se definen tambi\'en recursivamente con base en los inversos aditivos de los ancestros del n\'umero.
 
     \begin{definition}[Inversos aditivos]
         Sea $x$ un n\'umero surreal. Definimos su inverso aditivo como
@@ -98,7 +98,7 @@
     \end{definition}
 
     \begin{example}
-        Veamos los inversos de los n\'umeros que ya nombramos. Por un lado tenemos que
+        Veamos los inversos de algunos de los n\'umeros que ya nombramos. Por un lado tenemos que
         \[
             (-0) \equiv \surr{-(0^R)}{-(0^L)} \equiv \surr{}{} \equiv 0,
         \]
@@ -133,9 +133,9 @@
     \end{proof}
 
 
-    F\'ijese que en los ejemplos tenemos que $1+(-1) = 0$ pero $1+(-1)\not\equiv 0$ ya que $0\equiv \surr{}{}$ mientras que $1+(-1)\equiv \surr{-1}{1}$. En este sentido, a\'un no hemos mostrado que la suma genera un grupo conmutativo sobre los n\'umeros surreales ya que, aunque ya mostramos las propiedades para las clases de equivalencia de la relaci\'on $(=)$, no hemos mostrado que la suma es compatible con la relaci\'on $(=)$.
+    F\'ijese que en los ejemplos tenemos que $1+(-1) = 0$ pero $1+(-1)\not\equiv 0$ ya que $0\equiv \surr{}{}$ mientras que $1+(-1)\equiv \surr{-1}{1}$. En este sentido, a\'un no hemos mostrado que la suma genera un grupo conmutativo sobre los n\'umeros surreales ya que, aunque ya tenemos las propiedades para las clases de equivalencia de la relaci\'on $(=)$, no hemos mostrado que la suma es compatible con la relaci\'on $(=)$.
     
-    ¿Qué significa que la suma sea compatible con la relaci\'on $(=)$? Queremos mostrar que si $x = x'$ entonces $x+y = x'+y$ para todo n\'umero surreal $y$, de modo que no importa cual representante de la clase de equivalencia se utilice en las suma, el resultado siempre va a ser igual ($=$). Para hacer esto vamos a primero probarlo para la relaci\'on de orden $(\le)$ ya que si lo mostramos para la relaci\'on de orden entonces lo tendremos tambi\'en para la relaci\'on de equivalencia $(=)$.
+    ¿Qué significa que la suma sea compatible con la relaci\'on $(=)$? Queremos mostrar que si $x = x'$ entonces $x+y = x'+y$ para todo n\'umero surreal $y$, de modo que no importa cual representante de la clase de equivalencia se utilice en las suma, el resultado siempre va a ser igual ($=$). Primero probaremos esto para la relaci\'on de orden $(\le)$ lo que implica que tambi\'en se tiene para la relaci\'on de equivalencia $(=)$.
 
     \begin{theorem}[Cancelaci\'on]
         Sean $x,y, z$ n\'umeros surreales. Si tenemos que $x+y < x+z$ entonces $y < z$ y si tenemos que $x+y\le x+z$ entonces $y\le z$.
@@ -146,7 +146,7 @@
 
         El caso base de nuestra inducci\'on es cuando $x\equiv y \equiv z \equiv 0$. En este caso nuestra propiedad es verdadera por las propiedades del n\'umero $0$.
 
-        Ahora, supongamos por inducci\'on quiere las propiedades se cumplen para todas las triplas que contienen al menos un ancestro de $x,y,z$, probemos entonces que la propiedad se cumple para $x,y,z$.
+        Ahora, supongamos por inducci\'on que las propiedades se cumplen para todas las triplas que contienen al menos un ancestro de $x,y,z$, probemos entonces que la propiedad se cumple para $x,y,z$.
 
         Primero supongamos que $x+y\le x+z$. Con esta desigualdad podemos obtener las dos desigualdades
         \begin{align*}
@@ -203,11 +203,11 @@
         \[
             n+2 = (n+1)+1 = \surr{n}{} + \surr{0}{} = \surr{(n+1)+0, n+1}{} = \surr{n+1}{0}.
         \]
-        Si tomamos en cuenta los n\'umeros negativos tendremos que $-n-1 = \surr{}{-n}$, y con esto, sabremos completamente la estructura de los n\'umeros enteros en los n\'umeros surreales.
+        Si tomamos en cuenta los n\'umeros negativos tendremos que $-n-1 = \surr{}{-n}$, por ejemplo, $-2=\surr{}{-1}$. Con esto podemos entender completamente la estructura de los n\'umeros enteros en los n\'umeros surreales.
     \end{example}
 
     \begin{example}
-        De los n\'umeros que se crearon en la secci\'on anterior que se pod\'ian crear con los n\'umeros $0$ y $1$, hay unos cuantos a los cuales no les pusimos nombre.
+        De los n\'umeros que se crearon en la secci\'on anterior a partir del $0$ y el $1$, hay unos cuantos a los cuales no les pusimos nombre.
 
         En espec\'ifico, vamos a intentar nombrar al n\'umero $x = \surr{0}{1}$. Lo que sabemos de este n\'umero es que $0 < x = \surr{0}{1} < 1$, entonces definitivamente no es un n\'umero entero. Si sumamos a si mismo dos veces tendremos que
         \[
@@ -215,24 +215,24 @@
         \]
         f\'ijese que si sumamos $1$ a la desigualdad anterior obtenemos $1 < x+1 < 2$ por lo tanto puede ser interesante comparar $x+x$ con $1$. Veamos que $1 \le x+x$, esto es equivalente a ver que $(x+x)^R > 1$ y $1^L < (x+x)$, y en efecto, $(x+x)^R = x+1 > 1$ y $1^L = 0 < x = (x+x)^L < x+x$, luego $1 \le x+x$. Tambi\'en tenemos que $x+x \le 1$, esto es equivalente a decir que $(x+x)^L < 1$ puesto que $1^R$ es vac\'io, y tambi\'en se cumple ya que $(x+x)^L = x < 1$. Concluimos que $x+x = 1$ por lo tanto $x$ se lleva el nombre de $\frac{1}{2}$.
 
-        F\'ijese que ya podemos representar todos los m\'ultiplos enteros de $\frac{1}{2}$, los multiplos pares son enteros y para los m\'ultiplos impares tenemos que 
+        N\'otese que ya podemos representar todos los m\'ultiplos enteros de $\frac{1}{2}$, los multiplos pares son enteros y para los m\'ultiplos impares tenemos que 
         \[
             \frac{2n+1}{2} = n+\frac{1}{2} = \surr{n-1}{} + \surr{0}{1} = \surr{n-\frac{1}{2}, n}{n+1},
         \]
-        f\'ijese que $n-\frac{1}{2} < n$ y por lo discutido en el ejemplo \ref{ExErasePar} tendremos que $n+\frac{1}{2} = \surr{n}{n+1}$.
+        as\'i que $n-\frac{1}{2} < n$ y por lo discutido en el ejemplo \ref{ExErasePar} tendremos que $n+\frac{1}{2} = \surr{n}{n+1}$.
     \end{example}
 
     \begin{example}[N\'umeros di\'adicos]
         \label{Ex_num_diadicos}
-        Los n\'umeros racionales di\'adicos son aquellos de la forma $\frac{n}{2^k}$ con $n, k$ enteros y $k \ge 0$. Con lo que hemos estudiado, ya podemos encontrar estos n\'umeros en los n\'umeros surreales.
+        Los n\'umeros racionales di\'adicos son aquellos de la forma $\frac{n}{2^k}$ con $n, k$ enteros y $k \ge 0$. Con lo que hemos estudiado, ya podemos encontrar ejemplos de estos n\'umeros en los n\'umeros surreales.
 
-        Para encontrarlos es suficiente encontrar aquellos de la forma $\frac{1}{2^k}$ puesto que los dem\'as ser\'an sumas de estos, o de sus inversos aditivos.
+        Basta encontrar aquellos de la forma $\frac{1}{2^k}$ puesto que los dem\'as ser\'an sumas de estos, o de sus inversos aditivos.
 
-        Nuestro sospechoso para ser $\frac{1}{2^{k+1}}$ va a ser el n\'umero surreal $\surr{0}{\frac{1}{2^k}}$. Lo que queremos mostrar m\'as formalmente es que 
+        Nuestro \textit{``sospechoso''} para ser $\frac{1}{2^{k+1}}$ va a ser el n\'umero surreal $\surr{0}{\frac{1}{2^k}}$. Lo que queremos mostrar m\'as formalmente es que 
         \[
             \surr{0}{\frac{1}{2^{k}}} + \surr{0}{\frac{1}{2^{k}}} = \frac{1}{2^{k+1}} + \frac{1}{2^{k+1}} = \frac{1}{2^k},
         \]
-        y as\'i poder argumentar que efectivamente este n\'umero es $\frac{1}{2^{k+1}}$. Mostremoslo por inducci\'on, ya tenemos el caso base cuando $k=0$, ahora supongamoslo que es verdad para todos las potencias menores a $k$.
+        y as\'i poder argumentar que efectivamente este n\'umero es $\frac{1}{2^{k+1}}$. Por inducci\'on, ya tenemos el caso base cuando $k=0$, ahora supongamoslo que es verdad para todos las potencias menores a $k$.
 
         Llamemos $x = \frac{1}{2^{k+1}}$. Tenemos que
         \[
@@ -240,7 +240,7 @@
         \]
         y siguiendo un argumento parecido al del ejemplo anterior tenemos que $0 < x < \frac{1}{2^k}$ y $\frac{1}{2^k} < \frac{1}{2^k} + x < \frac{1}{2^{k-1}}$. Queremos ver que $x+x = \frac{1}{2^{k}}$.
 
-        Veamos que $x+x\le \frac{1}{2^k}$. Para esto primero tenemos que ver que $(x+x)^L < \frac{1}{2^k}$ y en efecto $(x+x)^L = x < \frac{1}{2^k}$. Tambi\'en tenemos que ver que $(\frac{1}{2^k})^R > x+x$ y tambi\'en se cumple puesto que $(\frac{1}{2^k})^R = \frac{1}{2^{k-1}} > \frac{1}{2^k} + x = (x+x)^R > x+x$. Por lo tanto tenemos que $x+x\le \frac{1}{2^k}$.
+        Veamos que $x+x\le \frac{1}{2^k}$. Para esto primero tenemos que ver que $(x+x)^L < \frac{1}{2^k}$ y en efecto, $(x+x)^L = x < \frac{1}{2^k}$. Tambi\'en tenemos que ver que $(\frac{1}{2^k})^R > x+x$ y tambi\'en se cumple puesto que $(\frac{1}{2^k})^R = \frac{1}{2^{k-1}} > \frac{1}{2^k} + x = (x+x)^R > x+x$. Por lo tanto tenemos que $x+x\le \frac{1}{2^k}$.
 
         Ahora, veamos que $x+x\ge \frac{1}{2^k}$. Para esto tenemos que ver primero que $(\frac{1}{2^k})^L < x+x$, y esto se tiene ya que $(\frac{1}{2^k})^L = 0 < x = (x+x)^L < x+x$. Por \'ultimo, tenemos que ver que $(x+x)^R > \frac{1}{2^k}$, que es verdad ya que $(x+x)^R = \frac{1}{2^k} + x > \frac{1}{2^k}$. Por lo tanto tenemos que $x+x\ge \frac{1}{2^k}$, y m\'as a\'un, $x+x = \frac{1}{2^k}$.
 
