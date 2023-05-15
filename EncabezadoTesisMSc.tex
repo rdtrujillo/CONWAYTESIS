@@ -16,12 +16,19 @@
 \usepackage{tabularx}
 \usepackage{subfigure}
 \usepackage{longtable}
+\usepackage{array}
+
+
+\newcolumntype{M}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}$}m{#1}<{$}}
+\renewcommand{\arraystretch}{1.2}
 
 
 \usepackage{rotating} %Para rotar texto, objetos y tablas seite. No se ve en DVI solo en PS. Seite 328 Hundebuch
-                        %se usa junto con \rotate, \sidewidestable ....
+%se usa junto con \rotate, \sidewidestable ....
 \usepackage{enumitem}
 
+\usepackage{biblatex}
+\addbibresource{BibliMSc.bib}
                 
 
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
@@ -53,20 +60,6 @@
 
 %Espacio entre lineas
 \renewcommand{\baselinestretch}{1.1}
-
-%Neuer Befehl f\"{u}r die Tabelle Eigenschaften der Aktivkohlen
-\newcommand{\arr}[1]{\raisebox{1.5ex}[0cm][0cm]{#1}}
-
-%Neue Kommandos
-\usepackage{Befehle}
-
-
-%Trennungsliste
-\hyphenation {Reaktor-ab-me-ssun-gen Gas-zu-sa-mmen-set-zung
-Raum-gesch-win-dig-keit Durch-fluss Stick-stoff-gemisch
-Ad-sorp-tions-tem-pe-ra-tur Klein-schmidt
-Kohlen-stoff-Mole-kular-siebe Py-rolysat-aus-beu-te
-Trans-port-vor-gan-ge}
 
 % Comandos propios
 \newcommand{\surr}[2]{\left\{#1\;\middle|\; #2\right\}}

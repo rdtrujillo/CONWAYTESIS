@@ -1,73 +1,16 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: TesisMSc.aux
-Reallocating 'name_of_file' (item size: 1) to 29 items.
-A level-1 auxiliary file: HojaTitulo/HojaTituloMSc.aux
-Reallocating 'name_of_file' (item size: 1) to 32 items.
-A level-1 auxiliary file: Tab_Simbolos/TabSimbolosMSc.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap1/Kap1.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap2/Kap2.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap3/Kap3.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap4/Kap4.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap5/Kap5.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: Kap6/Kap6.aux
-Reallocating 'name_of_file' (item size: 1) to 18 items.
-A level-1 auxiliary file: Anexos/Anexos.aux
-Reallocating 'name_of_file' (item size: 1) to 13 items.
-The style file: plaindin_esp.bst
-Reallocating 'name_of_file' (item size: 1) to 9 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Database file #1: BibliMSc.bib
-Warning--I didn't find a database entry for "AG52"
-Warning--I didn't find a database entry for "AG08a"
-Warning--I didn't find a database entry for "AG09a"
-Warning--I didn't find a database entry for "AG03p"
-Warning--I didn't find a database entry for "AG04p"
-You've used 6 entries,
-            2720 wiz_defined-function locations,
-            668 strings with 5237 characters,
-and the built_in function-call counts, 2024 in all, are:
-= -- 232
-> -- 48
-< -- 41
-+ -- 52
-- -- 14
-* -- 113
-:= -- 407
-add.period$ -- 7
-call.type$ -- 6
-change.case$ -- 19
-chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 62
-empty$ -- 138
-format.name$ -- 21
-if$ -- 399
-int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 3
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 20
-preamble$ -- 1
-purify$ -- 19
-quote$ -- 0
-skip$ -- 81
-stack$ -- 0
-substring$ -- 131
-swap$ -- 16
-text.length$ -- 9
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 24
-warning$ -- 0
-while$ -- 21
-width$ -- 7
-write$ -- 76
-(There were 5 warnings)
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'TesisMSc.blg'
+[181] biber-MSWIN64:340> INFO - === 
+[237] Biber.pm:418> INFO - Reading 'TesisMSc.bcf'
+[413] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[438] Biber.pm:4401> INFO - Processing section 0
+[455] Biber.pm:4592> INFO - Looking for bibtex file 'BibliMSc.bib' for section 0
+[521] bibtex.pm:1713> INFO - LaTeX decoding ...
+[548] bibtex.pm:1518> INFO - Found BibTeX data source 'BibliMSc.bib'
+[730] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[730] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[730] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[756] bbl.pm:654> INFO - Writing 'TesisMSc.bbl' with encoding 'UTF-8'
+[764] bbl.pm:757> INFO - Output to TesisMSc.bbl
+[764] Biber.pm:130> WARN - ISBN '3031039858; 9783031039850' in entry 'MathematicalArtist2022' is invalid - run biber with '--validate_datamodel' for details.
+[764] Biber.pm:132> INFO - WARNINGS: 1
