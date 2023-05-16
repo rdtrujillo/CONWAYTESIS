@@ -1,16 +1,16 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'TesisMSc.blg'
-[181] biber-MSWIN64:340> INFO - === 
-[237] Biber.pm:418> INFO - Reading 'TesisMSc.bcf'
-[413] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
-[438] Biber.pm:4401> INFO - Processing section 0
-[455] Biber.pm:4592> INFO - Looking for bibtex file 'BibliMSc.bib' for section 0
-[521] bibtex.pm:1713> INFO - LaTeX decoding ...
-[548] bibtex.pm:1518> INFO - Found BibTeX data source 'BibliMSc.bib'
-[730] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[730] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[730] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[756] bbl.pm:654> INFO - Writing 'TesisMSc.bbl' with encoding 'UTF-8'
-[764] bbl.pm:757> INFO - Output to TesisMSc.bbl
-[764] Biber.pm:130> WARN - ISBN '3031039858; 9783031039850' in entry 'MathematicalArtist2022' is invalid - run biber with '--validate_datamodel' for details.
-[764] Biber.pm:132> INFO - WARNINGS: 1
+[162] biber-MSWIN64:340> INFO - === 
+[207] Biber.pm:418> INFO - Reading 'TesisMSc.bcf'
+[356] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[380] Biber.pm:4401> INFO - Processing section 0
+[394] Biber.pm:4592> INFO - Looking for bibtex file 'BibliMSc.bib' for section 0
+[453] bibtex.pm:1713> INFO - LaTeX decoding ...
+[483] bibtex.pm:1518> INFO - Found BibTeX data source 'BibliMSc.bib'
+[642] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[642] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[643] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[672] bbl.pm:654> INFO - Writing 'TesisMSc.bbl' with encoding 'UTF-8'
+[680] bbl.pm:757> INFO - Output to TesisMSc.bbl
+[681] Biber.pm:130> WARN - ISBN '3031039858; 9783031039850' in entry 'MathematicalArtist2022' is invalid - run biber with '--validate_datamodel' for details.
+[681] Biber.pm:132> INFO - WARNINGS: 1

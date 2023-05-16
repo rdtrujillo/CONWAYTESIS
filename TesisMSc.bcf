@@ -2360,13 +2360,15 @@
     <bcf:citekey order="9" intorder="1">wiki:FRACTRAN</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Conway1987</bcf:citekey>
     <bcf:citekey order="11" intorder="1">blog:tanyakhovanova</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">wiki:John_Horton_Conway</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">MathematicalArtist2022</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">YTNumberphileConway</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Conway2000</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Tondering2019</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Gonshor1986</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Dedekind1963-rt</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Gardner1970</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Roberts2015-ur</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">wiki:John_Horton_Conway</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MathematicalArtist2022</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">YTNumberphileConway</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Conway2000</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Tondering2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Gonshor1986</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Dedekind1963-rt</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -157,9 +157,123 @@ En la pen\'ultima versi\'on del juego de la vida, las celdas ten\'ian tres posib
 El juego de la vida se juega en un tablero dos dimensional conformado por celdas, como un tablero de Go pero infinito. El juego empieza con un estado inicial y va evolucionando conforme a las reglas. Cada celda tiene 8 celdas adyacentes, cuatro que comparten un lado y cuatro que comparten solamente un v\'ertice, es decir, dos horizontales, dos verticales, y cuatro en diagonal. Las reglas del juego son:
 
 \begin{enumerate}
-    \item \textbf{Regla de nacimineto:} Si una celda est\'a muerta en el tiempo $t$, y la celda tiene exactamente $3$ celdas vecinas que est\'an vivas, entonces la celda se convierte en una celda viva en el tiempo $t+1$.
+    \item \textbf{Regla de nacimiento:} Si una celda est\'a muerta en el tiempo $t$, y la celda tiene exactamente $3$ celdas vecinas que est\'an vivas, entonces la celda se convierte en una celda viva en el tiempo $t+1$.
     \item \textbf{Regla de muerte:} Si una celda viva en el tiempo $t$ tiene menos que $2$ vecinos vivos, la celda muere por soledad en el tiempo $t+1$. Si una celda viva en el tiempo $t$ tiene m\'as que $3$ vecinos vivos, la celda muere por hacinamiento en el tiempo $t+1$.
     \item \textbf{Regla de supervivencia:} Si una celda viva tiene exactamente $2$ o $3$ celdas vivas vecinas, entonces la celda sigue viva en el tiempo $t+1$.
 \end{enumerate}
 
-Hagamos un ejemplo. Supongamos que de estado inicial tenemos tres celdas vivas puestas verticalmente. 
+Hagamos un ejemplo. Supongamos que de estado inicial tenemos tres celdas vivas puestas verticalmente, como en la figura \ref{figure:blinker}. Despu\'es del primer paso, la celda que est\'a en el medio ten\'ia dos celdas adyacentes vivas, entonces la celda sobrevivira, mientras que las celdas de arriba y abajo solo ten\'ian una celda vecina viva, por lo tanto estas celdas morir\'an en la siguiente iteraci\'on. Sin embargo, las celdas que se encuentran justo a los lados derecho e izquierdo de la celda del frente ten\'ian exactamente tres vecinos vivos, por lo tanto nacer\'an en el siguiente paso.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{images/life-1.png}
+    \end{subfigure}
+    \begin{subfigure}{0.4\textwidth}
+        \includegraphics[width=\textwidth]{images/life-2.png}
+    \end{subfigure}
+    \caption{En la izquierda se muestra la configuraci\'on en el paso $t=0$, a la derecha en la iteraci\'on siguiente $t=1$. A esta figura se le conoce como \textit{blinker}.}
+    \label{figure:blinker}
+\end{figure}
+
+
+Los \textit{blinker} de la figura \ref{figure:blinker} tienen la propiedad de que se repiten, es decir, vuelven a su estado inicial. En el caso del \textit{blinker} se puede ver que por simetr\'ia, pasa de ser tres celdas verticales a ser tres celdas horizontales y viceversa. A los patrones que tienen la propiedad de volver a su estado inicial se les llama \textit{osciladores}, y a la cantidad de pasos que se demoran para volver a su estado inicial se le llama \textit{periodo}.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/life-pulsar-1.png}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/life-pulsar-2.png}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{images/life-pulsar-3.png}
+    \end{subfigure}
+    \caption{En la figura se pueden ver los pasos de la evoluci\'on de un patr\'on llamado \textit{pulsar}. Es un oscilador de periodo 3, por lo tanto despu\'es del tercer paso vuelve a su estado inicial.}
+    \label{figure:pulsar}
+\end{figure}
+
+Adem\'as de los osciladores, tambi\'en exist\'ian otros patrones que no cambiaban en absoluto al pasar el tiempo, a estos patrones se les llama \textit{estacionarios}. El m\'as simple de estos patrones es el \textit{bloque}, conformado por cuatro celdas vivas unidas en forma de cuadrado, ninguna muere porque cada una est\'a en contacto con exactamente $3$ celdas vivas mientras que las celdas muertas alrededor solamente est\'an en contacto con $2$ celdas vivas, por lo tanto no pueden nacer. Se puede ver el bloque de primeras en la figura \ref{figure:stationary}.
+
+\begin{figure}[b]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/life-stationary.png}
+    \caption{Cinco patrones estacionarios, es decir, ninguno cambia con el tiempo. Sus nombres izquierda a derecha: un \textit{bloque}, una \textit{colmena}, una \textit{tajada de pan}, un \textit{bote}, un \textit{balde}.}
+    \label{figure:stationary}
+\end{figure}
+
+De las primeros patrones que se estudiaron, problablemente los m\'as interesantes son los llamados \textit{Matusal\'en}, en referencia al personaje m\'as longevo de la biblia. Estos patrones tienen en com\'un que evolucionan por largos periodos de tiempo antes de estabilizarse, es decir, en volverse figuras conocidas, como los osciladores o las figuras estacionarias. El primer Matusal\'en que se encontr\'o fue el R-pentomin\'o (ver figura \ref{figure:pentomino-r}), que tambi\'en fue una de las primeras evidencias de la complejidad que podr\'ia traer el juego de la vida. El R-pentomin\'o se demora 1103 iteraciones en estabilizarse, por lo tanto, fue un gran desaf\'io para los primeros investigadores del juego de la vida, que b\'asicamente hac\'ian toda su investigaci\'on en tableros de Go y a mano.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{images/life-r-pentomino.png}
+    \caption{El R-pentomin\'o.}
+    \label{figure:pentomino-r}
+\end{figure}
+
+La complejidad del R-pentomin\'o se descubri\'o porque Conway y su equipo estaban probando patrones simples, empezaron con los pentomin\'os y se dieron cuenta que la mayor\'ia de ellos se estabilizaba apenas pasaban unas cuantas iteraciones, todos los dem\'as pentomin\'os con menos de 6 celdas vivas se estabilizan antes de la onceava iteraci\'on. Como Conway y su equipo hac\'ia el trabajo de revisar los patrones de manera an\'aloga, se realizaban muchos errores. Al equipo de ellos lleg\'o a ayudarlos Richard Guy, un matem\'atico de Cambridge, que tuvo el trabajo de revisar y escrutinar la evoluci\'on de los patrones de los que a\'un no conoc\'ian todo, entre esos, el R-pentomin\'o. En la iteraci\'on n\'umero $69$, Richard Guy atisb\'o un nuevo patr\'on que se separaba del caos formado por el R-pentomin\'o y en las siguientes generaciones se apartaba m\'as y m\'as, cada vez como si caminara a trav\'es del tablero. Guy se lo mostr\'o a Conway, y este \'ultimo lo bautiz\'o \textit{glider}\footnote{Su traducci\'on al espan\~ol ser\'ia planeador, haciendo referencia a los aviones planeadores}.
+
+\begin{figure}[b]
+    \centering
+    \begin{subfigure}{0.15\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-1.png}
+    \end{subfigure}
+    \begin{subfigure}{0.15\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-2.png}
+    \end{subfigure}
+    \begin{subfigure}{0.15\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-3.png}
+    \end{subfigure}
+    \begin{subfigure}{0.15\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-4.png}
+    \end{subfigure}
+    \begin{subfigure}{0.15\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-5.png}
+    \end{subfigure}
+    \caption{La evoluci\'on del \textit{glider}. Despu\'es de 4 iteraciones se transforma por una copia del mismo pero una casilla corrida a la derecha y abajo.}
+\end{figure}
+
+Este \textit{glider} cambiar\'ia el curso que tomar\'ia el juego de la vida. Para que un aut\'omata se asemeje a un computador tiene que poder enviar informaci\'on de alguna manera, cuando Conway y su equipo encontr\'o el \textit{glider} se imaginaron que podr\'ian enviar informaci\'on mediante ellos. Para poder hacerlo, igual que se hace con el voltaje en la vida real, se necesita una forma de generar los \textit{gliders} en masa y controladamente, algo as\'i como un ca\~non de gliders. En el art\'iculo de Gardner \cite{Gardner1970}, el reto era para cualquier patr\'on que creciera sin l\'imites, pero hac\'ia referencia a que una pistola de gliders ser\'ia lo mejor para la investigaci\'on, pues una pistola de gliders tambi\'en ser\'ia un patr\'on que crecer\'ia sin l\'imite.
+
+En Noviembre del a\~no en que sali\'o la columna de Gardner (1970), un equipo del MIT liderado por Bill Gosper, un matem\'atico y programador estadounidense, se gan\'o el premio propuesto en la columna al descubrir/inventar una pistola de gliders ahora conocida como la \textit{Gosper Glider gun} (ver figura \ref{figure:gosper-gun}). 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{images/life-gosper-gun.png}
+    \caption{La \textit{Gosper glider gun}. Genera un glider en la iteraci\'on 15, y a partir de esa genera un glider cada 30 iteraciones.}
+    \label{figure:gosper-gun}
+\end{figure}
+
+Despu\'es de la carrera por encontrar una pistola de gliders, vino la carrera para mostrar que el juego de la vida era universal, es decir, que se pod\'ia generar un computador en el juego de la vida. Despu\'es del glider se econtraron muchas otras `naves espaciales', muchas m\'as grandes, y se estudi\'o tambi\'en c\'omo sus interacciones (o choques) podr\'ian ser \'utiles para mostrar la universalidad.
+
+Una forma de, por ejemplo, hacer una compuerta l\'ogica NOT es utilizando estas propiedades. Si dos gliders se chocan de una manera precisa, resultara en la destrucci\'on de los dos gliders, tal como se muestra en la figura \ref{figure:glider-collission}. Por lo tanto, si tenemos una corriente de gliders a la cual le queremos sacar el NOT, lo que podemos hacer es chocarla con una corriente de gliders constante, de modo que si no se chocan la corriente constante seguir\'a produciendo y si en cambio s\'i se chocan, todos los producidos por la corriente se destruir\'an.
+
+\begin{figure}[b]
+    \centering
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-collission-1.png}
+    \end{subfigure}
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-collission-2.png}
+    \end{subfigure}
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-collission-3.png}
+    \end{subfigure}
+    \begin{subfigure}{0.22\textwidth}
+        \includegraphics[width=\textwidth]{images/life-glider-collission-4.png}
+    \end{subfigure}
+    \caption{Dos gliders llendo en direcciones opuestas que chocan destruyendose mutuamente. Fotos tomadas al tiempo t=0,2,4,6, respectivamente de izquierda a derecha.}
+    \label{figure:glider-collission}
+\end{figure}
+
+Si bien la existencia de compuertas l\'ogicas de por s\'i no implica que el juego de la vida fuera universal, se fueron descubriendo varios patrones que implicaban de cierta manera que se pod\'ia construir un computador en el juego de la vida. Esto es, se descubrieron varios patrones para poder guardar informaci\'on, igualmente todo basado en gliders.
+
+Un mes despu\'es de que Bill Gosper descubriera la pistola de gliders que lleva su nombre, Conway le escribi\'o una carta a Martin Gardner que dec\'ia \cite{Roberts2015-ur}:
+\newpage
+
+\textit{Querido MG,} 
+
+\textit { Espero que esta carta no te llegue muy tarde - el correo parece que se demora mucho en llegarte. Retras\'e esta carta hasta ahora porque quer\'ia completar mi prueba de que EL JUEGO DE LA VIDA ES UNIVERSAL.}
+
+Si bien Conway nunca public\'o su prueba de que el juego de la vida es universal, el juego se volvi\'o tan famoso que hasta la fecha se han hecho un mont\'on de construcciones en el juego de la vida que lo prueban. En ese entonces se estimaba que para hacer un computador en el juego de la vida se necesitar\'ia millones de celdas, sin embargo, ahora se sabe, gracias a descubrimientos hechos por comunidades en l\'inea, que no se necesita tantas celdas para hacer un computador.
