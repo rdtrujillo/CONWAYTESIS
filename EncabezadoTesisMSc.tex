@@ -72,3 +72,23 @@
 \newtheorem{definition}{Definición}[chapter]
 \theoremstyle{remark}
 \newtheorem{example}{Ejemplo}
+
+% Figures with the same height
+\newsavebox\IBoxA \newsavebox\IBoxB \newlength\IHeight
+\newcommand\TwoFig[6]{% Image1 Caption1 Label1 Im2 Cap2 Lab2
+  \sbox\IBoxA{\includegraphics[width=0.45\textwidth]{#1}}
+  \sbox\IBoxB{\includegraphics[width=0.45\textwidth]{#4}}%
+  \ifdim\ht\IBoxA>\ht\IBoxB
+    \setlength\IHeight{\ht\IBoxB}%
+  \else\setlength\IHeight{\ht\IBoxA}\fi
+  \begin{figure}[!htb]
+  \minipage[t]{0.45\textwidth}\centering
+  \includegraphics[height=\IHeight]{#1}
+  \caption{#2}\label{#3}
+  \endminipage\hfill
+  \minipage[t]{0.45\textwidth}\centering
+  \includegraphics[height=\IHeight]{#4}
+  \caption{#5}\label{#6}
+  \endminipage 
+  \end{figure}%
+}
