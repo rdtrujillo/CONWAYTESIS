@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  18 MAY 2023 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  18 MAY 2023 18:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -928,6 +928,9 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 12.
 Package tocbasic Info: Using my definition of `\numberline' on input line 13.
 Package tocbasic Info: Using my definition of `\numberline' on input line 14.
 Package tocbasic Info: Using my definition of `\numberline' on input line 15.
+Package tocbasic Info: Using my definition of `\numberline' on input line 16.
+Package tocbasic Info: Using my definition of `\numberline' on input line 17.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 )
 \tf@toc=\write4
 \openout4 = `TesisMSc.toc'.
@@ -1130,20 +1133,88 @@ Overfull \hbox (160.3932pt too wide) in paragraph at lines 52--54
 \OT1/cmr/m/n/12 ro, Jon Dia-mond, el cam-pe^^Son brit^^Sani-co de Go du-ran-te 11 a~nos [[]](https://www.britgo.org/people/diamondj),
  []
 
-<images/hackenbush-half_proof.pdf, id=136, 272.34325pt x 183.90529pt>
+<images/hackenbush-first_example.pdf, id=136, 208.14769pt x 124.89545pt>
+File: images/hackenbush-first_example.pdf Graphic file (type pdf)
+<use images/hackenbush-first_example.pdf>
+Package pdftex.def Info: images/hackenbush-first_example.pdf  used on input line 67.
+(pdftex.def)             Requested size: 328.62788pt x 197.20683pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 72.
+LaTeX Info: Redefining \% on input line 72.
+[15]
+<images/hackenbush-game_example.pdf, id=141, 414.09904pt x 72.26999pt>
+File: images/hackenbush-game_example.pdf Graphic file (type pdf)
+<use images/hackenbush-game_example.pdf>
+Package pdftex.def Info: images/hackenbush-game_example.pdf  used on input line 76.
+(pdftex.def)             Requested size: 328.62788pt x 57.35289pt.
+<images/hackenbush-sum_example.pdf, id=142, 303.43549pt x 64.71674pt>
+File: images/hackenbush-sum_example.pdf Graphic file (type pdf)
+<use images/hackenbush-sum_example.pdf>
+Package pdftex.def Info: images/hackenbush-sum_example.pdf  used on input line 85.
+(pdftex.def)             Requested size: 328.62788pt x 70.09546pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [16 <./images/hackenbush-first_example.pdf> <./images/hackenbush-game_example.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-game_example.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<images/hackenbush-val_example.pdf, id=149, 314.71263pt x 72.26999pt>
+File: images/hackenbush-val_example.pdf Graphic file (type pdf)
+<use images/hackenbush-val_example.pdf>
+Package pdftex.def Info: images/hackenbush-val_example.pdf  used on input line 99.
+(pdftex.def)             Requested size: 328.62788pt x 75.47107pt.
+<images/hackenbush-surr_roots.pdf, id=150, 330.13254pt x 148.07146pt>
+File: images/hackenbush-surr_roots.pdf Graphic file (type pdf)
+<use images/hackenbush-surr_roots.pdf>
+Package pdftex.def Info: images/hackenbush-surr_roots.pdf  used on input line 110.
+(pdftex.def)             Requested size: 328.62788pt x 147.39777pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+[17 <./images/hackenbush-sum_example.pdf> <./images/hackenbush-val_example.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-val_example.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<images/hackenbush-half_def.pdf, id=172, 149.47044pt x 86.11534pt>
+File: images/hackenbush-half_def.pdf Graphic file (type pdf)
+<use images/hackenbush-half_def.pdf>
+Package pdftex.def Info: images/hackenbush-half_def.pdf  used on input line 127.
+(pdftex.def)             Requested size: 234.73523pt x 135.23946pt.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+ [18 <./images/hackenbush-surr_roots.pdf> <./images/hackenbush-half_def.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-half_def.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<images/hackenbush-half_proof.pdf, id=230, 272.34325pt x 183.90529pt>
 File: images/hackenbush-half_proof.pdf Graphic file (type pdf)
 <use images/hackenbush-half_proof.pdf>
-Package pdftex.def Info: images/hackenbush-half_proof.pdf  used on input line 60.
+Package pdftex.def Info: images/hackenbush-half_proof.pdf  used on input line 141.
 (pdftex.def)             Requested size: 328.62788pt x 221.93678pt.
-))
+)
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+ [19 <./images/hackenbush-half_proof.pdf>])
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- [15 <./images/hackenbush-half_proof.pdf>]
+ [20]
 \openout2 = `Kap2/Kap2.aux'.
 
  (Kap2/Kap2.tex
 chapter 3.
-(Kap2/Intro.tex) (Kap2/Definición.tex [16
+(Kap2/Intro.tex) (Kap2/Definición.tex [21
 
 
 
@@ -1151,75 +1222,75 @@ chapter 3.
 ]
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
- [17]
+ [22]
 LaTeX Info: Redefining \. on input line 88.
 LaTeX Info: Redefining \% on input line 88.
- [18]
+ [23]
 LaTeX Info: Redefining \. on input line 116.
 LaTeX Info: Redefining \% on input line 116.
- [19]
+ [24]
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
- [20]
+ [25]
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [21]
+ [26]
 LaTeX Info: Redefining \. on input line 231.
 LaTeX Info: Redefining \% on input line 231.
- [22]
+ [27]
 LaTeX Info: Redefining \. on input line 263.
 LaTeX Info: Redefining \% on input line 263.
- [23]) (Kap2/Suma.tex
+ [28]) (Kap2/Suma.tex
 LaTeX Info: Redefining \. on input line 46.
 LaTeX Info: Redefining \% on input line 46.
- [24]
+ [29]
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
- [25]
+ [30]
 LaTeX Info: Redefining \. on input line 131.
 LaTeX Info: Redefining \% on input line 131.
- [26]
+ [31]
 LaTeX Info: Redefining \. on input line 158.
 LaTeX Info: Redefining \% on input line 158.
- [27]
+ [32]
 LaTeX Info: Redefining \. on input line 200.
 LaTeX Info: Redefining \% on input line 200.
- [28]
+ [33]
 LaTeX Info: Redefining \. on input line 234.
 LaTeX Info: Redefining \% on input line 234.
- [29]) (Kap2/Multiplicacion.tex
+ [34]) (Kap2/Multiplicacion.tex
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
- [30]
+ [35]
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
- [31]
+ [36]
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [32]
+ [37]
 LaTeX Info: Redefining \. on input line 143.
 LaTeX Info: Redefining \% on input line 143.
- [33]
+ [38]
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [34]
+ [39]
 LaTeX Info: Redefining \. on input line 233.
 LaTeX Info: Redefining \% on input line 233.
- [35]
+ [40]
 LaTeX Info: Redefining \. on input line 265.
 LaTeX Info: Redefining \% on input line 265.
- [36]
+ [41]
 LaTeX Info: Redefining \. on input line 306.
 LaTeX Info: Redefining \% on input line 306.
- [37]))
+ [42]))
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- [38]
+ [43]
 Overfull \hbox (29.4566pt too wide) in paragraph at lines 26--26
 []\OT1/cmr/m/n/12 Tanya Kho-va-no-va y John Con-way. \OT1/cmr/m/it/12 The Se-xual Si-de of Li-fe\OT1/cmr/m/n/12 . $\OT1/cmtt/m/n/12 https : / / blog . tanyakhovanova .
  []
 
-[39
+[44
 
 
 
@@ -1230,7 +1301,7 @@ Overfull \hbox (3.51688pt too wide) in paragraph at lines 26--26
 
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
-[40] (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
+[45] (TesisMSc.aux (HojaTitulo/HojaTituloMSc.aux)
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1243,17 +1314,17 @@ Package logreq Info: Writing requests to 'TesisMSc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18219 strings out of 476374
- 364054 string characters out of 5788854
+ 18268 strings out of 476374
+ 365882 string characters out of 5788854
  1872340 words of memory out of 5000000
- 38318 multiletter control sequences out of 15000+600000
+ 38361 multiletter control sequences out of 15000+600000
  522190 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,13n,106p,10648b,2022s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rockt\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TesisMSc.pdf (50 pages, 528054 bytes).
+Output written on TesisMSc.pdf (55 pages, 570960 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
+ 447 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
