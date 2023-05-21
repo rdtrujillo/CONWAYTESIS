@@ -2369,6 +2369,8 @@
     <bcf:citekey order="18" intorder="1">Tondering2019</bcf:citekey>
     <bcf:citekey order="19" intorder="1">Gonshor1986</bcf:citekey>
     <bcf:citekey order="20" intorder="1">Dedekind1963-rt</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">Conway2000</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Conway2000</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

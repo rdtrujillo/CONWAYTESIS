@@ -15,5 +15,5 @@
 \contentsline {section}{\numberline {3.1}Definici\'on de los n\'umeros surreales}{21}{}%
 \contentsline {section}{\numberline {3.2}Suma de números surreales}{29}{}%
 \contentsline {section}{\numberline {3.3}Multiplicación de números surreales}{35}{}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{44}{}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{46}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
