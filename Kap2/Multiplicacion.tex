@@ -2,7 +2,7 @@
     
     La definici\'on de la multiplicaci\'on es mucho m\'as compleja que la definici\'on de la suma. Queremos, igual que en las anteriores definiciones, hacer una definici\'on recursiva a partir de las multiplicaciones de ancestros, y adem\'as, queremos que se respete el orden de los conjuntos $L$ y $R$.
 
-    Una forma de motivarlo es pensar en las propiedades de la multiplicaci\'on real con respecto al orden, siendo la m\'as importante que la multiplicaci\'on de n\'umeros positivos es positiva. Si pensamos en dos n\'umeros surreales $x,y$, tenemos los n\'umeros positivos
+    Una forma de motivarlo es pensar en las propiedades de la multiplicaci\'on real con respecto al orden, siendo una de las m\'as importantes que la multiplicaci\'on de n\'umeros positivos es positiva. Si pensamos en dos n\'umeros surreales $x,y$, tenemos los n\'umeros positivos
     \begin{align*}
         (x-x^L) > 0, \quad & (x^R-x)>0, \\
         (y-y^L) > 0, \quad & (y^R-y)>0.
@@ -17,7 +17,7 @@
     \[
         - x^Ly^L + xy^L + x^Ly < xy < -x^Ly^R + xy^R + x^Ly.
     \]
-    Al hacer lo mismo con las otras dos posibles multiplicaciones motivamos la siguiente definici\'on.
+    Al hacer lo mismo con las otras dos posibles multiplicaciones obtenemos los ancestros de la siguiente definici\'on.
 
     \begin{definition}[Multiplicaci\'on]
         Sean $x, y$ dos n\'umeros surreales. Definimos la multiplicaci\'on de n\'umeros surreales como
@@ -26,19 +26,19 @@
         \]
     \end{definition}
 
-    Igualmente que en la suma, usaremos las propiedades que tiene esta multiplicaci\'on con el orden para mostrar que efectivamente el producto de dos n\'umeros surreales genera un n\'umero surreal.
+    Al igual que en la suma, usaremos las propiedades que tiene esta multiplicaci\'on con el orden para mostrar que efectivamente el producto de dos n\'umeros surreales genera un n\'umero surreal.
 
     \begin{example}
         Para entender c\'omo funciona la definici\'on, primero vamos a ver como funciona para los elementos m\'as sencillos, es decir, para $0$, $1$ y $-1$.
 
-        F\'ijese que todos los ancestros de $xy$ est\'an hechos a partir de ancestros tanto de $x$ como de $y$, por lo tanto, como $0$ no tiene ancestros entonces se cumple que $0x \equiv x0 \equiv \surr{}{} \equiv 0$, que es lo mismo que pasa en los n\'umeros naturales.
+        F\'ijese que todos los ancestros de $xy$ est\'an hechos a partir de ancestros tanto de $x$ como de $y$, por lo tanto, como $0$ no tiene ancestros entonces se cumple que $0x \equiv x0 \equiv \surr{}{} \equiv 0$, esto es lo mismo que pasa en los n\'umeros naturales.
         
-        Ahora, mostraremos que $1x \equiv x$. Procederemos por inducci\'on, tenemos que $1\cdot 0 \equiv 0$, por lo tanto para $0$ se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
+        Ahora, veamos que $1x \equiv x$. Procedemos por inducci\'on, tenemos que $1\cdot 0 \equiv 0$, por lo tanto para $0$ se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
         \[
             1x \equiv \surr{1^Lx + 1x^L - 1^Lx^L}{1^Lx + 1x^R - 1^Lx^R} \equiv \surr{1x^L}{1x^R} \equiv \surr{x^L}{x^R} \equiv x.
         \]
 
-        Por \'ultimo, mostremos que $-1x \equiv -x$. Demostraremos este hecho por inducci\'on, para $0$ tenemos que $-1\cdot 0\equiv 0 \equiv -0$ por lo tanto se cumple. Ahora, supongamos que se cumple para los ancestros de $x$. Tenemos que 
+        Por \'ultimo, veamos que $-1x \equiv -x$ por inducci\'on, para $0$ tenemos que $-1\cdot 0\equiv 0 \equiv -0$ por lo tanto se cumple. Ahora, supongamos que se cumple para los ancestros de $x$, tenemos que 
         \begin{align*}
             -1x & \equiv \surr{(-1)^Rx + (-1)x^R - (-1)^Rx^R}{(-1)^Rx + (-1)x^L - (-1)^Rx^L} \\
              & \equiv \surr{(-1)x^R}{(-1)x^L} \equiv \surr{-x^R}{-x^L} \equiv -x.
@@ -55,7 +55,7 @@
     \end{theorem}
 
     \begin{proof}
-        En el ejemplo anterior se puede ver que cada propiedad se cumplen en el casos base, as\'i que solo nos vamos a concentrar en el paso inductivo.
+        En el ejemplo anterior vimos que el caso base satisface cada propiedad, as\'i que nos concentraremos en el paso inductivo.
 
         \begin{enumerate}
             \item Para la conmutatividad tenemos que 
@@ -65,7 +65,7 @@
                 & \equiv \surr{y^Lx+yx^L-y^Lx^L, y^Rx+yx^R-y^Rx^R}{\dots} &\text{(conmutatividad +)} \\
                 & \equiv yx.
             \end{align*}
-            \item Para la propiedad distributiva sobre la suma concentremonos en los t\'erminos de $((x+y)z)^L$ que son de la forma $(x+y)^Lz + (x+y)z^L - (x+y)^Lz^L$, los dem\'as t\'erminos tendr\'an sus desarrollos an\'alogos. En este t\'ermino, el n\'umero $(x+y)^L$ puede ser de dos formas, puede ser o $x+y^L$ o $x^L+y$. Teniendo esto en cuenta tenemos que 
+            \item Para la propiedad distributiva sobre la suma concentr\'emonos en los t\'erminos de $((x+y)z)^L$ que son de la forma $(x+y)^Lz + (x+y)z^L - (x+y)^Lz^L$, los dem\'as t\'erminos tendr\'an sus desarrollos an\'alogos. En este t\'ermino, el n\'umero $(x+y)^L$ puede ser de dos formas, puede ser o $x+y^L$ o $x^L+y$. Teniendo esto en cuenta tenemos que 
             \begin{align*}
                 ((x+y)z) & \equiv \surr{(x+y)^Lz + (x+y)z^L - (x+y)^Lz^L, \dots}{\dots}\\
                 & \equiv \big\{(x+y^L)z + (x+y)z^L - (x+y^L)z^L, \\
@@ -87,17 +87,17 @@
             sin embargo, esto ya se pod\'ia demostrar con las propiedades de la suma.
             \item Utilizando la definici\'on discutida en el punto anterior, podemos ver que la multiplicaci\'on de tres elementos es de la forma
             \[
-                (xy)z = \surr{(xy)z - \left[(x-x^L)(y-y^L)\right] (z-z^L), \dots}{\dots},
+                (xy)z = \surr{(xy)z - \left[(x-x^L)(y-y^L)\right] (z-z^L), \dots}{\dots}.
             \]
-            f\'ijese que el elemento de $L$ que tenemos escrito se puede escribir solamente en t\'erminos de ancestros de $x$, $y$, y $z$ de la forma
+            F\'ijese que el elemento de $L$ que tenemos escrito se puede escribir solamente en t\'erminos de ancestros de $x$, $y$, y $z$ de la forma
             \[
                 (x^Ly)z + (xy^L)z + (xy)z^L - (x^Ly^L)z - (x^Ly)z^L - (xy^L)z^L + (x^Ly^L)z^L,
             \]
-            y usando la hip\'otesis te inducci\'on tenemos que el t\'ermino es igual a
+            y usando la hip\'otesis de inducci\'on tenemos que el t\'ermino es igual a
             \[
-                x^L(yz) + x(y^Lz) + x(yz^L) - x^L(y^Lz) - x^L(yz^L) - x(y^Lz^L) + x^L(y^Lz^L)
+                x^L(yz) + x(y^Lz) + x(yz^L) - x^L(y^Lz) - x^L(yz^L) - x(y^Lz^L) + x^L(y^Lz^L).
             \]
-            que reagrupandolo de la misma manera que lo desagrupamos arriba nos queda como 
+            Reagrupando de la manera inversa a como lo expandimos arriba, nos queda como 
             \[
                 (xy)z = \surr{x(yz) - (x-x^L)\left[(y-y^L)(z-z^L)\right], \dots}{\dots} = x(yz).
             \]
@@ -105,9 +105,9 @@
     \end{proof}
 
     \begin{example}
-        Otra forma de mostrar lo que mostramos en el ejemplo \ref{Ex_num_diadicos} es multiplicando por $\frac{1}{2}$; como sabemos que $\frac{1}{2}+\frac{1}{2} = 1$ entonces podemos multiplicar $\frac{1}{2^k}$ a ambos lados de la ecuaci\'on y utilizar la propiedad distributiva para obtener lo que demostramos en ese ejemplo.
+        Otra forma de probar lo que mostramos en el ejemplo \ref{Ex_num_diadicos} es multiplicando por $\frac{1}{2}$; como sabemos que $\frac{1}{2}+\frac{1}{2} = 1$ entonces podemos multiplicar $\frac{1}{2^k}$ a ambos lados de la igualdad y utilizar la propiedad distributiva para obtener lo que demostramos en el ejemplo.
 
-        Lo que entonces queremos ver es la forma surreal de las potencias de $\frac{1}{2}$. Veamoslo para la primera potencia, esto es
+        Lo que entonces queremos ver es la forma surreal de las potencias de $\frac{1}{2}$. Veamos para la primera potencia, esto es
         \[
             \frac{1}{2}\cdot\frac{1}{2} \equiv \surr{0\cdot\frac{1}{2} + \frac{1}{2}\cdot 0 - 0\cdot 0, 1\cdot \frac{1}{2} +\frac{1}{2}\cdot 1 - 1\cdot 1}{0\cdot \frac{1}{2} + 1\cdot \frac{1}{2} - 0\cdot 1} \equiv \surr{0}{\frac{1}{2}},
         \]
@@ -120,7 +120,7 @@
         por lo tanto, se cumple que $\frac{1}{2^k}\cdot \frac{1}{2} = \frac{1}{2^{k+1}}$ y tenemos una demostraci\'on m\'as de lo propuesto en el ejemplo \ref{Ex_num_diadicos}.
     \end{example}
 
-    Para hablar de la multiplicaci\'on sin ning\'un problema, tenemos que, igual que en la suma, mostrar que la multiplicaci\'on es compatible con la relaci\'on de equivalencia de la igualdad $(=)$, para esto, tendremos que probar las propiedades que tiene la multiplicaci\'on con el orden. La propiedad m\'as importante es que la multiplicaci\'on de dos n\'umeros positivos es positiva, de esta se pueden deducir las dem\'as. Para probar esta primero tendremos que probar un lema.
+    Para hablar de la multiplicaci\'on sin ning\'un problema, tenemos que, verificar que la multiplicaci\'on es compatible con la relaci\'on de equivalencia de la igualdad $(=)$, igual que lo hicimos en la suma. Para esto, tendremos que probar las propiedades que tiene la multiplicaci\'on con el orden. La propiedad m\'as importante es que la multiplicaci\'on de dos n\'umeros positivos es positiva, de esta se pueden deducir las dem\'as. Para probar esta primero tendremos que probar el siguiente lema.
 
     \begin{lemma}
         \label{normalize_positive_number}
@@ -128,7 +128,7 @@
     \end{lemma}
 
     \begin{proof}
-        Si tenemos que $x > 0$ esto significa que existe $x^L\in X^L$ tal que $x^L \ge 0$, por lo tanto, teniendo en cuenta lo discutido en el ejemplo \ref*{ExErasePar} tendremos que $x = \surr{X^L\cup \{0\}}{X^R} \equiv x'$. Ahora, como $0\in (X')^L$, entonces se pueden quitar todos los elementos de este conjunto que sean menores estrictos $(<)$ a $0$ y va a quedar el n\'umero con el mismo valor, es decir, $x = x' = \surr{(X^L\cup \{0\})\setminus\{l\in X^L\;|\;l < 0\}}{X^R}$, con lo que demostramos el lema.
+        Si tenemos que $x > 0$ esto significa que existe $x^L\in X^L$ tal que $x^L \ge 0$, por lo tanto, teniendo en cuenta el corolario \ref{corollary:add_left} tendremos que $x = \surr{X^L\cup \{0\}}{X^R} \equiv x'$. Ahora, como $0\in (X')^L$, entonces se pueden quitar todos los elementos de este conjunto que sean menores estrictos $(<)$ a $0$ y va a quedar el n\'umero con el mismo valor, es decir, $x = x' = \surr{(X^L\cup \{0\})\setminus\{l\in X^L\;|\;l < 0\}}{X^R}$, que era lo que se quer\'ia.
 
     \end{proof}
 
@@ -151,15 +151,15 @@
     \end{theorem}
 
     \begin{proof}
-        Vamos a mostrar esta proposici\'on por inducci\'on. Supongamos que la proposici\'on es verdad para todos los ancestros de $y$, luego veamos que pasa con el producto de $xy$
+        Vamos a mostrar esta proposici\'on por inducci\'on. Supongamos que la proposici\'on es verdad para todos los ancestros de $y$, veamos qu\'e pasa con el producto de $xy$
         \begin{align*}
             xy & \equiv \surr{x^Ly + xy^L - x^Ly^L, \dots}{\dots} & \\
                 & = \surr{x^Ly - x^Ly^L,\dots}{\dots} & \text{(h. de inducci\'on)}\\
                 & \equiv \surr{x^L(y-y^L),\dots}{\dots},
         \end{align*}
-        f\'ijese que $x^L < x = 0$, por lo tanto, $-x^L > 0$, y por otro lado, como $y > y^L$ entonces $y - y^L > 0$, lo que quiere decir, por el teorema anterior, que $-(y-y^L)x^L > 0$, que equivale a $(y-y^L)x^L < 0$.
+        Note que $x^L < x = 0$, por lo tanto, $-x^L > 0$, por otro lado, como $y > y^L$ entonces $y - y^L > 0$, lo que quiere decir, por el teorema anterior, que $-(y-y^L)x^L > 0$, que equivale a $(y-y^L)x^L < 0$.
 
-        Si hacemos el mismo procedimiento para todos los elementos de la multiplicaci\'on, entonces al final podemos concluir que $(xy)^L < 0$ y $(xy)^R > 0$, lo que implica, por lo discutido en el \ref*{Ex_equaltozero}, que $xy = 0$.
+        Si hacemos el mismo procedimiento para todos los elementos de la multiplicaci\'on, entonces al final podemos concluir que $(xy)^L < 0$ y $(xy)^R > 0$, lo que implica, por lo discutido en el ejemplo \ref*{Ex_equaltozero}, que $xy = 0$.
     \end{proof}
 
     \begin{corollary}[Compatibilidad con $=$]
@@ -170,7 +170,7 @@
         Tenemos que $(x-x') = 0$, luego $(x-x')y = 0$ y esto implica que $xy = x'y$.
     \end{proof}
 
-    \begin{corollary}[Buena definici\'on de la multiplicaci\'on]
+    \begin{corollary}[La multiplicaci\'on est\'a bien definida]
         Sean $x, y$ n\'umeros surreales, entonces $xy$ es un n\'umero surreal.
     \end{corollary}
 
@@ -201,22 +201,22 @@
         \[
             x\equiv \surr{s_{2n-1}}{s_{2n}},\text{ para $n$ natural con } s_n = \sum_{k=1}^{n} (-1)^{k+1}\left(\frac{1}{2}\right)^k.
         \]
-        Nuestra hip\'otesis, que debemos probar, es que efectivamente $x = \frac{1}{3}$. Para probar esto vamos a probar que $3x-1 = 0$. Como $3\equiv \surr{2}{}$ entonces tenemos que 
+        Nuestra hip\'otesis (que debemos probar) es que efectivamente $x = \frac{1}{3}$. Para demostrar esto veamos que $3x-1 = 0$. Como $3\equiv \surr{2}{}$ entonces tenemos que 
         \[
             3x-1 = \surr{2x+s_{2n-1}-1}{2x+s_{2n}-1, 3x},
         \]
-        lo \'unico que tenemos que probar para mostrar que $3x-1 = 0$ es que $(3x-1)^L < 0$ y $(3x-1)^R > 0$, y como $3x > 0$, esto se traduce en 
+        lo \'unico que tenemos que ver para mostrar que $3x-1 = 0$ es que $(3x-1)^L < 0$ y $(3x-1)^R > 0$, y como $3x > 0$, esto se traduce en 
         \[
             x < \frac{1-s_{2n-1}}{2},\quad x > \frac{1-s_{2n}}{2}, 
         \]
-        pero f\'ijese que $\frac{1-s_{n}}{2} = s_{n+1},$ entonces las condiciones que ten\'iamos se vuelven
+        pero observe que $\frac{1-s_{n}}{2} = s_{n+1},$ entonces las condiciones que ten\'iamos se vuelven
         \[
             x < s_{2n},\quad x > s_{2n+1},
         \]
-        que son verdaderas por la definici\'on puesto que $s_{2n+1} = x^L < x < x^R = s_{2n}$, lo que significa entonces que $3x-1 = 0$, por lo tanto se puede decir que $x = \frac{1}{3}$.
+        que son verdaderas por la definici\'on puesto que $s_{2n+1} = x^L < x < x^R = s_{2n}$, lo que significa entonces que $3x-1 = 0$, por lo tanto se puede concluir que $x = \frac{1}{3}$.
     \end{example}
 
-    En la introducci\'on hablamos de c\'omo los n\'umeros surreales son m\'as grandes que los n\'umeros reales pero hasta ahora no hemos mostrado un n\'umero surreal que no sea tambi\'en un n\'umero real, mostremos entonces un par de ejemplos y c\'omo operarlos.
+    En la introducci\'on hablamos de c\'omo los n\'umeros surreales son m\'as grandes que los n\'umeros reales pero hasta ahora no hemos mostrado un n\'umero surreal que no sea tambi\'en un n\'umero real, veamos un par de ejemplos y c\'omo operarlos.
 
     \begin{example}[Infinitos e infinitesimales]
         Consideremos el n\'umero surreal

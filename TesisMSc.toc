@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.2.3}Comparando juegos}{18}{}%
 \contentsline {chapter}{\numberline {3}Números Surreales}{21}{}%
 \contentsline {section}{\numberline {3.1}Definici\'on de los n\'umeros surreales}{21}{}%
-\contentsline {section}{\numberline {3.2}Suma de números surreales}{29}{}%
-\contentsline {section}{\numberline {3.3}Multiplicación de números surreales}{35}{}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{46}{}%
+\contentsline {section}{\numberline {3.2}Suma de números surreales}{30}{}%
+\contentsline {section}{\numberline {3.3}Multiplicación de números surreales}{36}{}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{47}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
