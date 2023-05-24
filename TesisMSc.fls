@@ -835,7 +835,6 @@ INPUT .\Parte1\Life.tex
 INPUT Parte1\Life.tex
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti8.tfm
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
@@ -1081,8 +1080,6 @@ INPUT Kap2\Kap2.aux
 INPUT Kap2\Kap2.aux
 INPUT TesisMSc.run.xml
 OUTPUT TesisMSc.run.xml
-INPUT C:\Users\rockt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\rockt\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

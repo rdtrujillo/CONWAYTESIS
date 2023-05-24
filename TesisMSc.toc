@@ -5,15 +5,15 @@
 \contentsline {chapter}{\numberline {2}TBA}{3}{}%
 \contentsline {section}{\numberline {2.1}El juego de la vida}{3}{}%
 \contentsline {subsection}{\numberline {2.1.1}Los inicios}{4}{}%
-\contentsline {subsection}{\numberline {2.1.2}FRACTRAN}{4}{}%
-\contentsline {subsection}{\numberline {2.1.3}Life}{8}{}%
-\contentsline {section}{\numberline {2.2}Juegos Matem\'aticos}{13}{}%
-\contentsline {subsection}{\numberline {2.2.1}Hackenbush}{15}{}%
-\contentsline {subsection}{\numberline {2.2.2}Valores de juegos}{17}{}%
-\contentsline {subsection}{\numberline {2.2.3}Comparando juegos}{18}{}%
-\contentsline {chapter}{\numberline {3}Números Surreales}{21}{}%
-\contentsline {section}{\numberline {3.1}Definici\'on de los n\'umeros surreales}{21}{}%
-\contentsline {section}{\numberline {3.2}Suma de números surreales}{30}{}%
-\contentsline {section}{\numberline {3.3}Multiplicación de números surreales}{36}{}%
-\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{47}{}%
+\contentsline {subsection}{\numberline {2.1.2}FRACTRAN}{5}{}%
+\contentsline {subsection}{\numberline {2.1.3}Life}{9}{}%
+\contentsline {section}{\numberline {2.2}Juegos Matem\'aticos}{14}{}%
+\contentsline {subsection}{\numberline {2.2.1}Hackenbush}{16}{}%
+\contentsline {subsection}{\numberline {2.2.2}Valores de juegos}{18}{}%
+\contentsline {subsection}{\numberline {2.2.3}Comparando juegos}{19}{}%
+\contentsline {chapter}{\numberline {3}Números Surreales}{22}{}%
+\contentsline {section}{\numberline {3.1}Definici\'on de los n\'umeros surreales}{23}{}%
+\contentsline {section}{\numberline {3.2}Suma de números surreales}{31}{}%
+\contentsline {section}{\numberline {3.3}Multiplicación de números surreales}{38}{}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Bibliograf\'{\i }a}{49}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

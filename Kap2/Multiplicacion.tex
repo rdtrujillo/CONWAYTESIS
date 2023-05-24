@@ -249,11 +249,11 @@
         \[
             y \equiv \surr{0, \frac{1+(x^R-x)y^L}{x^R}, \frac{1+(x^L-x)y^R}{x^L}}{\frac{1+(x^L-x)y^L}{x^L}, \frac{1+(x^R-x)y^R}{x^R}},
         \]
-        lo llamaremos el inverso multiplicativo de $x$ y luego mostraremos que en efecto se tiene que $yx=1$. Tenemos ac\'a que el n\'umero $y$ se define con respecto a los ancestros del mismo $y$, en este caso se refiere a que los ancestros se crean a partir de los ancestros que ya conoc\'iamos, empezando desde $0$ que siempre es elemento de $y^L$.
+        lo llamaremos el inverso multiplicativo de $x$ y luego mostraremos que en efecto se tiene que $yx=1$. En la definici\'on, el n\'umero $y$ se define con respecto a los ancestros del mismo $y$, en este caso se refiere a que los ancestros que ya sabemos que est\'an, empezando desde $0$ que siempre es elemento de $y^L$.
     \end{definition}
 
     \begin{example}
-        Vamos a demostrar c\'omo funcionar\'ia la definici\'on en concreto con el ejemplo del $x = 3 = \surr{0,2}{}$. Vamos a llamar $y_n$ a los distintos pasos de la definici\'on recursiva de inverso multiplicativo. Esto es, $y_0 \equiv \surr{0}{}$, y 
+        Vamos a demostrar c\'omo funcionar\'ia la definici\'on en concreto con el ejemplo del $x = 3 = \surr{0,2}{}$. Vamos a llamar $y_n$ a los distintos pasos de la definici\'on recursiva de inverso multiplicativo, esto es, $y_0 \equiv \surr{0}{}$, y 
         \[
             y_{n+1} \equiv \surr{y_n^L, \frac{1+(x^R-x)y_n^L}{x^R}, \frac{1+(x^L-x)y_n^R}{x^L}}{y_n^R, \frac{1+(x^L-x)y_n^L}{x^L}, \frac{1+(x^R-x)y_n^R}{x^R}},
         \]
@@ -265,9 +265,9 @@
         \]
         con lo que tendr\'iamos que el inverso multiplicativo de $3$ estar\'ia definido como
         \[
-            y \equiv \surr{0,\frac{1}{4}, \frac{5}{16}, \dots}{\frac{1}{2}, \frac{3}{8}, \frac{11}{32},\dots},
+            y \equiv \surr{0,\frac{1}{4}, \frac{5}{16}, \dots}{\frac{1}{2}, \frac{3}{8}, \frac{11}{32},\dots}.
         \]
-        f\'ijese que este n\'umero es el mismo que encontramos en el ejemplo \ref{inverse_3} y que adem\'as la f\'ormula recursiva que sacamos en este ejemplo es la misma que llamabamos all\'a como 
+        F\'ijese que este n\'umero es el mismo que encontramos en el ejemplo \ref{inverse_3} y adem\'as la f\'ormula recursiva que define el inverso multiplicativo es la misma que el ejemplo \ref{inverse_3} escrib\'iamos como
         \[
             s_{n+1} = \frac{1-s_{n}}{2}.
         \]
@@ -284,7 +284,7 @@
     \end{theorem}
 
     \begin{proof}
-        En esta prueba llamemos $x'$ a los ancestros del n\'umero $x$, igualmente para $y$ y para $y'$.
+        En esta prueba llamemos $x'$ a los ancestros del n\'umero $x$, igualmente los llamaremos $y'$ para $y$ y $y''$ ser\'an los ancestros de $y$ creados a partir del ancestro $y'$.
         \begin{enumerate}
             \item Los ancestros de $y$ est\'an definidos por la f\'ormula
             \[
@@ -294,7 +294,7 @@
             \[
                 1-xy'' = (1-xy')\frac{x'-x}{x'}.
             \]
-            El signo del factor $(x'-x)/x'$ depende solamente de si $x'$ pertenece a $X^L$ o a $X^R$. F\'ijese que para $0\in y^L$ se cumple la condici\'on, entonces supongamos por inducci\'on que $(1-xy')$ es positivo si $y'\in Y^L$ y negativo si $y'\in Y^R$. En este sentido, $1-xy''$ ser\'a negativo cuando $y'\in Y^L$ y $x'\in X^L$ o cuando $y'\in Y^R$ y $x' \in X^R$, y $1-xy''$ ser\'a positivo en los otros dos casos, reflejando as\'i que $1-xy''$ es negativo cuando $y''\in Y^R$ y positivo cuando $y''\in Y^L$, lo que significa por inducci\'on que $xy^L < 1 < xy^R$ para todo $y^L, y^R$.
+            Queremos analizar el signo de la ecuaci\'on para demostrar el enunciado. El signo del factor $(x'-x)/x'$ depende solamente de si $x'$ pertenece a $X^L$ o a $X^R$. Para el otro factor analizemos su signo por inducci\'on; f\'ijese que para $0\in y^L$ se cumple que $1-0x = 1$ que es positivo, entonces supongamos por inducci\'on que $(1-xy')$ es positivo si $y'\in Y^L$ y negativo si $y'\in Y^R$. En este sentido, $1-xy''$ ser\'a negativo cuando $y'\in Y^L$ y $x'\in X^L$ o cuando $y'\in Y^R$ y $x' \in X^R$, y $1-xy''$ ser\'a positivo en los otros dos casos, reflejando as\'i que $1-xy''$ es negativo cuando $y''\in Y^R$ y positivo cuando $y''\in Y^L$, lo que demuestra que $xy^L < 1 < xy^R$ para todo $y^L, y^R$.
 
             \item Si tomamos en cuenta el numeral $(1)$ de la prueba, esto implica que $y^L < y^R$ para todo $y^L, y^R$, lo que significa que $y$ es un n\'umero.
             
@@ -304,7 +304,7 @@
                 & = x'y - \frac{x'(1 + y'(x-x'))}{x'} + 1 \\
                 & = x'(y - y'') + 1,
             \end{align*}
-            que es mayor que $1$ si $(y-y'')$ es positivo y menor que $1$ si $(y-y'')$ es negativo, dando as\'i el teorema. Para ver esto podemos verlo por casos, veamos por ejemplo cuando el factor es mayor que $1$, en este caso $y''\in Y^L$ y esto pasa cuando $x'$ y $y'$ pertenecen a diferentes conjuntos, por ejemplo, $x'\in X^R$ y $y'\in Y^L$, en este caso $(xy)'\in (xy)^R$.
+            que es mayor que $1$ si $(y-y'')$ es positivo y menor que $1$ si $(y-y'')$ es negativo, dando as\'i el teorema. Para ver esto podemos verlo por casos, veamos el caso cuando el factor es mayor que $1$, en este caso $y''\in Y^L$ y esto pasa cuando $x'$ y $y'$ pertenecen a diferentes conjuntos, por ejemplo, $x'\in X^R$ y $y'\in Y^L$, en este caso $(xy)'\in (xy)^R$.
 
             \item Para mostrar que $xy=1$ tenemos que mostrar que $xy > 0$ y que $(xy)^L < 1 < (xy)^R$, la segunda parte ya la tenemos. Para la primera parte, f\'ijese que $0\in X^L$ y $0\in Y^L$, por lo tanto, el factor dado por estos dos ancestros se encuentra en $(XY)^L$ y es igual a $0$, es decir, $0 < xy$.
         \end{enumerate}
