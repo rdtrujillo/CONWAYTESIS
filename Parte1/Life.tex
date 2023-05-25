@@ -21,7 +21,7 @@ La idea del juego de la vida comenz\'o desde mucho antes. Seg\'un Stephen Wolfra
 
 Y as\'i empez\'o una busqueda hac\'ia un automata, universal (que pueda replicar cualquier m\'aquina), y adem\'as que fuera lo m\'as simple posible. Algo que describir\'ia como su \textit{Jugendtraum}, su sueño de juventud.
 
-En principio un aut\'omata es una abstracci\'on de lo que es una m\'aquina. B\'asicamente, un aut\'omata es un conjunto de estados, que representar\'ian los estados en los que puede estar la m\'aquina, un conjunto de reglas o instrucciones sobre qu\'e hacer en cada estado, y un conjunto de posibles \textit{inputs} o entradas que se le pueden hacer a la m\'aquina. La idea que ten\'ia Conway era encontrar un aut\'omata universal que no pareciera creado, que pareciera natural. La parte de la universalidad es lo que hace la busqueda complicada, en palabras simples, la universalidad significa que el aut\'omata puede hacer cualquier c\'alculo, algo as\'i como un computador que puede hacer multiplicaciones, sumas, divisiones, pero tambi\'en otras cosas, como guardar documentos, hojas de c\'alculo, reproducir v\'ideos.
+En principio un aut\'omata es una abstracci\'on de lo que es una m\'aquina. B\'asicamente, un aut\'omata es un conjunto de estados, que representar\'ian los estados en los que puede estar la m\'aquina, un conjunto de reglas o instrucciones sobre qu\'e hacer en cada estado, y un conjunto de posibles \textit{inputs} o entradas que se le pueden hacer a la m\'aquina. La idea que ten\'ia Conway era encontrar un aut\'omata universal que no pareciera creado, que pareciera natural. La parte de la universalidad es lo que hace la busqueda complicada, en palabras simples, la universalidad significa que el aut\'omata puede hacer cualquier c\'alculo, algo as\'i como un computador que puede hacer multiplicaciones, sumas, divisiones, pero tambi\'en otras cosas, como guardar documentos, hojas de c\'alculo, reproducir v\'ideos. Los computadores y celulares que tenemos en nuestra vida diaria son aut\'omatas universales.
 
 Conway empez\'o a buscar automatas universales que tuvieran reglas simples. La idea de Von Neumann era sobre una cuadr\'icula de dos dimensiones, as\'i que Conway pens\'o primero en algo m\'as simple, algo de una sola dimensi\'on, FRACTRAN fue el primer resultado. Si bien FRACTRAN es un aut\'omata, FRACTRAN es mejor descrito como un lenguaje de programaci\'on, esto es, un sistema de notaci\'on para escribir programas de computaci\'on. En FRACTRAN los programas de computaci\'on se escriben como listas finitas de fracciones, y en estas se puede escribir cualquier tipo de programa, se pueden sumar, multiplicar, calcular los d\'igitos de $\pi$, etc. Si bien los programas en FRACTRAN son simples y FRACTRAN es universal, FRACTRAN se alejaba de la idea principal de su \textit{Jugendtraum}, ni tampoco era parecida a la idea de Von Neumann.
 
@@ -203,14 +203,14 @@ Los \textit{blinker} de la figura \ref{figure:blinker} tienen la propiedad de qu
 
 Adem\'as de los osciladores, tambi\'en exist\'ian otros patrones que no cambiaban en absoluto al pasar el tiempo, a estos patrones se les llama \textit{estacionarios}. El m\'as simple de estos patrones es el \textit{bloque}, conformado por cuatro celdas vivas unidas en forma de cuadrado, ninguna muere porque cada una est\'a en contacto con exactamente $3$ celdas vivas mientras que las celdas muertas alrededor solamente est\'an en contacto con $2$ celdas vivas, por lo tanto no pueden nacer. Se puede ver el bloque en la parte izquierda de la figura \ref{figure:stationary}.
 
-\begin{figure}[b]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{images/life-stationary.png}
     \caption{Cinco patrones estacionarios, es decir, ninguno cambia con el tiempo. Sus nombres izquierda a derecha: un \textit{bloque}, una \textit{colmena}, una \textit{tajada de pan}, un \textit{bote}, un \textit{balde}.}
     \label{figure:stationary}
 \end{figure}
 
-De las primeros patrones que se estudiaron, problablemente los m\'as interesantes son los llamados \textit{Matusal\'en}, en referencia al personaje m\'as longevo de la biblia. Estos patrones tienen en com\'un que evolucionan por largos periodos de tiempo antes de estabilizarse, es decir, en volverse figuras conocidas, como los osciladores o las figuras estacionarias. El primer Matusal\'en que se encontr\'o fue el R-pentomin\'o (ver figura \ref{figure:pentomino-r}), que tambi\'en fue una de las primeras evidencias de la complejidad que podr\'ia traer el juego de la vida. El R-pentomin\'o se demora 1103 iteraciones en estabilizarse, por lo tanto, fue un gran desaf\'io para los primeros investigadores del juego de la vida, que b\'asicamente hac\'ian toda su investigaci\'on en tableros de Go y a mano.
+De las primeros patrones que se estudiaron, problablemente los m\'as interesantes son los llamados \textit{Matusal\'en}, nombrados en referencia al personaje m\'as longevo de la biblia. Estos patrones tienen en com\'un que evolucionan por largos periodos de tiempo antes de estabilizarse, es decir, en volverse figuras conocidas, como los osciladores o las figuras estacionarias. El primer Matusal\'en que se encontr\'o fue el R-pentomin\'o (ver figura \ref{figure:pentomino-r}), que tambi\'en fue una de las primeras evidencias de la complejidad que podr\'ia traer el juego de la vida. El R-pentomin\'o se demora 1103 iteraciones en estabilizarse, por lo tanto, fue un gran desaf\'io para los primeros investigadores del juego de la vida, que b\'asicamente hac\'ian toda su investigaci\'on en tableros de Go y a mano.
 
 \begin{figure}[h]
     \centering
@@ -219,7 +219,9 @@ De las primeros patrones que se estudiaron, problablemente los m\'as interesante
     \label{figure:pentomino-r}
 \end{figure}
 
-La complejidad del R-pentomin\'o se descubri\'o porque Conway y su equipo estaban probando patrones simples, empezaron con los pentomin\'os y se dieron cuenta que la mayor\'ia de ellos se estabilizaba apenas pasaban unas cuantas iteraciones, todos los dem\'as pentomin\'os con menos de 6 celdas vivas se estabilizan antes de la onceava iteraci\'on. Como Conway y su equipo hac\'ia el trabajo de revisar los patrones de manera an\'aloga, se realizaban muchos errores. Al equipo de ellos lleg\'o a ayudarlos Richard Guy, un matem\'atico de Cambridge, que tuvo el trabajo de revisar y escrutinar la evoluci\'on de los patrones de los que a\'un no conoc\'ian todo, entre esos, el R-pentomin\'o. En la iteraci\'on n\'umero $69$, Richard Guy atisb\'o un nuevo patr\'on que se separaba del caos formado por el R-pentomin\'o y en las siguientes generaciones se apartaba m\'as y m\'as, cada vez como si caminara a trav\'es del tablero. Guy se lo mostr\'o a Conway, y este \'ultimo lo bautiz\'o \textit{glider}\footnote{Su traducci\'on al espan\~ol ser\'ia planeador, haciendo referencia a los aviones planeadores}.
+De las figuras m\'as simples que se pueden formar con celdas son los poliomin\'os, un poliomin\'o es un objeto formado cuando se unen varias celdas cuadradas por sus lados, en particular, los pentomin\'os son poliomin\'os con cinco celdas, hay en total $12$ pentomin\'os diferentes y estos se nombran con las letras del alfabeto, de ah\'i sale el R-pentomin\'o. La complejidad del R-pentomin\'o se descubri\'o porque Conway y su equipo estaban probando todos los patrones simples que conocieran, empezaron con los poliomin\'o y se dieron cuenta que la mayor\'ia de ellos se estabilizaba apenas pasaban unas cuantas iteraciones, todos los dem\'as poliomin\'os con menos de 6 celdas vivas se estabilizan antes de la onceava iteraci\'on. 
+
+Como Conway y su equipo hac\'ian el trabajo de revisar los patrones de manera an\'aloga con tableros de Go y a mano, se comte\'ian muchos errores. Al equipo de ellos lleg\'o a ayudarlos Richard Guy, un matem\'atico de Cambridge, que tuvo el trabajo de revisar y escrutinar la evoluci\'on de los patrones de los que a\'un no conoc\'ian todo, entre esos, el R-pentomin\'o. En la iteraci\'on n\'umero $69$, Richard Guy atisb\'o un nuevo patr\'on que se separaba del caos formado por el R-pentomin\'o y en las siguientes generaciones se apartaba m\'as y m\'as, cada vez como si caminara a trav\'es del tablero. Guy se lo mostr\'o a Conway, y este \'ultimo lo bautiz\'o \textit{glider}\footnote{Su traducci\'on al espa\~nol ser\'ia planeador, haciendo referencia a los aviones planeadores}.
 
 \begin{figure}[b]
     \centering
@@ -241,7 +243,7 @@ La complejidad del R-pentomin\'o se descubri\'o porque Conway y su equipo estaba
     \caption{La evoluci\'on del \textit{glider}. Despu\'es de 4 iteraciones se transforma por una copia del mismo pero una casilla corrida a la derecha y abajo.}
 \end{figure}
 
-Este \textit{glider} cambiar\'ia el curso que tomar\'ia el juego de la vida. Para que un aut\'omata se asemeje a un computador tiene que poder enviar informaci\'on de alguna manera, cuando Conway y su equipo encontr\'o el \textit{glider} se imaginaron que podr\'ian enviar informaci\'on mediante ellos. Para poder hacerlo, igual que se hace con el voltaje en la vida real, se necesita una forma de generar los \textit{gliders} en masa y controladamente, algo as\'i como un ca\~non de gliders. En el art\'iculo de Gardner \cite{Gardner1970}, el reto era para cualquier patr\'on que creciera sin l\'imites, pero hac\'ia referencia a que una pistola de gliders ser\'ia lo mejor para la investigaci\'on, pues una pistola de gliders tambi\'en ser\'ia un patr\'on que crecer\'ia sin l\'imite.
+Este \textit{glider} era una se\~nal contundente de que el juego de la vida pod\'ia ser universal. Para que un aut\'omata se asemeje a un computador (en el hecho de ser universal) tiene que poder enviar informaci\'on de alguna manera, cuando Conway y su equipo encontraron el \textit{glider} se imaginaron que podr\'ian enviar informaci\'on mediante este patr\'on, an\'alogo a lo que se hace con la corriente el\'ectrica en la vida real. Para poder hacerlo se necesita una forma de generar \textit{gliders} peri\'odica y controladamente, algo as\'i como un ca\~non de gliders. En el art\'iculo de Gardner \cite{Gardner1970}, el reto de los 50 USD hac\'ia referencia a que un ca\~non de \textit{gliders} ser\'ia perfecto para ganar la apuesta, porque por un lado ser\'ia un patr\'on sin l\'imite de crecimiento entonces cumplir\'ia la condici\'on, y por otro les ayudar\'ia a los investigadores a probar la universalidad del juego de la vida.
 
 En Noviembre del a\~no en que sali\'o la columna de Gardner (1970), un equipo del MIT liderado por Bill Gosper, un matem\'atico y programador estadounidense, se gan\'o el premio propuesto en la columna al descubrir/inventar una pistola de gliders ahora conocida como la \textit{Gosper Glider gun} (ver figura \ref{figure:gosper-gun}). 
 
@@ -252,11 +254,13 @@ En Noviembre del a\~no en que sali\'o la columna de Gardner (1970), un equipo de
     \label{figure:gosper-gun}
 \end{figure}
 
-Despu\'es de la carrera por encontrar una pistola de gliders, vino la carrera para mostrar que el juego de la vida era universal, es decir, que se pod\'ia generar un computador en el juego de la vida. Despu\'es del glider se econtraron muchas otras `naves espaciales', muchas m\'as grandes, y se estudi\'o tambi\'en c\'omo sus interacciones (o choques) podr\'ian ser \'utiles para mostrar la universalidad.
+Despu\'es de la carrera por encontrar una pistola de gliders, vino la carrera para mostrar que el juego de la vida era universal. Despu\'es del glider se econtraron muchas otras `naves espaciales', muchas m\'as grandes, y se estudi\'o tambi\'en c\'omo sus interacciones (o choques) podr\'ian ser \'utiles para mostrar la universalidad.
 
-Una forma de, por ejemplo, hacer una compuerta l\'ogica NOT es utilizando estas propiedades. Si dos gliders se chocan de una manera precisa, resultara en la destrucci\'on de los dos gliders, tal como se muestra en la figura \ref{figure:glider-collission}. Por lo tanto, si tenemos una corriente de gliders a la cual le queremos sacar el NOT, lo que podemos hacer es chocarla con una corriente de gliders constante, de modo que si no se chocan la corriente constante seguir\'a produciendo y si en cambio s\'i se chocan, todos los producidos por la corriente se destruir\'an.
+Para mostrar la universalidad toca mostrar que es posible formar cada una de las partes de un computador en el juego de la vida, por ejemplo, se tiene que mostrar que se puede modelar una memoria, o tambi\'en que se pueden modelar los c\'alculos que puede hacer un computador. Para los c\'alculos los computadores utilizan compuertas l\'ogicas, la \'idea es que por un lado de la compuerta entran una o dos se\~nales el\'ectricas, y dependiendo de estas por la otra sale o no sale corriente. Por ejemplo, la compuerta NOT lo que hace es invertir la se\~nal, si entra corriente a la compuerta entonces no sale corriente, y si no entra corriente entonces s\'i sale corriente.
 
-\begin{figure}[b]
+En el juego de la vida, la forma de construir las compuertas l\'ogicas es mediante las propiedades de las colisiones de los gliders, hagamos el ejemplo de la compuerta NOT, en este caso tendremos una ``corriente'' de gliders tal que al llegar a la compuerta se les aplicar\'a el NOT, entonces si en ese momento llega un glider la compuerta no generar\'a ning\'un glider y si no llega ning\'un glider la compuerta s\'i generar\'a uno. Si dos gliders se chocan de una manera precisa, resultara en la destrucci\'on de los dos gliders, tal como se muestra en la figura \ref{figure:glider-collission}. Por lo tanto, lo que podemos hacer es chocar la corriente a la que le queremos aplicar la compuerta con una corriente de gliders constante, de modo que, si no se chocan la corriente constante seguir\'a produciendo gliders y si en cambio s\'i se chocan, todos los producidos por la corriente se destruir\'an.
+
+\begin{figure}[h]
     \centering
     \begin{subfigure}{0.22\textwidth}
         \includegraphics[width=\textwidth]{images/life-glider-collission-1.png}
@@ -270,17 +274,18 @@ Una forma de, por ejemplo, hacer una compuerta l\'ogica NOT es utilizando estas 
     \begin{subfigure}{0.22\textwidth}
         \includegraphics[width=\textwidth]{images/life-glider-collission-4.png}
     \end{subfigure}
-    \caption{Dos gliders llendo en direcciones opuestas que chocan destruyendose mutuamente. Fotos tomadas al tiempo t=0,2,4,6, respectivamente de izquierda a derecha.}
+    \caption{Dos gliders que van en direcciones opuestas chocan destruyendose mutuamente. Fotos tomadas en el tiempo t=0,2,4,6, de izquierda a derecha.}
     \label{figure:glider-collission}
 \end{figure}
 
-Si bien la existencia de compuertas l\'ogicas de por s\'i no implica que el juego de la vida fuera universal, se fueron descubriendo varios patrones que implicaban de cierta manera que se pod\'ia construir un computador en el juego de la vida. Esto es, se descubrieron varios patrones para poder guardar informaci\'on, igualmente todo basado en gliders.
+Si bien la existencia de compuertas l\'ogicas de por s\'i no implica que el juego de la vida fuera universal, se fueron descubriendo varios patrones que implicaban de cierta manera que se pod\'ia construir las diferentes partes de un computador en el juego de la vida; se descubrieron formas de guardar corrientes de gliders, es decir memoria, y se descubrieron las otras compuertas.
 
 Un mes despu\'es de que Bill Gosper descubriera la pistola de gliders que lleva su nombre, Conway le escribi\'o una carta a Martin Gardner que dec\'ia \cite{Roberts2015-ur}:
-\newpage
 
-\textit{Querido MG,} 
+\begin{samepage}
+    ``\textit{Querido MG,} 
 
-\textit { Espero que esta carta no te llegue muy tarde - el correo parece que se demora mucho en llegarte. Retras\'e esta carta hasta ahora porque quer\'ia completar mi prueba de que EL JUEGO DE LA VIDA ES UNIVERSAL.}
+    \textit { Espero que esta carta no te llegue muy tarde - el correo parece que se demora mucho en llegarte. Retras\'e esta carta hasta ahora porque quer\'ia completar mi prueba de que EL JUEGO DE LA VIDA ES UNIVERSAL.}''\footnote{Traducci\'on del autor.}
+\end{samepage}
 
-Si bien Conway nunca public\'o su prueba de que el juego de la vida es universal, el juego se volvi\'o tan famoso que hasta la fecha se han hecho un mont\'on de construcciones en el juego de la vida que lo prueban. En ese entonces se estimaba que para hacer un computador en el juego de la vida se necesitar\'ia millones de celdas, sin embargo, ahora se sabe, gracias a descubrimientos hechos por comunidades en l\'inea, que no se necesita tantas celdas para hacer un computador.
+Si bien Conway nunca public\'o su prueba de que el juego de la vida es universal, el juego se volvi\'o tan famoso que hasta la fecha se han hecho un mont\'on de construcciones en el juego de la vida que lo prueban. En ese entonces se estimaba que para hacer un computador en el juego de la vida se necesitar\'ia millones de celdas, sin embargo, ahora se sabe, gracias a construcciones hechas por comunidades en l\'inea, que no se necesita tantas celdas para hacer un computador, e incluso se han creado computadores que tienen sus propias pantallas en el mismo juego \cite{YTComputerGL}.

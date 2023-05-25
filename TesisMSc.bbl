@@ -50,6 +50,28 @@
       \verb https://www.youtube.com/watch?v=C2vgICfQawE&t
       \endverb
     \endentry
+    \entry{britgo_JON_DIAMOND}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3ad7522ef5ac0f7f04a7b88e6d1625ff}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelimb British\bibnamedelima Go},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{fullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{bibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authorbibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authornamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authorfullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.britgo.org/people/diamondj}}
+      \field{note}{[Online; accessed 25-May-2023]}
+      \field{title}{Jon Diamond}
+    \endentry
     \entry{Bajnok2013}{book}{}
       \name{author}{1}{}{%
         {{hash=88818c465d540cb58cdf8ad3e4242003}{%
@@ -220,6 +242,35 @@
       \field{title}{Essays on the theory of numbers}
       \field{year}{1963}
     \endentry
+    \entry{Gardner2005-vo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3124882705abf7cca548c58eb9240b39}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Mathematical Assn of Amer}%
+      }
+      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
+      \strng{bibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The entire collection of Martin Gardner's Scientific American columns are on one searchable CD! Martin Gardner's ``Mathematical Games'' column ran in Scientific American from 1956 to 1986. In these columns, Gardner introduced hundreds of thousands of readers to the delights of mathematics and of puzzles and problem solving. His column broke such stories as Rivest, Shamir and Adelman on public-key cryptography, Mandelbrot on fractals, Conway on Life, and Penrose on tilings. He enlivened classic geometry and number theory and introduced readers to new areas such as combinatorics and graph theory. The CD contains the following articles: (1) Hexaflexagons and Other Mathematical Diversions; (2) The Second Scientific American Book of Mathematical Puzzles and Diversions; (3) New Mathematical Diversions; (4) The Unexpected Hanging and Other Mathematical Diversions; (5) Martin Gardner's 6th Book of Mathematical Diversions from Scientific American; (6) Mathematical Carnival; (7) Mathematical Magic Show; (8) Mathematical Circus; (9) The Magic Numbers of Dr. Matrix; (10) Wheels, Life, and Other Mathematical Amusements; (11) Knotted Doughnuts and Other Mathematical Entertainers; (12) Time Travel and Other Mathematical Bewilderments; (13) Penrose Tiles to Trapdoor Ciphers; (14) Fractal Music, Hypercards, and more Mathematical Recreations from Scientific American and (15) The Last Recreations: Hydras, Eggs, and Other Mathematical Mystifications. A profile and interview with Martin Gardner is included in this collection.}
+      \field{title}{Martin Gardner's Mathematical Games: The entire collection of his Scientific American columns}
+      \field{year}{2005}
+    \endentry
     \entry{Gardner1970}{article}{}
       \name{author}{1}{}{%
         {{hash=3124882705abf7cca548c58eb9240b39}{%
@@ -238,6 +289,7 @@
       \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
       \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
       \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
+      \field{extraname}{2}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
@@ -293,6 +345,31 @@
       \verb{url}
       \verb https://doi.org/10.1017/cbo9780511629143
       \endverb
+    \endentry
+    \entry{Grundy1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c1c212d77fd4c4f1b58ebc90414e36eb}{%
+           family={Grundy},
+           familyi={G\bibinitperiod},
+           given={P.M.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{fullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{bibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authorbibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authornamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authorfullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eureka}
+      \field{title}{Mathematics and Games}
+      \field{volume}{2}
+      \field{year}{1939}
+      \field{pages}{6\bibrangedash 8}
+      \range{pages}{3}
     \endentry
     \entry{blog:tanyakhovanova}{misc}{}
       \name{author}{2}{}{%
@@ -350,6 +427,60 @@
       \field{month}{1}
       \field{title}{Surreal Numbers}
       \field{year}{1974}
+    \endentry
+    \entry{YTComputerGL}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9d8f4a7ba817d10f9dac72885e292234}{%
+           family={Loizeau},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{fullhash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{bibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authorbibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authornamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authorfullhash}{9d8f4a7ba817d10f9dac72885e292234}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Game of life: computer with display}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
+      \endverb
+    \endentry
+    \entry{Gardner1999}{incollection}{}
+      \list{publisher}{1}{%
+        {A K Peters/{CRC} Press}%
+      }
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Mathemagician and Pied Puzzler}
+      \field{month}{3}
+      \field{title}{Martin Gardner: A {“}Documentary{”}}
+      \field{year}{1999}
+      \field{pages}{13\bibrangedash 22}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1201/9781439863848-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1201/9781439863848-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1201/9781439863848-7
+      \endverb
     \endentry
     \entry{YTNumberphileConway}{online}{}
       \name{author}{1}{}{%
