@@ -1,0 +1,56 @@
+\geometry{paperwidth=80cm,paperheight=120cm} %A0
+% \geometry{paperheight=33.11in,paperwidth=23.4in} %A1
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage[export]{adjustbox}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage{ubtheme}
+\makeatletter
+\setlength{\TP@visibletextwidth}{75cm}
+\setlength{ \TP@visibletextheight}{45in}
+\makeatother
+\usepackage{mwe} % for placeholder images
+\usepackage{bm}
+\usepackage{bbm}
+\definecolor{bristolred}{HTML}{B01C2E}
+\addbibresource{refs.bib}
+
+% set theme parameters
+\tikzposterlatexaffectionproofoff
+\usetheme{UBTheme}
+\usecolorstyle{UBStyle}
+\useinnerblockstyle{Heldert}
+\def \SL{SL_2(\mathbb{Z})}
+\def\H{{ \!\! \rm \ I\!H}}
+\newcommand{\set}[1]{ \left\{ #1 \right\} }
+
+\makeatletter
+\newcounter{tablecounter}
+\newenvironment{tikztable}[1][]{
+  \def \rememberparameter{#1}
+  \vspace{10pt}
+  \refstepcounter{tablecounter}
+  \begin{center}
+  }{
+    \ifx\rememberparameter\@empty
+    \else
+    \\[10pt]
+    {\small Tab.~\thetablecounter: \rememberparameter}
+    \fi
+  \end{center}
+}
+\makeatother
+
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\renewcommand{\vec}[1]{\bm{#1}}
+\newcommand{\Tr}{\text{Tr}}
+\usepackage[T1]{fontenc}
