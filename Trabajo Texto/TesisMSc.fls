@@ -1,6 +1,6 @@
-PWD c:\Users\rockt\my repositories\CONWAYTESIS
+PWD c:\Users\rockt\my repositories\CONWAYTESIS\Trabajo Texto
 INPUT C:\Users\rockt\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\rockt\my repositories\CONWAYTESIS\TesisMSc.tex
+INPUT c:\Users\rockt\my repositories\CONWAYTESIS\Trabajo Texto\TesisMSc.tex
 OUTPUT TesisMSc.log
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
 INPUT C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrbook.cls
