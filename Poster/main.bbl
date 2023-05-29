@@ -19,6 +19,73 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{Bajnok2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88818c465d540cb58cdf8ad3e4242003}{%
+           family={Bajnok},
+           familyi={B\bibinitperiod},
+           given={Béla},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{fullhash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{bibnamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authorbibnamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authornamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authorfullhash}{88818c465d540cb58cdf8ad3e4242003}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Invitation to Abstract Mathematics}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-6636-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4614-6636-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4614-6636-9
+      \endverb
+    \endentry
+    \entry{Conway2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4d38889baa1da2b61817906c7e7106fe}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {A K Peters/{CRC} Press}%
+      }
+      \strng{namehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{fullhash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{bibnamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authorbibnamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authornamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authorfullhash}{4d38889baa1da2b61817906c7e7106fe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{On Numbers and Games}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1201/9781439864159
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1201/9781439864159
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1201/9781439864159
+      \endverb
+    \endentry
     \entry{Gardner1970}{article}{}
       \name{author}{1}{}{%
         {{hash=3124882705abf7cca548c58eb9240b39}{%
@@ -58,6 +125,34 @@
       \verb{url}
       \verb https://doi.org/10.1038/scientificamerican1070-120
       \endverb
+    \endentry
+    \entry{Knuth1974-wh}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Addison Wesley}%
+      }
+      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Surreal Numbers}
+      \field{year}{1974}
     \endentry
     \entry{Roberts2015-ur}{book}{}
       \name{author}{1}{}{%

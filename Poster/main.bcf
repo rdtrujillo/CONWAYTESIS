@@ -2351,6 +2351,9 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">Roberts2015-ur</bcf:citekey>
     <bcf:citekey order="2" intorder="1">Gardner1970</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Bajnok2013</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Conway2000</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Knuth1974-wh</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

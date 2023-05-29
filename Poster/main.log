@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  27 MAY 2023 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  28 MAY 2023 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -928,10 +928,10 @@ LaTeX Warning: Unused global option(s):
     [margin=2.2cm,innermargin=-4.5in,blockverticalspace=-0.25in].
 
 (main.aux
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `main.aux'.
 
@@ -1035,6 +1035,15 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no [ in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
 )
 Package biblatex Info: Reference section=0 on input line 12.
@@ -1269,67 +1278,111 @@ File: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png Graphic file (type png)
 Package pdftex.def Info: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png  used on input line 14.
 (pdftex.def)             Requested size: 494.72737pt x 260.21738pt.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 34.03839pt on input line 25.
+(Font)              scaled to size 34.03839pt on input line 24.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 25.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 82.
-
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 82--82
-[][] 
- []
-
-
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 82--82
-[][] 
- []
-
+(Font)              scaled to size 23.63593pt on input line 24.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <24.88> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 82.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 24.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 23.63593pt on input line 82.
-<images/life-1.png, id=30, 271.61475pt x 212.59425pt>
-File: images/life-1.png Graphic file (type png)
-<use images/life-1.png>
-Package pdftex.def Info: images/life-1.png  used on input line 82.
-(pdftex.def)             Requested size: 395.48727pt x 309.57079pt.
-<images/life-2.png, id=31, 271.61475pt x 211.992pt>
-File: images/life-2.png Graphic file (type png)
-<use images/life-2.png>
-Package pdftex.def Info: images/life-2.png  used on input line 82.
-(pdftex.def)             Requested size: 395.48727pt x 308.69382pt.
+(Font)              scaled to size 23.63593pt on input line 24.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 92.
 
-Overfull \hbox (23.63593pt too wide) in paragraph at lines 82--82
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 92--92
 [][] 
  []
 
-<images/life-gosper-gun.png, id=32, 569.12625pt x 178.266pt>
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 92--92
+[][] 
+ []
+
+<images/life-glider-1.png, id=30, 126.4725pt x 124.66576pt>
+File: images/life-glider-1.png Graphic file (type png)
+<use images/life-glider-1.png>
+Package pdftex.def Info: images/life-glider-1.png  used on input line 92.
+(pdftex.def)             Requested size: 148.30396pt x 146.18741pt.
+<images/life-glider-2.png, id=31, 127.07475pt x 127.07475pt>
+File: images/life-glider-2.png Graphic file (type png)
+<use images/life-glider-2.png>
+Package pdftex.def Info: images/life-glider-2.png  used on input line 92.
+(pdftex.def)             Requested size: 148.30396pt x 148.3162pt.
+<images/life-glider-3.png, id=32, 127.07475pt x 124.66576pt>
+File: images/life-glider-3.png Graphic file (type png)
+<use images/life-glider-3.png>
+Package pdftex.def Info: images/life-glider-3.png  used on input line 92.
+(pdftex.def)             Requested size: 148.30396pt x 145.5045pt.
+<images/life-glider-4.png, id=33, 125.268pt x 124.66576pt>
+File: images/life-glider-4.png Graphic file (type png)
+<use images/life-glider-4.png>
+Package pdftex.def Info: images/life-glider-4.png  used on input line 92.
+(pdftex.def)             Requested size: 148.30396pt x 147.59317pt.
+<images/life-glider-5.png, id=34, 124.66576pt x 125.268pt>
+File: images/life-glider-5.png Graphic file (type png)
+<use images/life-glider-5.png>
+Package pdftex.def Info: images/life-glider-5.png  used on input line 92.
+(pdftex.def)             Requested size: 148.30396pt x 149.03061pt.
+<images/life-gosper-gun.png, id=35, 569.12625pt x 178.266pt>
 File: images/life-gosper-gun.png Graphic file (type png)
 <use images/life-gosper-gun.png>
-Package pdftex.def Info: images/life-gosper-gun.png  used on input line 82.
+Package pdftex.def Info: images/life-gosper-gun.png  used on input line 92.
 (pdftex.def)             Requested size: 790.98962pt x 247.78627pt.
+<images/hackenbush-game_example.pdf, id=36, 414.09904pt x 72.26999pt>
+File: images/hackenbush-game_example.pdf Graphic file (type pdf)
+<use images/hackenbush-game_example.pdf>
+Package pdftex.def Info: images/hackenbush-game_example.pdf  used on input line 147.
+(pdftex.def)             Requested size: 667.34373pt x 116.4768pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 147--147
+[][] 
+ []
+
+<images/hackenbush-surr_roots.pdf, id=37, 330.13254pt x 148.07146pt>
+File: images/hackenbush-surr_roots.pdf Graphic file (type pdf)
+<use images/hackenbush-surr_roots.pdf>
+Package pdftex.def Info: images/hackenbush-surr_roots.pdf  used on input line 147.
+(pdftex.def)             Requested size: 684.14366pt x 306.85841pt.
+<images/hackenbush-sum_example.pdf, id=38, 303.43549pt x 64.71674pt>
+File: images/hackenbush-sum_example.pdf Graphic file (type pdf)
+<use images/hackenbush-sum_example.pdf>
+Package pdftex.def Info: images/hackenbush-sum_example.pdf  used on input line 147.
+(pdftex.def)             Requested size: 684.14366pt x 145.9421pt.
+<images/surreal-infinite.pdf, id=39, 706.01222pt x 463.33737pt>
+File: images/surreal-infinite.pdf Graphic file (type pdf)
+<use images/surreal-infinite.pdf>
+Package pdftex.def Info: images/surreal-infinite.pdf  used on input line 170.
+(pdftex.def)             Requested size: 977.35236pt x 641.41414pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 95.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 175.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 19.70294pt on input line 95.
+(Font)              scaled to size 19.70294pt on input line 175.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 19.70294pt on input line 95.
-LaTeX Font Info:    Trying to load font information for T1+aett on input line 95.
+(Font)              scaled to size 19.70294pt on input line 175.
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 175.
 (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Info: Redefining \sptext on input line 98.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \sptext on input line 178.
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
  [1
 
-{C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png> <./images/life-1.png> <./images/life-2.png> <./images/life-gosper-gun.png>] (main.aux
-LaTeX Info: Redefining \sptext on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
-LaTeX Info: Redefining \sptext on input line 17.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+{C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png> <./images/life-glider-1.png> <./images/life-glider-2.png> <./images/life-glider-3.png> <./images/life-glider-4.png> <./images/life-glider-5.png> <./images/life-gosper-gun.png> <./images/hackenbush-game_example.pdf> <./images/hackenbush-surr_roots.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-surr_roots.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./images/hackenbush-sum_example.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-sum_example.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./images/surreal-infinite.pdf
+
+pdfTeX warning: pdflatex (file ./images/surreal-infinite.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (main.aux
+LaTeX Info: Redefining \sptext on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+LaTeX Info: Redefining \sptext on input line 23.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1340,17 +1393,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30316 strings out of 476374
- 639444 string characters out of 5788854
- 1888340 words of memory out of 5000000
- 50124 multiletter control sequences out of 15000+600000
+ 30380 strings out of 476374
+ 641682 string characters out of 5788854
+ 1909340 words of memory out of 5000000
+ 50181 multiletter control sequences out of 15000+600000
  582835 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,118p,729b,3113s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,14n,118p,729b,3113s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (1 page, 308870 bytes).
+Output written on main.pdf (1 page, 383958 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 267 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

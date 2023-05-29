@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1685245973 "main.bcf" "main.bbl" "main" 1685246272 0
-  "main.bcf" 1685246272 107318 71b70c7e5d12eed926b5b20b30ba3b79 "pdflatex"
+["biber main"] 1685327883 "main.bcf" "main.bbl" "main" 1685328205 0
+  "main.bcf" 1685328205 107515 cbb4bda620101a7c2ae097b4ade5666a "pdflatex"
   "refs.bib" 1685244925 7581 b521ce5664921b86ead4480bc2ffa15d ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1685246268 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685246272 0
+["pdflatex"] 1685328200 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685328205 0
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685241894 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1685241896 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/rockt/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676412957 23174347 a2b7821876f4ce00f61051f2c1a9ca75 ""
@@ -233,15 +233,22 @@
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1673962217 123 a302f2c651a95033260db60e51527ae8 ""
   "Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png" 1685241818 235110 6afe3ef30a5684fb6992a43263c30e1d ""
-  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685246267 6039 5d70c036e3676d7ee28527f2eb549e4f ""
+  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685328199 11560 70cdc43df1734edfc4c9f4d32abc11b8 ""
   "header.tex" 1685242256 1441 5cf301f928fdbc0ff759011ff91ddb9d ""
-  "images/life-1.png" 1684171507 2532 1453f4ce8cceea74f28961cf19ef1a07 ""
-  "images/life-2.png" 1684171547 2360 fe6ed1737613bff0e1882cc222d79b1d ""
+  "images/hackenbush-game_example.pdf" 1684451111 3971 3b764174867ee72dd53f25d4b34dbc7c ""
+  "images/hackenbush-sum_example.pdf" 1684365714 4377 d5115d4ee4240e481fc294db00ea64ae ""
+  "images/hackenbush-surr_roots.pdf" 1684357618 10083 83355c5088a5b53fc5fd3072996fa7eb ""
+  "images/life-glider-1.png" 1684201973 2092 7465a6e4c3fcfaedc9af8c685df8770e ""
+  "images/life-glider-2.png" 1684201998 2193 4698bbe1ddb32b6351162e41fee7b603 ""
+  "images/life-glider-3.png" 1684202028 2120 b9ddf5dad95b3533a014e06b3ba29863 ""
+  "images/life-glider-4.png" 1684202055 2007 bbd6ca81dec0ec60e2c92924062279d9 ""
+  "images/life-glider-5.png" 1684202077 2034 8bd95f1af2c62e8fe1dec3877891d2d5 ""
   "images/life-gosper-gun.png" 1684204162 5837 aa625aae92ca08f2ac06928eb6b1bb21 ""
-  "main.aux" 1685246272 729 ab036b62102444034f4406b462a6eec5 "pdflatex"
-  "main.bbl" 1685245976 3134 6b85f98b00a750a57052aca9dbed1f50 "biber main"
-  "main.run.xml" 1685246272 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
-  "main.tex" 1685246267 6039 5d70c036e3676d7ee28527f2eb549e4f ""
+  "images/surreal-infinite.pdf" 1684630201 49888 88e160f8c0f8a017ff10d1b4e25e42e5 ""
+  "main.aux" 1685328205 1125 4abf9cb0dde2abb2c33012f8579d2630 "pdflatex"
+  "main.bbl" 1685327886 6686 2f2bc1233f5b5218858b40b470ee3f1b "biber main"
+  "main.run.xml" 1685328205 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
+  "main.tex" 1685328199 11560 70cdc43df1734edfc4c9f4d32abc11b8 ""
   "ubtheme.sty" 1685244001 4725 aac1c353e225b3bb3929bbe0a9f67cc8 ""
   (generated)
   "main.aux"
