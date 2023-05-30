@@ -13,32 +13,28 @@
 \maketitle
 \begin{columns}
     \column{0.5}
-    \block{Descripción General}{
-        John Conway naci\'o el 26 de diciembre de 1937, en Liverpool, Inglaterra. En los a\~nos 1970 se di\'o a conocer en la comunidad de matem\'aticas puras al encontrar tres grupos simples que nunca antes se hab\'ian encontrado, a estos ahora se les conoce por el nombre de \textit{Conway groups}, sin embargo, para la comunidad general de gente interesada en matem\'atica sus aportes m\'as destacables no fueron esos.
+    \block{\textit{``The Curious Mind of John Horton Conway''}}{
+        John Horton Conway naci\'o el 26 de diciembre de 1937, en Liverpool, Inglaterra. En los a\~nos 1970 se di\'o a conocer en la comunidad de matem\'aticas puras al encontrar tres grupos simples que nunca antes se hab\'ian encontrado, a estos ahora se les conoce por el nombre de \textit{Conway groups}, sin embargo, para la comunidad general de gente interesada en matem\'atica, sus aportes m\'as destacables no fueron esos.
+        \vspace{5mm}
 
-        Este trabajo se concentra en sus aportes a la matem\'atica recreativa, explicamos la historia de los conceptos, de d\'onde surgieron y hacemos una explicaci\'on matem\'atica.
-        
-        Explicamos tres trabajos de Conway: el juego de la vida, la teor\'ia de juegos combinatorios, y los n\'umeros surreales. Los dos primeros los abordamos divulgativamente, mientras que a los n\'umeros surreales le hacemos una descripci\'on formal, los definimos formalmente y demostramos que forman un cuerpo ordenado.
+        \begin{minipage}[c]{\linewidth}
+            \begin{minipage}[c]{0.70\linewidth}
+                Este trabajo se concentra en sus aportes a la matem\'atica recreativa, mostramos c\'omo surgieron algunos conceptos, en particular estudiamos tres trabajos de Conway: el juego de la vida, la teor\'ia de juegos combinatorios, y los n\'umeros surreales. Los dos primeros los abordamos desde un punto de vista divulgativo. Finalmente explicamos c\'omo se obtienen los n\'umeros surreales a partir de los juegos. Adem\'as, definimos formalmente la estructura y las operaciones de los n\'umeros surreales para probar que es un cuerpo ordenado.
 
-        Para la parte hist\'orica nos basamos fuertemente en su biograf\'ia, \textit{Genius at Play} \cite{Roberts2015-ur}.
+                Para la parte hist\'orica nos basamos fuertemente en su biograf\'ia, \textit{Genius at Play} \cite{Roberts2015-ur}.
+            \end{minipage}
+            \quad\quad\;
+            \begin{minipage}[c]{0.20\linewidth}
+                \includegraphics[width=\textwidth]{images/genius-at-play.jpg}
+            \end{minipage}
+        \end{minipage}
+
     }
     
 
     
     \block{El juego de la vida}{
-        Conway cuenta que fueron las ideas de c\'omo los aut\'omatas podr\'ian en alg\'un momento simular cosas complejas como el cerebro humano, o incluso, podr\'ian replicarse a s\'i mismas, las que dieron inicio a su inter\'es en crear aut\'omatas. Conway empez\'o a buscar automatas universales que tuvieran reglas simples, en esta b\'usqueda Conway cre\'o y estudi\'o varios aut\'omatas, FRACTRAN fue el primer resultado.
-        \vspace{7mm}
-        
-        \innerblock{FRACTRAN}{
-            Es un lenguaje de programaci\'on cuyos programas consisten en una lista finitas de fracciones. FRACTRAN puede crear cualquier programa posible, por ejemplo, este es un programa que genera los n\'umeros primos en orden
-            \[
-                {\displaystyle \left({\frac {17}{91}},{\frac {78}{85}},{\frac {19}{51}},{\frac {23}{38}},{\frac {29}{33}},{\frac {77}{29}},{\frac {95}{23}},{\frac {77}{19}},{\frac {1}{17}},{\frac {11}{13}},{\frac {13}{11}},{\frac {15}{14}},{\frac {15}{2}},{\frac {55}{1}}\right)}.
-            \]
-
-        }
-
-        \vspace{5mm}
-        Luego de esto Conway empez\'o a estudiar aut\'omatas celulares de dos dimensiones, inspirado en las idead de Von Neumann.
+        Conway cuenta que fueron las ideas de c\'omo los aut\'omatas podr\'ian en alg\'un momento simular cosas complejas como el cerebro humano, o incluso, podr\'ian replicarse a s\'i mismas, las que dieron inicio a su inter\'es en crear aut\'omatas. Conway empez\'o a buscar aut\'omatas universales que tuvieran reglas simples. Fue inspirado en las ideas de Von Neumann, y en su aut\'omata universal, que se dedic\'o a estudiar aut\'omatas celulares de dos dimensiones.
 
         El juego de la vida se juega en un tablero dos dimensional conformado por celdas, como un tablero de Go pero infinito. El juego empieza con un estado inicial y va evolucionando conforme a las reglas. Cada celda tiene 8 celdas adyacentes a los que llamaremos vecinos, cuatro que comparten un lado y cuatro que comparten solamente un v\'ertice, es decir, dos horizontales, dos verticales, y cuatro en diagonal. Las reglas del juego son:
         \vspace{7mm}
@@ -46,13 +42,27 @@
         \innerblock{Reglas}{
             \begin{enumerate}
                 \item \textbf{Regla de nacimiento:} Si una celda est\'a muerta en el tiempo $t$, y la celda tiene exactamente $3$ celdas vecinas que est\'an vivas, entonces la celda se convierte en una celda viva en el tiempo $t+1$.
-                \item \textbf{Regla de muerte:} Si una celda viva en el tiempo $t$ tiene menos que $2$ vecinos vivos, la celda muere por soledad en el tiempo $t+1$. Si una celda viva en el tiempo $t$ tiene m\'as que $3$ vecinos vivos, la celda muere por hacinamiento en el tiempo $t+1$.
-                \item \textbf{Regla de supervivencia:} Si una celda viva tiene exactamente $2$ o $3$ celdas vivas vecinas, entonces la celda sigue viva en el tiempo $t+1$.
+                \item \textbf{Regla de muerte:} Si una celda viva en el tiempo $t$ tiene estrictamente menos que $2$ vecinos vivos, la celda muere por soledad en el tiempo $t+1$. Si una celda viva en el tiempo $t$ tiene m\'as que $3$ vecinos vivos, la celda muere por hacinamiento en el tiempo $t+1$.
+                \item \textbf{Regla de supervivencia:} Si una celda viva tiene exactamente $2$ o $3$ celdas vivas vecinas en el tiempo $t$, entonces la celda sigue viva en el tiempo $t+1$.
             \end{enumerate}
 
         }
 
-        \vspace{5mm}
+        \vspace{7mm}
+        \begin{minipage}[c]{\linewidth}
+            \begin{minipage}[c]{0.6\linewidth}
+                Un ejemplo es el \textit{blinker}, a la derecha. Este patr\'on se repite despu\'es de 2 iteraciones del juego de la vida, el patr\'on oscila entre tres celdas unidas verticalmente, y tres celdas unidas horizontalmente.
+            \end{minipage}
+            \quad\quad
+            \begin{minipage}[c]{0.15\linewidth}
+                \includegraphics[width=\textwidth]{images/life-1.png}
+            \end{minipage}
+            \begin{minipage}[c]{0.15\linewidth}
+                \includegraphics[width=\textwidth]{images/life-2.png}
+            \end{minipage}
+        \end{minipage}
+
+        \vspace{3mm}
         La figura más importante que se descubri\'o al comienzo del estudio del juego de la vida fue el \textit{glider}, un patr\'on que pod\'ia ``moverse'' por el tablero. El \textit{glider} era importante porque permit\'ia mandar informaci\'on por el tablero, cuando Conway y su equipo encontraron el \textit{glider} se imaginaron que podr\'ia funcionar como la corriente el\'ectrica funciona en los computadores, enviando se\~nales.
         \vspace{7mm}
 
@@ -87,7 +97,7 @@
         \end{minipage}
         
         \vspace{5mm}
-        El juego se hizo supremamente famoso gracias a la columna de Gardner, y gracias a la \textit{Gosper Glider gun} se pudo demostrar que el juego de la vida era un aut\'omata universal, es deicr, pod\'ia hacer cualquier c\'alculo que un computador puede hacer. El juego de la vida sigue teniendo su fanaticada incluso ahora, y todav\'ia hay una comunidad queriendo conocer m\'as sobre este.
+        El juego se hizo supremamente famoso gracias a la columna de Gardner, y gracias a la \textit{Gosper Glider gun} se pudo demostrar que el juego de la vida era un aut\'omata universal, es decir, pod\'ia hacer cualquier c\'alculo que un computador puede hacer. El juego de la vida sigue teniendo su fanaticada incluso ahora, y todav\'ia hay una comunidad queriendo conocer m\'as sobre \'este.
         \vspace{7mm}
     }
 
@@ -160,7 +170,7 @@
 
         Los n\'umeros surreales son una extensi\'on de los n\'umeros reales que admite infinitos e infinitesimales, adem\'as son el cuerpo ordenado m\'as grande, esto significa que todos los dem\'as cuerpos ordenados son subcuerpos de los n\'umeros surreales \cite{Bajnok2013}. Tambi\'en contienen a los ordinales.
 
-        Conway public\'o la teor\'ia de los n\'umeros surreales en su libro \textit{On numbers and Games}\cite{Conway2000}, al principio \'el los llamaba solamente n\'umeros porque esta clase conten\'ia a todos los n\'umeros, el nombre se lo di\'o Donald Knuth en la novela \textit{Surreal Numbers}\cite{Knuth1974-wh}. Conway consideraba al descubrimiento de los n\'umeros surreales como su mejor trabajo matem\'atico.
+        Conway public\'o la teor\'ia de los n\'umeros surreales en su libro \textit{On numbers and Games} \cite{Conway2000}. Al principio \'el los llamaba solamente n\'umeros porque esta clase conten\'ia a todos los n\'umeros (reales, hiperreales, ordinales), el nombre se lo di\'o Donald Knuth en la novela \textit{Surreal Numbers} \cite{Knuth1974-wh}. Conway consideraba al descubrimiento de los n\'umeros surreales como su mejor trabajo matem\'atico.
         \vspace{5mm}
 
         \begin{minipage}[t]{\linewidth}
