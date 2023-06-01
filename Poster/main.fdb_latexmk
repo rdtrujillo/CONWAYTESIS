@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1685647352 -1
-  "main.bcf" 1685647351 107515 cbb4bda620101a7c2ae097b4ade5666a "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1685647682 -1
+  "main.bcf" 1685647682 107515 cbb4bda620101a7c2ae097b4ade5666a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1685647347 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685647352 0
+["pdflatex"] 1685647678 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685647682 0
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685241894 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1685241896 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/rockt/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676412957 23174347 a2b7821876f4ce00f61051f2c1a9ca75 ""
@@ -235,7 +235,7 @@
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1673962217 123 a302f2c651a95033260db60e51527ae8 ""
   "Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png" 1685241818 235110 6afe3ef30a5684fb6992a43263c30e1d ""
-  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685647346 12723 4f7e5243be8e4941aa6bc5fe62464cc8 ""
+  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685647677 12722 680a96e6984cfcebfb97c829c51646cd ""
   "header.tex" 1685242256 1441 5cf301f928fdbc0ff759011ff91ddb9d ""
   "images/genius-at-play.jpg" 1685405864 79367 18b662db52cc93e07f9012beb2f0629f ""
   "images/hackenbush-game_example.pdf" 1684451111 3971 3b764174867ee72dd53f25d4b34dbc7c ""
@@ -252,10 +252,10 @@
   "images/life-gosper-gun.png" 1684204162 5837 aa625aae92ca08f2ac06928eb6b1bb21 ""
   "images/qr_CONWAYTHESIS.png" 1685646670 1937 ef9b0febc7457d34e71b0ac6d6a0ea88 ""
   "images/surreal-infinite.pdf" 1684630201 49888 88e160f8c0f8a017ff10d1b4e25e42e5 ""
-  "main.aux" 1685647351 1125 b8a0c5485bfa310b7a2a9254b86825b2 "pdflatex"
+  "main.aux" 1685647682 1125 b8a0c5485bfa310b7a2a9254b86825b2 "pdflatex"
   "main.bbl" 1685646053 6686 2f2bc1233f5b5218858b40b470ee3f1b "biber main"
-  "main.run.xml" 1685647351 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
-  "main.tex" 1685647346 12723 4f7e5243be8e4941aa6bc5fe62464cc8 ""
+  "main.run.xml" 1685647682 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
+  "main.tex" 1685647677 12722 680a96e6984cfcebfb97c829c51646cd ""
   "ubtheme.sty" 1685647249 5087 794d7f7aba4a33faf6d0035d7fd1a225 ""
   (generated)
   "main.aux"
