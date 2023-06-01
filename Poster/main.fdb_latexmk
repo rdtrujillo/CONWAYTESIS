@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1685411219 -1
-  "main.bcf" 1685411219 107515 cbb4bda620101a7c2ae097b4ade5666a "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1685647352 -1
+  "main.bcf" 1685647351 107515 cbb4bda620101a7c2ae097b4ade5666a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1685411214 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685411219 0
+["pdflatex"] 1685647347 "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" "main.pdf" "main" 1685647352 0
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685241894 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/rockt/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1685241896 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/rockt/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1676412957 23174347 a2b7821876f4ce00f61051f2c1a9ca75 ""
@@ -33,7 +33,6 @@
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
-  "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -236,10 +235,11 @@
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/rockt/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1673962217 123 a302f2c651a95033260db60e51527ae8 ""
   "Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png" 1685241818 235110 6afe3ef30a5684fb6992a43263c30e1d ""
-  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685411208 12038 c25cf1ca60ec63b16c7f834b446f236b ""
+  "c:/Users/rockt/my repositories/CONWAYTESIS/Poster/main.tex" 1685647346 12723 4f7e5243be8e4941aa6bc5fe62464cc8 ""
   "header.tex" 1685242256 1441 5cf301f928fdbc0ff759011ff91ddb9d ""
   "images/genius-at-play.jpg" 1685405864 79367 18b662db52cc93e07f9012beb2f0629f ""
   "images/hackenbush-game_example.pdf" 1684451111 3971 3b764174867ee72dd53f25d4b34dbc7c ""
+  "images/hackenbush-half_proof.pdf" 1684361983 24236 8e8a2617364463d9be75085eb4baca0f ""
   "images/hackenbush-sum_example.pdf" 1684365714 4377 d5115d4ee4240e481fc294db00ea64ae ""
   "images/hackenbush-surr_roots.pdf" 1684357618 10083 83355c5088a5b53fc5fd3072996fa7eb ""
   "images/life-1.png" 1684171507 2532 1453f4ce8cceea74f28961cf19ef1a07 ""
@@ -250,12 +250,13 @@
   "images/life-glider-4.png" 1684202055 2007 bbd6ca81dec0ec60e2c92924062279d9 ""
   "images/life-glider-5.png" 1684202077 2034 8bd95f1af2c62e8fe1dec3877891d2d5 ""
   "images/life-gosper-gun.png" 1684204162 5837 aa625aae92ca08f2ac06928eb6b1bb21 ""
+  "images/qr_CONWAYTHESIS.png" 1685646670 1937 ef9b0febc7457d34e71b0ac6d6a0ea88 ""
   "images/surreal-infinite.pdf" 1684630201 49888 88e160f8c0f8a017ff10d1b4e25e42e5 ""
-  "main.aux" 1685411219 1125 5fed7333f5508e965556945d9f6f0a77 "pdflatex"
-  "main.bbl" 1685405891 6686 2f2bc1233f5b5218858b40b470ee3f1b "biber main"
-  "main.run.xml" 1685411219 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
-  "main.tex" 1685411208 12038 c25cf1ca60ec63b16c7f834b446f236b ""
-  "ubtheme.sty" 1685411207 4826 be3fd5eafd8006550961d7e0722d89a6 ""
+  "main.aux" 1685647351 1125 b8a0c5485bfa310b7a2a9254b86825b2 "pdflatex"
+  "main.bbl" 1685646053 6686 2f2bc1233f5b5218858b40b470ee3f1b "biber main"
+  "main.run.xml" 1685647351 2299 e507a27a7f7859994368f2c3588f2c66 "pdflatex"
+  "main.tex" 1685647346 12723 4f7e5243be8e4941aa6bc5fe62464cc8 ""
+  "ubtheme.sty" 1685647249 5087 794d7f7aba4a33faf6d0035d7fd1a225 ""
   (generated)
   "main.aux"
   "main.bcf"

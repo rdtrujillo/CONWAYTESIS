@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  29 MAY 2023 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.14)  1 JUN 2023 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1052,6 +1052,23 @@ Package biblatex Info: Reference segment=0 on input line 12.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
+<images/qr_CONWAYTHESIS.png, id=30, 301.125pt x 301.125pt>
+File: images/qr_CONWAYTHESIS.png Graphic file (type png)
+<use images/qr_CONWAYTHESIS.png>
+Package pdftex.def Info: images/qr_CONWAYTHESIS.png  used on input line 14.
+(pdftex.def)             Requested size: 230.35481pt x 230.36446pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+(C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+ (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14.
+ (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 19.70294pt on input line 14.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
@@ -1061,6 +1078,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
 (Font)              scaled to size 49.01033pt on input line 14.
 LaTeX Font Info:    Calculating math sizes for size <51.59> on input line 14.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <25.795> not available
 (Font)              size <24.88> substituted on input line 14.
@@ -1089,18 +1107,6 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <36.11284> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <25.795> not available
 (Font)              size <24.88> substituted on input line 14.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
-(C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
- (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14.
- (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <51.59> not available
 (Font)              size <24.88> substituted on input line 14.
@@ -1277,6 +1283,10 @@ File: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png Graphic file (type png)
 <use Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png>
 Package pdftex.def Info: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png  used on input line 14.
 (pdftex.def)             Requested size: 494.72737pt x 260.21738pt.
+File: images/qr_CONWAYTHESIS.png Graphic file (type png)
+<use images/qr_CONWAYTHESIS.png>
+Package pdftex.def Info: images/qr_CONWAYTHESIS.png  used on input line 14.
+(pdftex.def)             Requested size: 230.35481pt x 230.36446pt.
 File: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png Graphic file (type png)
 <use Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png>
 Package pdftex.def Info: Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png  used on input line 14.
@@ -1291,7 +1301,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <24.88> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 23.63593pt on input line 32.
-<images/genius-at-play.jpg, id=30, 570.13pt x 855.195pt>
+<images/genius-at-play.jpg, id=31, 570.13pt x 855.195pt>
 File: images/genius-at-play.jpg Graphic file (type jpg)
 <use images/genius-at-play.jpg>
 Package pdftex.def Info: images/genius-at-play.jpg  used on input line 32.
@@ -1301,92 +1311,100 @@ Overfull \hbox (0.79999pt too wide) in paragraph at lines 102--102
 [][] 
  []
 
-<images/life-1.png, id=31, 271.61475pt x 212.59425pt>
+<images/life-1.png, id=32, 271.61475pt x 212.59425pt>
 File: images/life-1.png Graphic file (type png)
 <use images/life-1.png>
 Package pdftex.def Info: images/life-1.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 116.07729pt.
-<images/life-2.png, id=32, 271.61475pt x 211.992pt>
+<images/life-2.png, id=33, 271.61475pt x 211.992pt>
 File: images/life-2.png Graphic file (type png)
 <use images/life-2.png>
 Package pdftex.def Info: images/life-2.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 115.74844pt.
-<images/life-glider-1.png, id=33, 126.4725pt x 124.66576pt>
+<images/life-glider-1.png, id=34, 126.4725pt x 124.66576pt>
 File: images/life-glider-1.png Graphic file (type png)
 <use images/life-glider-1.png>
 Package pdftex.def Info: images/life-glider-1.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 146.18741pt.
-<images/life-glider-2.png, id=34, 127.07475pt x 127.07475pt>
+<images/life-glider-2.png, id=35, 127.07475pt x 127.07475pt>
 File: images/life-glider-2.png Graphic file (type png)
 <use images/life-glider-2.png>
 Package pdftex.def Info: images/life-glider-2.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 148.3162pt.
-<images/life-glider-3.png, id=35, 127.07475pt x 124.66576pt>
+<images/life-glider-3.png, id=36, 127.07475pt x 124.66576pt>
 File: images/life-glider-3.png Graphic file (type png)
 <use images/life-glider-3.png>
 Package pdftex.def Info: images/life-glider-3.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 145.5045pt.
-<images/life-glider-4.png, id=36, 125.268pt x 124.66576pt>
+<images/life-glider-4.png, id=37, 125.268pt x 124.66576pt>
 File: images/life-glider-4.png Graphic file (type png)
 <use images/life-glider-4.png>
 Package pdftex.def Info: images/life-glider-4.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 147.59317pt.
-<images/life-glider-5.png, id=37, 124.66576pt x 125.268pt>
+<images/life-glider-5.png, id=38, 124.66576pt x 125.268pt>
 File: images/life-glider-5.png Graphic file (type png)
 <use images/life-glider-5.png>
 Package pdftex.def Info: images/life-glider-5.png  used on input line 102.
 (pdftex.def)             Requested size: 148.30396pt x 149.03061pt.
-<images/life-gosper-gun.png, id=38, 569.12625pt x 178.266pt>
+<images/life-gosper-gun.png, id=39, 569.12625pt x 178.266pt>
 File: images/life-gosper-gun.png Graphic file (type png)
 <use images/life-gosper-gun.png>
 Package pdftex.def Info: images/life-gosper-gun.png  used on input line 102.
 (pdftex.def)             Requested size: 790.98962pt x 247.78627pt.
-<images/hackenbush-game_example.pdf, id=39, 414.09904pt x 72.26999pt>
+<images/hackenbush-game_example.pdf, id=40, 414.09904pt x 72.26999pt>
 File: images/hackenbush-game_example.pdf Graphic file (type pdf)
 <use images/hackenbush-game_example.pdf>
-Package pdftex.def Info: images/hackenbush-game_example.pdf  used on input line 157.
+Package pdftex.def Info: images/hackenbush-game_example.pdf  used on input line 174.
 (pdftex.def)             Requested size: 667.34373pt x 116.4768pt.
 
-Overfull \hbox (0.79999pt too wide) in paragraph at lines 157--157
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 174--174
 [][] 
  []
 
-<images/hackenbush-surr_roots.pdf, id=40, 330.13254pt x 148.07146pt>
+<images/hackenbush-surr_roots.pdf, id=41, 330.13254pt x 148.07146pt>
 File: images/hackenbush-surr_roots.pdf Graphic file (type pdf)
 <use images/hackenbush-surr_roots.pdf>
-Package pdftex.def Info: images/hackenbush-surr_roots.pdf  used on input line 157.
-(pdftex.def)             Requested size: 684.14366pt x 306.85841pt.
-<images/hackenbush-sum_example.pdf, id=41, 303.43549pt x 64.71674pt>
+Package pdftex.def Info: images/hackenbush-surr_roots.pdf  used on input line 174.
+(pdftex.def)             Requested size: 390.93497pt x 175.3441pt.
+<images/hackenbush-sum_example.pdf, id=42, 303.43549pt x 64.71674pt>
 File: images/hackenbush-sum_example.pdf Graphic file (type pdf)
 <use images/hackenbush-sum_example.pdf>
-Package pdftex.def Info: images/hackenbush-sum_example.pdf  used on input line 157.
-(pdftex.def)             Requested size: 684.14366pt x 145.9421pt.
-<images/surreal-infinite.pdf, id=42, 706.01222pt x 463.33737pt>
+Package pdftex.def Info: images/hackenbush-sum_example.pdf  used on input line 174.
+(pdftex.def)             Requested size: 519.94917pt x 110.91658pt.
+<images/hackenbush-half_proof.pdf, id=43, 272.34325pt x 183.90529pt>
+File: images/hackenbush-half_proof.pdf Graphic file (type pdf)
+<use images/hackenbush-half_proof.pdf>
+Package pdftex.def Info: images/hackenbush-half_proof.pdf  used on input line 174.
+(pdftex.def)             Requested size: 488.67618pt x 330.02464pt.
+<images/surreal-infinite.pdf, id=44, 706.01222pt x 463.33737pt>
 File: images/surreal-infinite.pdf Graphic file (type pdf)
 <use images/surreal-infinite.pdf>
-Package pdftex.def Info: images/surreal-infinite.pdf  used on input line 180.
-(pdftex.def)             Requested size: 977.35236pt x 641.41414pt.
+Package pdftex.def Info: images/surreal-infinite.pdf  used on input line 192.
+(pdftex.def)             Requested size: 957.80113pt x 628.58218pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 185.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 197.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 19.70294pt on input line 185.
+(Font)              scaled to size 19.70294pt on input line 197.
 LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 19.70294pt on input line 185.
-LaTeX Font Info:    Trying to load font information for T1+aett on input line 185.
+(Font)              scaled to size 19.70294pt on input line 197.
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 197.
 (C:\Users\rockt\AppData\Local\Programs\MiKTeX\tex/latex/ae\t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Info: Redefining \sptext on input line 188.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
+LaTeX Info: Redefining \sptext on input line 200.
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
  [1
 
-{C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png> <./images/genius-at-play.jpg> <./images/life-1.png> <./images/life-2.png> <./images/life-glider-1.png> <./images/life-glider-2.png> <./images/life-glider-3.png> <./images/life-glider-4.png> <./images/life-glider-5.png> <./images/life-gosper-gun.png> <./images/hackenbush-game_example.pdf> <./images/hackenbush-surr_roots.pdf
+{C:/Users/rockt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/qr_CONWAYTHESIS.png> <./Imagenes/PNG_LOGOSIMBOLO_LATERAL_NEGRO-02.png> <./images/genius-at-play.jpg> <./images/life-1.png> <./images/life-2.png> <./images/life-glider-1.png> <./images/life-glider-2.png> <./images/life-glider-3.png> <./images/life-glider-4.png> <./images/life-glider-5.png> <./images/life-gosper-gun.png> <./images/hackenbush-game_example.pdf> <./images/hackenbush-surr_roots.pdf
 
 pdfTeX warning: pdflatex (file ./images/hackenbush-surr_roots.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./images/hackenbush-sum_example.pdf
 
 pdfTeX warning: pdflatex (file ./images/hackenbush-sum_example.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./images/hackenbush-half_proof.pdf
+
+pdfTeX warning: pdflatex (file ./images/hackenbush-half_proof.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./images/surreal-infinite.pdf
 
 pdfTeX warning: pdflatex (file ./images/surreal-infinite.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1407,17 +1425,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30404 strings out of 476374
- 642167 string characters out of 5788854
- 1905340 words of memory out of 5000000
- 50199 multiletter control sequences out of 15000+600000
+ 30416 strings out of 476374
+ 642645 string characters out of 5788854
+ 1907340 words of memory out of 5000000
+ 50209 multiletter control sequences out of 15000+600000
  585691 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,14n,118p,729b,3157s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (1 page, 477058 bytes).
+{C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rockt/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (1 page, 491619 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
+ 306 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

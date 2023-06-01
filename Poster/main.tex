@@ -130,43 +130,55 @@
                 \includegraphics[width=.7\textwidth]{images/hackenbush-game_example.pdf}
             \end{minipage}
         }
-
         
-        \vspace{5mm}
-        Para la teor\'ia, a cada estado del juego se le puede asignar un valor que nos va a decir qui\'en va a ganar el juego. Si el valor es mayor a $0$ sabemos que va a ganar el azul, si es menor a $0$ va a ganar el rojo, y si es igual a $0$ entonces gana el segundo jugador. La forma en que se definen los valores es la siguiente; sea $L$ el conjunto de los valores de los estados a los que puede llegar el jugador azul, y sea $R$ el del jugador rojo, entonces el valor de nuestro estado se va a definir recursivamente como $\{L|R\}$.
-        \vspace{7mm}
-        
-        \begin{minipage}[t]{\linewidth}
-            \centering
-            \includegraphics[width=.7\textwidth]{images/hackenbush-surr_roots.pdf}
-        \end{minipage}
-
-        Algunas configuraciones tienen ciertos `arbustos' desconectados unos de otros, por lo tanto cada uno de estos arbustos se puede tratar como un juego separado, la combinaci\'on de estos es la suma de los juegos, y el valor de este juego es la suma de los juegos separados.
         \vspace{7mm}
 
-        \begin{minipage}[t]{\linewidth}
-            \centering
-            \includegraphics[width=.7\textwidth]{images/hackenbush-sum_example.pdf}
+        \begin{minipage}[c]{\linewidth}
+            \begin{minipage}[c]{.4\linewidth}
+                \centering
+                \includegraphics[width=\textwidth]{images/hackenbush-surr_roots.pdf}
+            \end{minipage}
+            \quad\quad
+            \begin{minipage}[c]{.532\linewidth}
+                Para la teor\'ia, a cada estado del juego se le puede asignar un valor que nos va a decir qui\'en va a ganar el juego. Si el valor es mayor a $0$ sabemos que va a ganar el azul, si es menor a $0$ va a ganar el rojo, y si es igual a $0$ entonces gana el segundo jugador. La forma en que se definen los valores es la siguiente; sea $L$ el conjunto de los valores de los estados a los que puede llegar el jugador azul, y sea $R$ el del jugador rojo, entonces el valor de nuestro estado se va a definir recursivamente como $\{L|R\}$.
+            \end{minipage}
         \end{minipage}
 
+        \begin{minipage}[c]{\linewidth}
+            \begin{minipage}[c]{.4\linewidth}
+                Algunas configuraciones tienen ciertos `arbustos' desconectados unos de otros, por lo tanto cada uno de estos arbustos se puede tratar como un juego separado, la combinaci\'on de estos es la suma de los juegos, y el valor de este juego es la suma de los juegos separados.
+            \end{minipage}
+            \quad\quad
+            \begin{minipage}[c]{.532\linewidth}
+                \centering
+                \includegraphics[width=\textwidth]{images/hackenbush-sum_example.pdf}
+            \end{minipage}            
+        \end{minipage}
+
+
+        
+        \vspace{7mm}
+
         \vspace{5mm}
-        As\'i, la suma de estos valores tiene una representaci\'on gr\'afica y queda definida como 
-        \[
-            x + y  \equiv \left\{x^L+y, x+y^L\;|\;x^R+y, x+y^R\right\}.
-        \]
+
+        \begin{minipage}[c]{\linewidth}
+            \begin{minipage}[c]{.5\linewidth}
+                \centering
+                \includegraphics[width=\textwidth]{images/hackenbush-half_proof.pdf}
+            \end{minipage}
+            \quad\quad
+            \begin{minipage}[c]{.432\linewidth}
+                Todos los n\'umeros enteros se pueden formar sumando juegos de valor $1$ y $-1$. También podemos generar juegos de valores racionales; podemos utilizar los juegos de valor $0$ (gana el segundo jugador) para calcular valores de subjuegos, por ejemplo a la izquierda mostramos una subjuego que tiene valor $\frac{1}{2}$.
+            \end{minipage}
+        \end{minipage}
     }
 
     \block{N\'umeros surreales}{
-        La multiplicaci\'on de valores de juegos est\'a dada por
-        \[
-            xy = \big\{x^Ly+xy^L-x^Ly^L, x^Ry+xy^R-x^Ry^R\big|x^Ly+xy^R-x^Ly^R, x^Ry+xy^L-x^Ry^L\big\}.
-        \]
-
         Si tomamos la clase de valores de juegos dados por
         \[
             \mathbb{S} = \left\{\{L|R\}\;\middle|\; l\in L, r\in R, l < r\right\},
         \]
-        esta clase es totalmente ordenada, adem\'as junto la suma y multiplicaci\'on definida, forman un cuerpo ordenado. A esta clase se le conoce como los n\'umeros surreales.
+        esta clase es totalmente ordenada, adem\'as junto la suma definida, se puede definir una multiplicación para formar un cuerpo ordenado. A esta clase se le conoce como los n\'umeros surreales.
 
         Los n\'umeros surreales son una extensi\'on de los n\'umeros reales que admite infinitos e infinitesimales, adem\'as son el cuerpo ordenado m\'as grande, esto significa que todos los dem\'as cuerpos ordenados son subcuerpos de los n\'umeros surreales \cite{Bajnok2013}. Tambi\'en contienen a los ordinales.
 
@@ -175,7 +187,7 @@
 
         \begin{minipage}[t]{\linewidth}
             \centering
-            \includegraphics[width=\textwidth]{images/surreal-infinite.pdf}
+            \includegraphics[width=.98\textwidth]{images/surreal-infinite.pdf}
         \end{minipage}
     }
     
