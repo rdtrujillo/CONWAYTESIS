@@ -18,497 +18,36 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{YTEpicLife}{online}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{YTHackenbush}{online}{}
       \name{author}{1}{}{%
-        {{hash=621f8340ac29a511a869344755460db5}{%
-           family={Animations},
-           familyi={A\bibinitperiod},
-           given={Rational},
-           giveni={R\bibinitperiod}}}%
+        {{hash=361dcc9e2dcea6c405a575dd22010fbd}{%
+           family={Maitzen},
+           familyi={M\bibinitperiod},
+           given={Owen},
+           giveni={O\bibinitperiod}}}%
       }
       \list{organization}{1}{%
         {Youtube}%
       }
-      \strng{namehash}{621f8340ac29a511a869344755460db5}
-      \strng{fullhash}{621f8340ac29a511a869344755460db5}
-      \strng{bibnamehash}{621f8340ac29a511a869344755460db5}
-      \strng{authorbibnamehash}{621f8340ac29a511a869344755460db5}
-      \strng{authornamehash}{621f8340ac29a511a869344755460db5}
-      \strng{authorfullhash}{621f8340ac29a511a869344755460db5}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \strng{namehash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \strng{fullhash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \strng{bibnamehash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \strng{authorbibnamehash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \strng{authornamehash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \strng{authorfullhash}{361dcc9e2dcea6c405a575dd22010fbd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{epic conway's game of life}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=C2vgICfQawE&t
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=C2vgICfQawE&t
-      \endverb
-    \endentry
-    \entry{britgo_JON_DIAMOND}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=3ad7522ef5ac0f7f04a7b88e6d1625ff}{%
-           family={Association},
-           familyi={A\bibinitperiod},
-           given={The\bibnamedelimb British\bibnamedelima Go},
-           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-      }
-      \strng{namehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \strng{fullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \strng{bibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \strng{authorbibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \strng{authornamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \strng{authorfullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.britgo.org/people/diamondj}}
-      \field{note}{[Online; accessed 25-May-2023]}
-      \field{title}{Jon Diamond}
-    \endentry
-    \entry{Bajnok2013}{book}{}
-      \name{author}{1}{}{%
-        {{hash=88818c465d540cb58cdf8ad3e4242003}{%
-           family={Bajnok},
-           familyi={B\bibinitperiod},
-           given={Béla},
-           giveni={B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer New York}%
-      }
-      \strng{namehash}{88818c465d540cb58cdf8ad3e4242003}
-      \strng{fullhash}{88818c465d540cb58cdf8ad3e4242003}
-      \strng{bibnamehash}{88818c465d540cb58cdf8ad3e4242003}
-      \strng{authorbibnamehash}{88818c465d540cb58cdf8ad3e4242003}
-      \strng{authornamehash}{88818c465d540cb58cdf8ad3e4242003}
-      \strng{authorfullhash}{88818c465d540cb58cdf8ad3e4242003}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An Invitation to Abstract Mathematics}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.1007/978-1-4614-6636-9
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-4614-6636-9
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-4614-6636-9
-      \endverb
-    \endentry
-    \entry{Conway1987}{incollection}{}
-      \name{author}{1}{}{%
-        {{hash=903e214f118a1370c81ad555c7ec96e8}{%
-           family={Conway},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer New York}%
-      }
-      \strng{namehash}{903e214f118a1370c81ad555c7ec96e8}
-      \strng{fullhash}{903e214f118a1370c81ad555c7ec96e8}
-      \strng{bibnamehash}{903e214f118a1370c81ad555c7ec96e8}
-      \strng{authorbibnamehash}{903e214f118a1370c81ad555c7ec96e8}
-      \strng{authornamehash}{903e214f118a1370c81ad555c7ec96e8}
-      \strng{authorfullhash}{903e214f118a1370c81ad555c7ec96e8}
-      \field{extraname}{1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Open Problems in Communication and Computation}
-      \field{title}{{FRACTRAN}: A Simple Universal Programming Language for Arithmetic}
-      \field{year}{1987}
-      \field{pages}{4\bibrangedash 26}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1007/978-1-4612-4808-8_2
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-1-4612-4808-8_2
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-1-4612-4808-8_2
-      \endverb
-    \endentry
-    \entry{Conway2000}{book}{}
-      \name{author}{1}{}{%
-        {{hash=4d38889baa1da2b61817906c7e7106fe}{%
-           family={Conway},
-           familyi={C\bibinitperiod},
-           given={John\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {A K Peters/{CRC} Press}%
-      }
-      \strng{namehash}{4d38889baa1da2b61817906c7e7106fe}
-      \strng{fullhash}{4d38889baa1da2b61817906c7e7106fe}
-      \strng{bibnamehash}{4d38889baa1da2b61817906c7e7106fe}
-      \strng{authorbibnamehash}{4d38889baa1da2b61817906c7e7106fe}
-      \strng{authornamehash}{4d38889baa1da2b61817906c7e7106fe}
-      \strng{authorfullhash}{4d38889baa1da2b61817906c7e7106fe}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{title}{On Numbers and Games}
-      \field{year}{2000}
-      \verb{doi}
-      \verb 10.1201/9781439864159
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1201/9781439864159
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1201/9781439864159
-      \endverb
-    \endentry
-    \entry{MathematicalArtist2022}{book}{}
-      \name{author}{3}{}{%
-        {{hash=16d9a1493ee512c4fda4833ee5e17467}{%
-           family={Das},
-           familyi={D\bibinitperiod},
-           given={Sukanta},
-           giveni={S\bibinitperiod}}}%
-        {{hash=32d532a201e912933d0a72760a72f5a3}{%
-           family={Roy},
-           familyi={R\bibinitperiod},
-           given={Souvik},
-           giveni={S\bibinitperiod}}}%
-        {{hash=47a05d8a28ccf5645f9f1a4540a0e271}{%
-           family={Bhattacharjee},
-           familyi={B\bibinitperiod},
-           given={Kamalika},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{98b893024f9d1e603b8b58a6e3162621}
-      \strng{fullhash}{98b893024f9d1e603b8b58a6e3162621}
-      \strng{bibnamehash}{98b893024f9d1e603b8b58a6e3162621}
-      \strng{authorbibnamehash}{98b893024f9d1e603b8b58a6e3162621}
-      \strng{authornamehash}{98b893024f9d1e603b8b58a6e3162621}
-      \strng{authorfullhash}{98b893024f9d1e603b8b58a6e3162621}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{3031039858; 9783031039850}
-      \field{series}{Emergence, Complexity and Computation, 45}
-      \field{title}{The Mathematical Artist: A Tribute To John Horton Conway}
-      \field{year}{2022}
-    \endentry
-    \entry{Dedekind1963-rt}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ff486f98d8959edc6c4247ecd7c7c34b}{%
-           family={Dedekind},
-           familyi={D\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Mineola, NY}%
-      }
-      \list{publisher}{1}{%
-        {Dover Publications}%
-      }
-      \strng{namehash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \strng{fullhash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \strng{bibnamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \strng{authorbibnamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \strng{authornamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \strng{authorfullhash}{ff486f98d8959edc6c4247ecd7c7c34b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{series}{Dover Books on Mathematics}
-      \field{title}{Essays on the theory of numbers}
-      \field{year}{1963}
-    \endentry
-    \entry{Gardner2005-vo}{book}{}
-      \name{author}{1}{}{%
-        {{hash=3124882705abf7cca548c58eb9240b39}{%
-           family={Gardner},
-           familyi={G\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {Mathematical Assn of Amer}%
-      }
-      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
-      \strng{bibnamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
-      \field{extraname}{1}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The entire collection of Martin Gardner's Scientific American columns are on one searchable CD! Martin Gardner's ``Mathematical Games'' column ran in Scientific American from 1956 to 1986. In these columns, Gardner introduced hundreds of thousands of readers to the delights of mathematics and of puzzles and problem solving. His column broke such stories as Rivest, Shamir and Adelman on public-key cryptography, Mandelbrot on fractals, Conway on Life, and Penrose on tilings. He enlivened classic geometry and number theory and introduced readers to new areas such as combinatorics and graph theory. The CD contains the following articles: (1) Hexaflexagons and Other Mathematical Diversions; (2) The Second Scientific American Book of Mathematical Puzzles and Diversions; (3) New Mathematical Diversions; (4) The Unexpected Hanging and Other Mathematical Diversions; (5) Martin Gardner's 6th Book of Mathematical Diversions from Scientific American; (6) Mathematical Carnival; (7) Mathematical Magic Show; (8) Mathematical Circus; (9) The Magic Numbers of Dr. Matrix; (10) Wheels, Life, and Other Mathematical Amusements; (11) Knotted Doughnuts and Other Mathematical Entertainers; (12) Time Travel and Other Mathematical Bewilderments; (13) Penrose Tiles to Trapdoor Ciphers; (14) Fractal Music, Hypercards, and more Mathematical Recreations from Scientific American and (15) The Last Recreations: Hydras, Eggs, and Other Mathematical Mystifications. A profile and interview with Martin Gardner is included in this collection.}
-      \field{title}{Martin Gardner's Mathematical Games: The entire collection of his Scientific American columns}
-      \field{year}{2005}
-    \endentry
-    \entry{Gardner1970}{article}{}
-      \name{author}{1}{}{%
-        {{hash=3124882705abf7cca548c58eb9240b39}{%
-           family={Gardner},
-           familyi={G\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media {LLC}}%
-      }
-      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
-      \strng{bibnamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
-      \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
-      \field{extraname}{2}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientific American}
-      \field{month}{10}
-      \field{number}{4}
-      \field{title}{Mathematical Games}
-      \field{volume}{223}
-      \field{year}{1970}
-      \field{pages}{120\bibrangedash 123}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1038/scientificamerican1070-120
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1038/scientificamerican1070-120
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1038/scientificamerican1070-120
-      \endverb
-    \endentry
-    \entry{Gonshor1986}{book}{}
-      \name{author}{1}{}{%
-        {{hash=22b0bcd6b29072e38138bc67d581dd31}{%
-           family={Gonshor},
-           familyi={G\bibinitperiod},
-           given={Harry},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{22b0bcd6b29072e38138bc67d581dd31}
-      \strng{fullhash}{22b0bcd6b29072e38138bc67d581dd31}
-      \strng{bibnamehash}{22b0bcd6b29072e38138bc67d581dd31}
-      \strng{authorbibnamehash}{22b0bcd6b29072e38138bc67d581dd31}
-      \strng{authornamehash}{22b0bcd6b29072e38138bc67d581dd31}
-      \strng{authorfullhash}{22b0bcd6b29072e38138bc67d581dd31}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{title}{An Introduction to the Theory of Surreal Numbers}
-      \field{year}{1986}
-      \verb{doi}
-      \verb 10.1017/cbo9780511629143
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1017/cbo9780511629143
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1017/cbo9780511629143
-      \endverb
-    \endentry
-    \entry{Grundy1939}{article}{}
-      \name{author}{1}{}{%
-        {{hash=c1c212d77fd4c4f1b58ebc90414e36eb}{%
-           family={Grundy},
-           familyi={G\bibinitperiod},
-           given={P.M.},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \strng{fullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \strng{bibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \strng{authorbibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \strng{authornamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \strng{authorfullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Eureka}
-      \field{title}{Mathematics and Games}
-      \field{volume}{2}
-      \field{year}{1939}
-      \field{pages}{6\bibrangedash 8}
-      \range{pages}{3}
-    \endentry
-    \entry{blog:tanyakhovanova}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=a84541469842e72cea5a5781f92ee178}{%
-           family={Khovanova},
-           familyi={K\bibinitperiod},
-           given={Tanya},
-           giveni={T\bibinitperiod}}}%
-        {{hash=d14032021ec38c5805249d89ea41c1d4}{%
-           family={Conway},
-           familyi={C\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \strng{fullhash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \strng{bibnamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \strng{authorbibnamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \strng{authornamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \strng{authorfullhash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://blog.tanyakhovanova.com/2010/07/the-sexual-side-of-life/}}
-      \field{month}{7}
-      \field{note}{[Online; accessed 11-May-2023]}
-      \field{title}{The Sexual Side of Life}
-      \field{year}{2010}
-    \endentry
-    \entry{Knuth1974-wh}{book}{}
-      \name{author}{1}{}{%
-        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald\bibnamedelima E},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Boston, MA}%
-      }
-      \list{publisher}{1}{%
-        {Addison Wesley}%
-      }
-      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Surreal Numbers}
-      \field{year}{1974}
-    \endentry
-    \entry{YTComputerGL}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9d8f4a7ba817d10f9dac72885e292234}{%
-           family={Loizeau},
-           familyi={L\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Youtube}%
-      }
-      \strng{namehash}{9d8f4a7ba817d10f9dac72885e292234}
-      \strng{fullhash}{9d8f4a7ba817d10f9dac72885e292234}
-      \strng{bibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
-      \strng{authorbibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
-      \strng{authornamehash}{9d8f4a7ba817d10f9dac72885e292234}
-      \strng{authorfullhash}{9d8f4a7ba817d10f9dac72885e292234}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Game of life: computer with display}
+      \field{title}{HACKENBUSH: a window to a new world of math}
       \field{year}{2021}
       \field{dateera}{ce}
       \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
+      \verb https://www.youtube.com/watch?v=ZYj4NkeGPdM
       \endverb
       \verb{url}
-      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
-      \endverb
-    \endentry
-    \entry{Gardner1999}{incollection}{}
-      \list{publisher}{1}{%
-        {A K Peters/{CRC} Press}%
-      }
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Mathemagician and Pied Puzzler}
-      \field{month}{3}
-      \field{title}{Martin Gardner: A {“}Documentary{”}}
-      \field{year}{1999}
-      \field{pages}{13\bibrangedash 22}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1201/9781439863848-7
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1201/9781439863848-7
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1201/9781439863848-7
-      \endverb
-    \endentry
-    \entry{YTNumberphileConway}{online}{}
-      \name{author}{1}{}{%
-        {{hash=3809bba3a85314bdf5dd9d668723722d}{%
-           family={Numberphile2},
-           familyi={N\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Youtube}%
-      }
-      \strng{namehash}{3809bba3a85314bdf5dd9d668723722d}
-      \strng{fullhash}{3809bba3a85314bdf5dd9d668723722d}
-      \strng{bibnamehash}{3809bba3a85314bdf5dd9d668723722d}
-      \strng{authorbibnamehash}{3809bba3a85314bdf5dd9d668723722d}
-      \strng{authornamehash}{3809bba3a85314bdf5dd9d668723722d}
-      \strng{authorfullhash}{3809bba3a85314bdf5dd9d668723722d}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Legendary John Conway (1937-2020) - Numberphile Podcast}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=WsecAiJDI8s
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=WsecAiJDI8s
+      \verb https://www.youtube.com/watch?v=ZYj4NkeGPdM
       \endverb
     \endentry
     \entry{Roberts2015-ur}{book}{}
@@ -534,13 +73,176 @@
       \strng{authorbibnamehash}{22ebc79c2c71a7acc1e22bba6cbaf8ce}
       \strng{authornamehash}{22ebc79c2c71a7acc1e22bba6cbaf8ce}
       \strng{authorfullhash}{22ebc79c2c71a7acc1e22bba6cbaf8ce}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
       \field{title}{Genius at play}
       \field{year}{2015}
+    \endentry
+    \entry{Gardner1999}{incollection}{}
+      \list{publisher}{1}{%
+        {A K Peters/{CRC} Press}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Mathemagician and Pied Puzzler}
+      \field{month}{3}
+      \field{title}{Martin Gardner: A {“}Documentary{”}}
+      \field{year}{1999}
+      \field{pages}{13\bibrangedash 22}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1201/9781439863848-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1201/9781439863848-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1201/9781439863848-7
+      \endverb
+    \endentry
+    \entry{Gardner1970}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3124882705abf7cca548c58eb9240b39}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
+      \strng{bibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Mathematical Games}
+      \field{volume}{223}
+      \field{year}{1970}
+      \field{pages}{120\bibrangedash 123}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/scientificamerican1070-120
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/scientificamerican1070-120
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/scientificamerican1070-120
+      \endverb
+    \endentry
+    \entry{YTEpicLife}{online}{}
+      \name{author}{1}{}{%
+        {{hash=621f8340ac29a511a869344755460db5}{%
+           family={Animations},
+           familyi={A\bibinitperiod},
+           given={Rational},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{621f8340ac29a511a869344755460db5}
+      \strng{fullhash}{621f8340ac29a511a869344755460db5}
+      \strng{bibnamehash}{621f8340ac29a511a869344755460db5}
+      \strng{authorbibnamehash}{621f8340ac29a511a869344755460db5}
+      \strng{authornamehash}{621f8340ac29a511a869344755460db5}
+      \strng{authorfullhash}{621f8340ac29a511a869344755460db5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{epic conway's game of life}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=C2vgICfQawE&t
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=C2vgICfQawE&t
+      \endverb
+    \endentry
+    \entry{YTNumberphileConway}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3809bba3a85314bdf5dd9d668723722d}{%
+           family={Numberphile2},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{3809bba3a85314bdf5dd9d668723722d}
+      \strng{fullhash}{3809bba3a85314bdf5dd9d668723722d}
+      \strng{bibnamehash}{3809bba3a85314bdf5dd9d668723722d}
+      \strng{authorbibnamehash}{3809bba3a85314bdf5dd9d668723722d}
+      \strng{authornamehash}{3809bba3a85314bdf5dd9d668723722d}
+      \strng{authorfullhash}{3809bba3a85314bdf5dd9d668723722d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Legendary John Conway (1937-2020) - Numberphile Podcast}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=WsecAiJDI8s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=WsecAiJDI8s
+      \endverb
+    \endentry
+    \entry{MathematicalArtist2022}{book}{}
+      \name{author}{3}{}{%
+        {{hash=16d9a1493ee512c4fda4833ee5e17467}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Sukanta},
+           giveni={S\bibinitperiod}}}%
+        {{hash=32d532a201e912933d0a72760a72f5a3}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Souvik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=47a05d8a28ccf5645f9f1a4540a0e271}{%
+           family={Bhattacharjee},
+           familyi={B\bibinitperiod},
+           given={Kamalika},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{98b893024f9d1e603b8b58a6e3162621}
+      \strng{fullhash}{98b893024f9d1e603b8b58a6e3162621}
+      \strng{bibnamehash}{98b893024f9d1e603b8b58a6e3162621}
+      \strng{authorbibnamehash}{98b893024f9d1e603b8b58a6e3162621}
+      \strng{authornamehash}{98b893024f9d1e603b8b58a6e3162621}
+      \strng{authorfullhash}{98b893024f9d1e603b8b58a6e3162621}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3031039858; 9783031039850}
+      \field{series}{Emergence, Complexity and Computation, 45}
+      \field{title}{The Mathematical Artist: A Tribute To John Horton Conway}
+      \field{year}{2022}
     \endentry
     \entry{Shannon1956}{book}{}
       \name{editor}{2}{}{%
@@ -564,8 +266,8 @@
       \strng{editorbibnamehash}{5441b1b52a7863833525b7133ecb78d4}
       \strng{editornamehash}{5441b1b52a7863833525b7133ecb78d4}
       \strng{editorfullhash}{5441b1b52a7863833525b7133ecb78d4}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -579,34 +281,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1515/9781400882618
-      \endverb
-    \endentry
-    \entry{Tondering2019}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=61bd880424d6897dc23b0d988b84beae}{%
-           family={Tøndering},
-           familyi={T\bibinitperiod},
-           given={Claus},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{61bd880424d6897dc23b0d988b84beae}
-      \strng{fullhash}{61bd880424d6897dc23b0d988b84beae}
-      \strng{bibnamehash}{61bd880424d6897dc23b0d988b84beae}
-      \strng{authorbibnamehash}{61bd880424d6897dc23b0d988b84beae}
-      \strng{authornamehash}{61bd880424d6897dc23b0d988b84beae}
-      \strng{authorfullhash}{61bd880424d6897dc23b0d988b84beae}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{1}
-      \field{title}{Surreal Numbers - An Introduction}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.tondering.dk/claus/surreal.html
-      \endverb
-      \verb{url}
-      \verb https://www.tondering.dk/claus/surreal.html
       \endverb
     \endentry
     \entry{Von_Neumann1967-ma}{book}{}
@@ -629,37 +303,161 @@
       \strng{authorbibnamehash}{632c0cba29840e37fb61cecf227bd4fe}
       \strng{authornamehash}{632c0cba29840e37fb61cecf227bd4fe}
       \strng{authorfullhash}{632c0cba29840e37fb61cecf227bd4fe}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{4}
       \field{title}{Theory of self-reproducing automata}
       \field{year}{1967}
     \endentry
-    \entry{wiki:FRACTRAN}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=9c677286866aad38f8e9b660f5411814}{%
-           family={Wikipedia},
-           familyi={W\bibinitperiod}}}%
+    \entry{blog:tanyakhovanova}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a84541469842e72cea5a5781f92ee178}{%
+           family={Khovanova},
+           familyi={K\bibinitperiod},
+           given={Tanya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d14032021ec38c5805249d89ea41c1d4}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
-      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
-      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \strng{fullhash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \strng{bibnamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \strng{authorbibnamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \strng{authornamehash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \strng{authorfullhash}{cc0e6d22d724e5c88fd4b4c1820c03ae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://en.wikipedia.org/w/index.php?title=FRACTRAN&oldid=1147685514}}
-      \field{note}{[Online; accessed 12-May-2023]}
-      \field{title}{{FRACTRAN} --- {W}ikipedia{,} The Free Encyclopedia}
-      \field{year}{2023}
+      \field{month}{7}
+      \field{note}{[Online; accessed 11-May-2023]}
+      \field{title}{The Sexual Side of Life}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://blog.tanyakhovanova.com/2010/07/the-sexual-side-of-life/
+      \endverb
+      \verb{url}
+      \verb https://blog.tanyakhovanova.com/2010/07/the-sexual-side-of-life/
+      \endverb
     \endentry
-    \entry{wiki:John_Horton_Conway}{misc}{}
+    \entry{YTComputerGL}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9d8f4a7ba817d10f9dac72885e292234}{%
+           family={Loizeau},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{fullhash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{bibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authorbibnamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authornamehash}{9d8f4a7ba817d10f9dac72885e292234}
+      \strng{authorfullhash}{9d8f4a7ba817d10f9dac72885e292234}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Game of life: computer with display}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=WfuhbI8HE7s
+      \endverb
+    \endentry
+    \entry{Gardner2005-vo}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3124882705abf7cca548c58eb9240b39}{%
+           family={Gardner},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Mathematical Assn of Amer}%
+      }
+      \strng{namehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{fullhash}{3124882705abf7cca548c58eb9240b39}
+      \strng{bibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorbibnamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authornamehash}{3124882705abf7cca548c58eb9240b39}
+      \strng{authorfullhash}{3124882705abf7cca548c58eb9240b39}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The entire collection of Martin Gardner's Scientific American columns are on one searchable CD! Martin Gardner's ``Mathematical Games'' column ran in Scientific American from 1956 to 1986. In these columns, Gardner introduced hundreds of thousands of readers to the delights of mathematics and of puzzles and problem solving. His column broke such stories as Rivest, Shamir and Adelman on public-key cryptography, Mandelbrot on fractals, Conway on Life, and Penrose on tilings. He enlivened classic geometry and number theory and introduced readers to new areas such as combinatorics and graph theory. The CD contains the following articles: (1) Hexaflexagons and Other Mathematical Diversions; (2) The Second Scientific American Book of Mathematical Puzzles and Diversions; (3) New Mathematical Diversions; (4) The Unexpected Hanging and Other Mathematical Diversions; (5) Martin Gardner's 6th Book of Mathematical Diversions from Scientific American; (6) Mathematical Carnival; (7) Mathematical Magic Show; (8) Mathematical Circus; (9) The Magic Numbers of Dr. Matrix; (10) Wheels, Life, and Other Mathematical Amusements; (11) Knotted Doughnuts and Other Mathematical Entertainers; (12) Time Travel and Other Mathematical Bewilderments; (13) Penrose Tiles to Trapdoor Ciphers; (14) Fractal Music, Hypercards, and more Mathematical Recreations from Scientific American and (15) The Last Recreations: Hydras, Eggs, and Other Mathematical Mystifications. A profile and interview with Martin Gardner is included in this collection.}
+      \field{title}{Martin Gardner's Mathematical Games: The entire collection of his Scientific American columns}
+      \field{year}{2005}
+    \endentry
+    \entry{Grundy1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c1c212d77fd4c4f1b58ebc90414e36eb}{%
+           family={Grundy},
+           familyi={G\bibinitperiod},
+           given={P.M.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{fullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{bibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authorbibnamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authornamehash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \strng{authorfullhash}{c1c212d77fd4c4f1b58ebc90414e36eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Eureka}
+      \field{title}{Mathematics and Games}
+      \field{volume}{2}
+      \field{year}{1939}
+      \field{pages}{6\bibrangedash 8}
+      \range{pages}{3}
+    \endentry
+    \entry{britgo_JON_DIAMOND}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3ad7522ef5ac0f7f04a7b88e6d1625ff}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={The\bibnamedelimb British\bibnamedelima Go},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{fullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{bibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authorbibnamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authornamehash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \strng{authorfullhash}{3ad7522ef5ac0f7f04a7b88e6d1625ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 25-May-2023]}
+      \field{title}{Jon Diamond}
+      \verb{urlraw}
+      \verb https://www.britgo.org/people/diamondj
+      \endverb
+      \verb{url}
+      \verb https://www.britgo.org/people/diamondj
+      \endverb
+    \endentry
+    \entry{wiki:John_Horton_Conway}{online}{}
       \name{author}{1}{}{%
         {{hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -671,15 +469,205 @@
       \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
       \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://en.wikipedia.org/w/index.php?title=John\%20Horton\%20Conway&oldid=1150494509}}
       \field{note}{[Online; accessed 11-May-2023]}
       \field{title}{{John Horton Conway} --- {W}ikipedia{,} The Free Encyclopedia}
       \field{year}{2023}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/John_Horton_Conway
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/John_Horton_Conway
+      \endverb
+    \endentry
+    \entry{Bajnok2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=88818c465d540cb58cdf8ad3e4242003}{%
+           family={Bajnok},
+           familyi={B\bibinitperiod},
+           given={Béla},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{fullhash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{bibnamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authorbibnamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authornamehash}{88818c465d540cb58cdf8ad3e4242003}
+      \strng{authorfullhash}{88818c465d540cb58cdf8ad3e4242003}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Invitation to Abstract Mathematics}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/978-1-4614-6636-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-1-4614-6636-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-1-4614-6636-9
+      \endverb
+    \endentry
+    \entry{Conway2000}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4d38889baa1da2b61817906c7e7106fe}{%
+           family={Conway},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {A K Peters/{CRC} Press}%
+      }
+      \strng{namehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{fullhash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{bibnamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authorbibnamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authornamehash}{4d38889baa1da2b61817906c7e7106fe}
+      \strng{authorfullhash}{4d38889baa1da2b61817906c7e7106fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{On Numbers and Games}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1201/9781439864159
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1201/9781439864159
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1201/9781439864159
+      \endverb
+    \endentry
+    \entry{Knuth1974-wh}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston, MA}%
+      }
+      \list{publisher}{1}{%
+        {Addison Wesley}%
+      }
+      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Surreal Numbers}
+      \field{year}{1974}
+    \endentry
+    \entry{Tondering2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=61bd880424d6897dc23b0d988b84beae}{%
+           family={Tøndering},
+           familyi={T\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{61bd880424d6897dc23b0d988b84beae}
+      \strng{fullhash}{61bd880424d6897dc23b0d988b84beae}
+      \strng{bibnamehash}{61bd880424d6897dc23b0d988b84beae}
+      \strng{authorbibnamehash}{61bd880424d6897dc23b0d988b84beae}
+      \strng{authornamehash}{61bd880424d6897dc23b0d988b84beae}
+      \strng{authorfullhash}{61bd880424d6897dc23b0d988b84beae}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Surreal Numbers - An Introduction}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.tondering.dk/claus/surreal.html
+      \endverb
+      \verb{url}
+      \verb https://www.tondering.dk/claus/surreal.html
+      \endverb
+    \endentry
+    \entry{Gonshor1986}{book}{}
+      \name{author}{1}{}{%
+        {{hash=22b0bcd6b29072e38138bc67d581dd31}{%
+           family={Gonshor},
+           familyi={G\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{22b0bcd6b29072e38138bc67d581dd31}
+      \strng{fullhash}{22b0bcd6b29072e38138bc67d581dd31}
+      \strng{bibnamehash}{22b0bcd6b29072e38138bc67d581dd31}
+      \strng{authorbibnamehash}{22b0bcd6b29072e38138bc67d581dd31}
+      \strng{authornamehash}{22b0bcd6b29072e38138bc67d581dd31}
+      \strng{authorfullhash}{22b0bcd6b29072e38138bc67d581dd31}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{An Introduction to the Theory of Surreal Numbers}
+      \field{year}{1986}
+      \verb{doi}
+      \verb 10.1017/cbo9780511629143
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1017/cbo9780511629143
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1017/cbo9780511629143
+      \endverb
+    \endentry
+    \entry{Dedekind1963-rt}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ff486f98d8959edc6c4247ecd7c7c34b}{%
+           family={Dedekind},
+           familyi={D\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Mineola, NY}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \strng{fullhash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \strng{bibnamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \strng{authorbibnamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \strng{authornamehash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \strng{authorfullhash}{ff486f98d8959edc6c4247ecd7c7c34b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{series}{Dover Books on Mathematics}
+      \field{title}{Essays on the theory of numbers}
+      \field{year}{1963}
     \endentry
   \enddatalist
 \endrefsection

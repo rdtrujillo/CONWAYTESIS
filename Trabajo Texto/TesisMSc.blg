@@ -1,16 +1,18 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'TesisMSc.blg'
-[152] biber-MSWIN64:340> INFO - === 
-[198] Biber.pm:418> INFO - Reading 'TesisMSc.bcf'
-[368] Biber.pm:978> INFO - Found 22 citekeys in bib section 0
-[390] Biber.pm:4401> INFO - Processing section 0
-[404] Biber.pm:4592> INFO - Looking for bibtex file 'BibliMSc.bib' for section 0
-[463] bibtex.pm:1713> INFO - LaTeX decoding ...
-[498] bibtex.pm:1518> INFO - Found BibTeX data source 'BibliMSc.bib'
-[688] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[689] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[689] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[739] bbl.pm:654> INFO - Writing 'TesisMSc.bbl' with encoding 'UTF-8'
-[757] bbl.pm:757> INFO - Output to TesisMSc.bbl
-[758] Biber.pm:130> WARN - ISBN '3031039858; 9783031039850' in entry 'MathematicalArtist2022' is invalid - run biber with '--validate_datamodel' for details.
-[758] Biber.pm:132> INFO - WARNINGS: 1
+[160] biber-MSWIN64:340> INFO - === 
+[209] Biber.pm:418> INFO - Reading 'TesisMSc.bcf'
+[362] Biber.pm:978> INFO - Found 21 citekeys in bib section 0
+[384] Biber.pm:4401> INFO - Processing section 0
+[399] Biber.pm:4592> INFO - Looking for bibtex file 'BibliMSc.bib' for section 0
+[456] bibtex.pm:1713> INFO - LaTeX decoding ...
+[492] bibtex.pm:1518> INFO - Found BibTeX data source 'BibliMSc.bib'
+[668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[668] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[669] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[669] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[693] bbl.pm:654> INFO - Writing 'TesisMSc.bbl' with encoding 'UTF-8'
+[703] bbl.pm:757> INFO - Output to TesisMSc.bbl
+[704] Biber.pm:130> WARN - ISBN '3031039858; 9783031039850' in entry 'MathematicalArtist2022' is invalid - run biber with '--validate_datamodel' for details.
+[704] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\rockt\AppData\Local\Temp\biber_tmp_vev5\fd1bf3a073c4f22bbe789c7ccad7b059_6276.utf8, line 29, warning: undefined macro "english"
+[704] Biber.pm:132> INFO - WARNINGS: 2

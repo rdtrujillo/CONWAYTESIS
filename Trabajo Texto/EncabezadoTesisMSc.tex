@@ -1,5 +1,5 @@
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish, english]{babel}
 \usepackage{fancyhdr}
 \usepackage{epsfig}
 \usepackage{epic}
@@ -29,8 +29,23 @@
 %se usa junto con \rotate, \sidewidestable ....
 \usepackage{enumitem}
 
-\usepackage{biblatex}
+\usepackage[style=numeric, sorting=none, babel=other]{biblatex}
 \addbibresource{BibliMSc.bib}
+
+\DefineBibliographyStrings{english}{
+    january   = Ene ,
+    february  = Feb ,
+    march     = Mar ,
+    april     = Abr ,
+    may       = May ,
+    june      = Jun ,
+    july      = Jul ,
+    august    = Ago ,
+    september = Sep,
+    october   = Oct ,
+    november  = Nov ,
+    december  = Dec ,
+}
                 
 
 \renewcommand{\theequation}{\thechapter-\arabic{equation}}
